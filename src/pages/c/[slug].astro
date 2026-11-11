@@ -1,0 +1,367 @@
+---
+// Builds a company page from its saved score, exact matches, and real history.
+// Makes line progress and phrase evidence inspectable without fetching the homepage.
+import Base from "../../layouts/Base.astro";
+import Icon from "../../components/Icon.astro";
+import BingoCard from "../../components/BingoCard.astro";
+import {
+  siteData,
+  sitePath,
+  formatDensity,
+  companyEvidence,
+  companyHistory,
+} from "../../site-data.js";
+import type { SiteCohort } from "../../site-data.js";
+import type { CompanyResult } from "../../results.js";
+export async function getStaticPaths() {
+  const data = await siteData();
+  return data.allCompanies.map(({ company, cohort }) => ({
+    params: { slug: company.slug },
+    props: { company, cohort },
+  }));
+}
+interface Props {
+  company: CompanyResult;
+  cohort: SiteCohort;
+}
+const { company, cohort } = Astro.props;
+const data = await siteData();
+const evidence = await companyEvidence(company);
+const history = await companyHistory(company, cohort);
+const scored = company.status === "scored";
+const phrases =
+  company.status === "scored"
+    ? company.phraseCounts.filter((phrase) => phrase.count > 0)
+    : [];
+const shareText =
+  company.status === "scored"
+    ? `${company.name} on Buzzword Bingo: ${formatDensity(company.density, 2)} weighted hits per 100 words. Best line ${company.bingo.bestLine.hits}/${company.bingo.bestLine.total}. This is satire, made with love.`
+    : `${company.name} on Buzzword Bingo. A look at company homepage language, made with love.`;
+const share = `https://twitter.com/intent/tweet?${new URLSearchParams({ text: shareText, url: new URL(sitePath(`c/${company.slug}/`), Astro.site || Astro.url.origin).href })}`;
+---
+
+<Base
+  title={`${company.name} — Buzzword Bingo`}
+  description={shareText}
+  og={`og/c/${company.slug}.png`}
+>
+  <div class="shell company-page">
+    <a class="back-link" href={sitePath("#leaderboard")}>
+      <Icon name="back" size={16} /> Back to the score sheets
+    </a>
+    <section class="company-hero">
+      <div>
+        <h1>
+          {company.name}
+          <span class="title-dot">.</span>
+        </h1>
+        <div class="company-label">
+          <span class={`series-dot ${cohort.kind}`}></span>
+          {cohort.label}
+          <span class="sample-label">
+            {data.config.provisional
+              ? "Provisional sample"
+              : "Saved homepage result"}
+          </span>
+        </div>
+        <a
+          class="homepage-link"
+          href={company.website}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {new URL(company.website).hostname.replace(/^www\./, "")}
+          <Icon name="external" size={15} />
+        </a>
+      </div>
+      <div class={`company-score-block ${cohort.kind}`}>
+        <span>Buzzword density</span>
+        <strong>
+          {company.status === "scored"
+            ? formatDensity(company.density, 2)
+            : "—"}
+        </strong>
+        <small>
+          {scored
+            ? "weighted hits per 100 words"
+            : "Not scored: insufficient or unavailable text"}
+        </small>
+      </div>
+    </section>
+    <div class="company-columns">
+      <section class="company-card-section">
+        <div class="card-heading">
+          <h2>The bingo card</h2>
+          {company.status === "scored" && (
+            <span class="progress-badge">
+              Best line {company.bingo.bestLine.hits}/
+              {company.bingo.bestLine.total}
+            </span>
+          )}
+        </div>
+        {company.status === "scored" ? (
+          <BingoCard
+            card={company.bingo}
+            dictionary={data.dictionary}
+            theme={cohort.kind}
+          />
+        ) : (
+          <div class="unscored-state">
+            <h2>We’re sitting this one out.</h2>
+            <p>
+              {company.reason.replaceAll("_", " ")}. A failed or very short page
+              never becomes a zero score.
+            </p>
+            <p>Saved word count: {company.wordCount ?? "unavailable"}.</p>
+          </div>
+        )}
+        <p class="card-foot">
+          A phrase marks a cell once. FREE counts toward the best line. The
+          fixed card and scoring dictionary are the same for every company.
+        </p>
+        <a
+          class="button primary share-company"
+          href={share}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Share this score on X <Icon name="share" />
+        </a>
+        <p class="share-preview-note">
+          Share the saved homepage result. A score describes wording, not
+          product quality.
+        </p>
+      </section>
+      <aside class="company-details">
+        <h2>Show your workings.</h2>
+        <p>No vibes were harmed in this calculation.</p>
+        {company.status === "scored" && (
+          <>
+            <dl class="workings-list">
+              <div>
+                <dt>Homepage words</dt>
+                <dd>{company.wordCount.toLocaleString("en-US")}</dd>
+              </div>
+              <div>
+                <dt>Raw phrase hits</dt>
+                <dd>{company.rawHits}</dd>
+              </div>
+              <div>
+                <dt>Weighted hits</dt>
+                <dd>{company.weightedHits}</dd>
+              </div>
+              <div>
+                <dt>Density</dt>
+                <dd>{formatDensity(company.density, 2)}</dd>
+              </div>
+            </dl>
+            <div class="category-breakdown">
+              {company.categoryScores.map((category) => (
+                <div>
+                  <span>{category.category}</span>
+                  <strong>{formatDensity(category.density, 2)}</strong>
+                </div>
+              ))}
+            </div>
+            <p class="muted">
+              Category densities use the same full-page word count.
+            </p>
+          </>
+        )}
+        <div class="capture-note">
+          <span class="capture-dot"></span>
+          <p>
+            Saved homepage only.
+            <br />
+            {company.source ? (
+              <>
+                Captured{" "}
+                {new Date(company.source.attemptedAt).toLocaleDateString(
+                  "en-GB",
+                  {
+                    day: "numeric",
+                    month: "short",
+                    year: "numeric",
+                    timeZone: "UTC",
+                  },
+                )}
+                .
+              </>
+            ) : (
+              "Capture unavailable."
+            )}
+          </p>
+        </div>
+        <a class="inline-link" href={sitePath("about/#scoring")}>
+          Read the scoring rules <Icon name="arrow" size={15} />
+        </a>
+      </aside>
+    </div>
+    <section class="company-section" id="phrase-counts">
+      <div class="section-heading">
+        <div>
+          <h2>The words that made the cut.</h2>
+          <p>
+            Canonical phrase counts, including accepted variants. Still based on
+            saved homepage text.
+          </p>
+        </div>
+      </div>
+      {phrases.length ? (
+        <div class="table-wrap">
+          <table class="phrase-table">
+            <thead>
+              <tr>
+                <th>Phrase</th>
+                <th>Category</th>
+                <th>Hits</th>
+                <th>Weight</th>
+                <th>Points</th>
+                <th>Find it</th>
+              </tr>
+            </thead>
+            <tbody>
+              {phrases.map((phrase) => {
+                const match =
+                  company.status === "scored"
+                    ? company.phraseEvidence.find(
+                        (entry) => entry.phraseId === phrase.id,
+                      )
+                    : undefined;
+                return (
+                  <tr>
+                    <td>
+                      <strong>{phrase.phrase}</strong>
+                      {match && (
+                        <small>
+                          seen as <mark>{match.text}</mark>
+                        </small>
+                      )}
+                    </td>
+                    <td>{phrase.category}</td>
+                    <td>{phrase.count}</td>
+                    <td>{phrase.weight}</td>
+                    <td>{phrase.weightedHits}</td>
+                    <td>
+                      {match && (
+                        <a
+                          href={`${company.website.split("#")[0]}#:~:text=${encodeURIComponent(match.text)}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label={`Find ${phrase.phrase} on the public homepage`}
+                        >
+                          <Icon name="external" size={16} />
+                        </a>
+                      )}
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      ) : (
+        <div class="empty-result">
+          <span class="empty-ball" aria-hidden="true">
+            ∅
+          </span>
+          <div>
+            <h3>
+              {scored
+                ? "The dictionary came up empty."
+                : "No phrase counts to publish."}
+            </h3>
+            <p>
+              {scored
+                ? "No accepted matches in the saved homepage. That is a result, too."
+                : "We keep unavailable content out of the rankings."}
+            </p>
+          </div>
+        </div>
+      )}
+    </section>
+    {evidence.length > 0 && (
+      <section class="company-section">
+        <div class="section-heading">
+          <div>
+            <h2>There it is, in the wild.</h2>
+            <p>
+              Short excerpts from the actual saved homepage. Highlighted text is
+              a counted match.
+            </p>
+          </div>
+        </div>
+        <div class="evidence-grid">
+          {evidence.map((snippet) => (
+            <figure>
+              <blockquote>
+                {snippet.prefix}
+                <Fragment set:html={snippet.html} />
+                {snippet.suffix}
+              </blockquote>
+              <figcaption>
+                {snippet.phrase}
+                <a
+                  href={company.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View homepage <Icon name="external" size={13} />
+                </a>
+              </figcaption>
+            </figure>
+          ))}
+        </div>
+      </section>
+    )}
+    <section class="company-section history-section">
+      <div>
+        <h2>
+          A little history.
+          <br />
+          Eventually.
+        </h2>
+        <p>
+          {history.length === 0
+            ? "No scored observation is available yet."
+            : history.length === 1
+              ? "One saved week so far. We’ll show the story as future captures arrive."
+              : "Observed weekly scores. Changes to the rules are labelled."}
+        </p>
+        <p class="muted">
+          Refreshes and re-scoring run manually from local captures. Homepages
+          are re-crawled at most monthly, on the first Monday, within the
+          approved budget.
+        </p>
+      </div>
+      <div class="history-records">
+        {history.length ? (
+          history.map((entry) => (
+            <div class="history-row">
+              <span>
+                {entry.week}
+                <small>
+                  {entry.version === data.scoringVersion
+                    ? "Current scoring rules"
+                    : `Rules: ${entry.version}`}
+                </small>
+              </span>
+              <strong>{formatDensity(entry.density, 2)}</strong>
+            </div>
+          ))
+        ) : (
+          <p>No scored observation is available yet.</p>
+        )}
+      </div>
+    </section>
+    <div class="company-bottom">
+      <p>
+        This is satire, made with love. A word count is not a verdict on a
+        company.
+      </p>
+      <a href={sitePath("opt-out/")}>
+        Prefer not to be here? Opt out <Icon name="arrow" size={15} />
+      </a>
+    </div>
+  </div>
+</Base>

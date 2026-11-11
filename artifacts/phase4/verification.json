@@ -1,0 +1,145 @@
+{
+  "_meta": {
+    "header": [
+      "Records Phase 4 browser checks and final screenshot provenance.",
+      "Proves full-batch figures and the public base path in the local static build."
+    ],
+    "schemaVersion": 1
+  },
+  "passed": true,
+  "checks": [
+    "startups agentic company share matches full-batch data",
+    "startups numerator and denominator are visible",
+    "startups raw mentions are secondary",
+    "startups median matches the full cohort",
+    "incumbents agentic company share matches full-batch data",
+    "incumbents numerator and denominator are visible",
+    "incumbents raw mentions are secondary",
+    "incumbents median matches the full cohort",
+    "Full-batch labels replace provisional sample copy",
+    "Canonical origin includes the GitHub Pages project path",
+    "Comparison OG URL uses the public origin and base",
+    "Incumbent least order sorts exact saved densities",
+    "YC least view keeps honest zero scores",
+    "Company evidence and real line progress remain",
+    "Company share URL uses the public project route",
+    "Opt-out is ready and contains no email",
+    "Methodology describes full selection and agentic share",
+    "Interactive game still detects BINGO",
+    "Full-batch home fits mobile",
+    "Company page fits mobile"
+  ],
+  "viewports": {
+    "desktop": [
+      1440,
+      1000
+    ],
+    "mobile": [
+      390,
+      844
+    ]
+  },
+  "engine": "Chrome 156, isolated local headless profile",
+  "origin": "http://127.0.0.1:4321/buzzword-bingo/",
+  "publicOrigin": "https://mohi-devhub.github.io/buzzword-bingo/",
+  "crawlRunId": "4995a479-8053-4474-9556-8aab5384ef2c",
+  "creditsUsedByBrowser": 0,
+  "deployed": false,
+  "unitTests": {
+    "passed": 39,
+    "failed": 0
+  },
+  "static": {
+    "companyPages": 275,
+    "htmlPages": 279,
+    "shareCards": 276,
+    "allFiguresMatchSavedScores": true
+  },
+  "workflowLint": "actionlint passed",
+  "dependencyAudit": {
+    "vulnerabilities": 0
+  },
+  "monthlyPlanCheck": {
+    "date": "2026-12-07",
+    "remainingApprovedCredits": 25,
+    "neededForFullYCRefresh": 225,
+    "reason": "whole_cohort_exceeds_budget",
+    "requestsSent": 0
+  },
+  "cacheProof": {
+    "runId": "38757408-5eee-4223-8241-27edfc7078f8",
+    "selected": 225,
+    "cacheHits": 225,
+    "newRequests": 0,
+    "creditsUsed": 0
+  },
+  "optOutRepositoryCheck": {
+    "url": "https://github.com/mohi-devhub/buzzword-bingo",
+    "status": 404,
+    "readinessFlag": true,
+    "deploymentPreflightRequired": true
+  },
+  "images": [
+    {
+      "file": "company-desktop.png",
+      "width": 1440,
+      "height": 3008,
+      "sha256": "6cb479997b8128888e4f442951e6671446b2dd4a035a672bd19664aee2b509f6",
+      "origin": "Isolated local Chrome static-site capture"
+    },
+    {
+      "file": "company-mobile.png",
+      "width": 390,
+      "height": 3600,
+      "sha256": "85cac531181a44dc6a988f84f6c66f9756a5b1e390bbd89ad1fa4bb94424635d",
+      "origin": "Isolated local Chrome static-site capture"
+    },
+    {
+      "file": "comparison-desktop.png",
+      "width": 1200,
+      "height": 880,
+      "sha256": "c386bf87315c090952f8ebca0d5877d33b22876fcbb8ec219b745a969511235d",
+      "origin": "Isolated local Chrome static-site capture"
+    },
+    {
+      "file": "home-desktop.png",
+      "width": 1440,
+      "height": 4786,
+      "sha256": "7dd1e08d2accbc3b85b1d9eaec49cea222661a3153786cb4fdd527d7413f1264",
+      "origin": "Isolated local Chrome static-site capture"
+    },
+    {
+      "file": "home-mobile.png",
+      "width": 390,
+      "height": 5535,
+      "sha256": "2a22d14e296f9b5279b8dcd11c54fa2bf99d44c51e55fc39dd79e6ae052531db",
+      "origin": "Isolated local Chrome static-site capture"
+    },
+    {
+      "file": "og-company.png",
+      "width": 1200,
+      "height": 630,
+      "sha256": "d97110780e43737888a3b0ed4f6d82bb9a63991fd9550bedba80ee567420022e",
+      "origin": "scripts/og.ts from saved score JSON"
+    },
+    {
+      "file": "og-comparison.png",
+      "width": 1200,
+      "height": 630,
+      "sha256": "6448b5a380f5d40aa309c2603666a082cb2b6e4139b0c0d730e015ce30afef81",
+      "origin": "scripts/og.ts from saved score JSON"
+    }
+  ],
+  "secretAudit": {
+    "filesChecked": 1272,
+    "credentialsFound": false
+  },
+  "scoringRulesUnchanged": true,
+  "visualReview": "Inspected all five desktop/mobile/comparison captures, the comparison OG, and the longest YC-name company OG. No material layout defects found.",
+  "automationRehearsal": {
+    "command": "npm run refresh -- --no-discovery",
+    "failures": 0,
+    "creditsUsed": 0,
+    "cumulativeCredits": 275
+  }
+}

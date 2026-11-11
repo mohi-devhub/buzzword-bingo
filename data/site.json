@@ -1,0 +1,13 @@
+{
+  "_meta": {
+    "header": [
+      "Configures the full-batch static comparison and its public opt-out destination.",
+      "Keeps release configuration separate from the score-derived homepage figures."
+    ],
+    "schemaVersion": 1
+  },
+  "provisional": false,
+  "comparisonCohort": "bvp-established",
+  "OPT_OUT_URL": "https://github.com/mohi-devhub/buzzword-bingo/issues/new?template=company-opt-out.yml",
+  "optOutRepositoryReady": true
+}

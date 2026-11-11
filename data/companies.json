@@ -1,0 +1,2299 @@
+{
+  "_meta": {
+    "header": [
+      "Stores public company metadata from the yc-oss community API.",
+      "Provides a reproducible active-company list without scraping YC directly."
+    ],
+    "schemaVersion": 1
+  },
+  "fetchedAt": "2026-11-11T09:58:43.773Z",
+  "sourceUpdatedAt": "2026-11-11T03:51:00.560Z",
+  "selectedBatch": "Fall 2026",
+  "source": "https://yc-oss.github.io/api/batches/fall-2026.json",
+  "batchCounts": [
+    {
+      "batch": "Summer 2027",
+      "endpoint": "https://yc-oss.github.io/api/batches/summer-2027.json",
+      "total": 1,
+      "active": 1,
+      "activeWithWebsite": 1,
+      "eligible": 1
+    },
+    {
+      "batch": "Winter 2027",
+      "endpoint": "https://yc-oss.github.io/api/batches/winter-2027.json",
+      "total": 10,
+      "active": 10,
+      "activeWithWebsite": 10,
+      "eligible": 10
+    },
+    {
+      "batch": "Fall 2026",
+      "endpoint": "https://yc-oss.github.io/api/batches/fall-2026.json",
+      "total": 226,
+      "active": 226,
+      "activeWithWebsite": 225,
+      "eligible": 225
+    },
+    {
+      "batch": "Summer 2026",
+      "endpoint": "https://yc-oss.github.io/api/batches/summer-2026.json",
+      "total": 227,
+      "active": 226,
+      "activeWithWebsite": 226,
+      "eligible": 226
+    }
+  ],
+  "companies": [
+    {
+      "id": 35553,
+      "slug": "0security",
+      "name": "0.security",
+      "website": "https://0.security",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The autonomous cybersecurity team",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/a4a356af2535effc85a23e22046de196453243ce.png"
+    },
+    {
+      "id": 37071,
+      "slug": "acyclic",
+      "name": "Acyclic Labs",
+      "website": "https://acyclic.dev",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Agent swarms that make long-running tasks exponentially faster",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/e0ab38690d05797c7ccebecaf6f40e8c72b69516.png"
+    },
+    {
+      "id": 34695,
+      "slug": "adalat-ai",
+      "name": "Adalat AI",
+      "website": "https://adalat.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI OS transforming courts, accelerating justice",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/254631818b4716658c7ec0681d562a9e3ac23b48.png"
+    },
+    {
+      "id": 37998,
+      "slug": "adsideai",
+      "name": "Adside.ai",
+      "website": "https://adside.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI agency that manages paid ads on Meta, Google, LinkedIn, etc. ",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/4e762367db2ece01156d1933d40f463f680d2397.png"
+    },
+    {
+      "id": 34893,
+      "slug": "agent-37",
+      "name": "Agent 37",
+      "website": "https://www.agent37.com/cloud",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Cloud Sandbox for Agents",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/ab818d15979a4594472be995a13a8be6107d4517.png"
+    },
+    {
+      "id": 35292,
+      "slug": "agent-relay",
+      "name": "Agent Relay",
+      "website": "https://agentrelay.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Let your teams' coding agents message each other",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/819b1618d86a223b725a999a980a27a830ef8441.png"
+    },
+    {
+      "id": 37468,
+      "slug": "ageospatial",
+      "name": "Ageospatial",
+      "website": "https://ageospatial.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Physical intelligence for every decision with Geospatial AI.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/83235957278f55744117e59eee39de71b5266a09.png"
+    },
+    {
+      "id": 38754,
+      "slug": "aikido-technologies",
+      "name": "Aikido Technologies",
+      "website": "https://www.aikidotechnologies.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Clean marine AI datacenters",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/ffb13551195295abd4b5ab3d0ecce6ac89addccd.png"
+    },
+    {
+      "id": 36246,
+      "slug": "ailit",
+      "name": "Ailit",
+      "website": "https://ailitrail.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Electrifying North American freight rail with swappable batteries.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/e2e2aafce9f971d9306b1ed0550568f290599866.png"
+    },
+    {
+      "id": 32262,
+      "slug": "alkera-ai",
+      "name": "Alkera AI",
+      "website": "https://alkera.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Reliable and safe data engineering and data science agents",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/eecc1a49c35b3a26973c35ce53d1c3f862a058cb.png"
+    },
+    {
+      "id": 35125,
+      "slug": "altair-health",
+      "name": "Altair Health",
+      "website": "https://www.altair-health.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Stripe for medical billing",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/54aa8da5f81192f8484dda70b284e56e5b9cb6a6.png"
+    },
+    {
+      "id": 35091,
+      "slug": "ample-computer",
+      "name": "Ample Computer",
+      "website": "https://ample.computer/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Everything your agent needs to ship a web app",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/20a58a6cb709fda329d24b263a54b787cd53d4bc.png"
+    },
+    {
+      "id": 36348,
+      "slug": "antimattr",
+      "name": "antimattr",
+      "website": "https://www.antimattr.one/project-mnemosyne?utm_source=bookface&utm_medium=social&utm_campaign=bookface_antimattr_profile",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "voice-first hardware interface for human-agent interaction",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/3266646a9815f7e3ed31c088c4008df6e8fb0101.png"
+    },
+    {
+      "id": 35290,
+      "slug": "antropi-robotics",
+      "name": "Antropi Robotics",
+      "website": "https://www.antropi.world/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Autonomous CNC factories for faster hardware",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b8c101f20a3b29a6ae368d81297168e49391e75a.png"
+    },
+    {
+      "id": 34897,
+      "slug": "anyalpha",
+      "name": "AnyAlpha",
+      "website": "https://anyalpha.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The agentic trading platform",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/16d8f89e75a1b0b3b62443d7ba1069722a5f4591.png"
+    },
+    {
+      "id": 33210,
+      "slug": "anywhere",
+      "name": "Anywhere",
+      "website": "http://anywhere.fenn.chat",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Your places, plans, friends and memories, all on one living map",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/769d3180f44947b97b5b8bd1565740dfae11fa62.png"
+    },
+    {
+      "id": 34959,
+      "slug": "applied-kinetics",
+      "name": "Applied Kinetics",
+      "website": "https://appliedkinetics.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI-native manufacturing for data center and energy projects",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/f64a699ef7ce7501af64a3b0efc5dfecb5d71fd5.png"
+    },
+    {
+      "id": 36181,
+      "slug": "archangel-health",
+      "name": "Archangel Health",
+      "website": "https://www.archangelhealth.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Infra to make AI safe enough to practice medicine",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/96a5ecbd3a1ff0d1c0016fa7cb60f469bf2fdb51.png"
+    },
+    {
+      "id": 36048,
+      "slug": "archgen-labs",
+      "name": "Archgen Labs",
+      "website": "https://www.archgen.tech/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI-powered EDA tools for faster, cooler 3D chips",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/859bb4acfd797a8066a3332a29dbfc4ee42fcb0e.png"
+    },
+    {
+      "id": 35126,
+      "slug": "armorer-labs",
+      "name": "Armorer Labs",
+      "website": "https://armorerlabs.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Continuous security verification for AI systems in regulated…",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/9fd9c58c48b1017644c81d6d495140aab28b5782.png"
+    },
+    {
+      "id": 35261,
+      "slug": "asakana",
+      "name": "Asakana",
+      "website": "https://www.asakana.co/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Automating away manual admin for food distributors: texts to ERP",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b17bfb784fbfd8ce18bf9fc551a8a6c2a2c68f02.png"
+    },
+    {
+      "id": 37434,
+      "slug": "ascenix",
+      "name": "Ascenix",
+      "website": "https://www.ascenix.co/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Custom software for senior care facilities.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/9df54ccfcc3e9d39a078433b991341cfb364eb78.png"
+    },
+    {
+      "id": 36775,
+      "slug": "asim-group",
+      "name": "Asim",
+      "website": "https://www.asim-group.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Enable robots to operate safely in the real world.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/a3d66de7c8d8809683c96657196dfeabd35eb9bc.png"
+    },
+    {
+      "id": 37896,
+      "slug": "aucert",
+      "name": "Aucert",
+      "website": "https://www.aucert.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "A team of expert AI agents that test mobile apps on their own.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/fcf314b4f1f24f66082b93a3ec4084c76234c436.png"
+    },
+    {
+      "id": 32550,
+      "slug": "audora",
+      "name": "Audora",
+      "website": "https://audora.art",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Audiobooks where every character has their own voice.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/a6302716929368f039c6e25d73d9f3913bfb0475.png"
+    },
+    {
+      "id": 35093,
+      "slug": "aviern",
+      "name": "Aviern",
+      "website": "https://aviern.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Unmanned cargo airplanes",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/906b7c01faee6d9632f1f941bfe737812ec7d0b9.png"
+    },
+    {
+      "id": 37104,
+      "slug": "axiomat",
+      "name": "Axiomat",
+      "website": "https://www.axiomat.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "We make AI that never hallucinates.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/73e5297e01ab55a8cd3d54127a27671c6d5e6934.png"
+    },
+    {
+      "id": 36840,
+      "slug": "axonnic",
+      "name": "Axonnic",
+      "website": "https://www.axonnic.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Bringing human dexterity to every robot",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/f269fdfc703083f216ecc708a1d72e1eec821657.png"
+    },
+    {
+      "id": 34596,
+      "slug": "bayworks",
+      "name": "Bayworks",
+      "website": "https://bayworks.app",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Intelligence that keeps America’s vehicles running",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/55429f385c4236607558b3361f53a3e2676a6d8b.png"
+    },
+    {
+      "id": 37599,
+      "slug": "biodelivera",
+      "name": "BioDelivera",
+      "website": "https://biodelivera.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Programmable drug delivery precisely targets only diseased cells",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/103574b8d0b5907b8788ed0e0c0ce09af40e81be.png"
+    },
+    {
+      "id": 37170,
+      "slug": "blinka",
+      "name": "Blinka",
+      "website": "https://blinka.co",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Banking for US companies operating globally",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/5b085876c74a1777f6976de94c51ed667db1b832.png"
+    },
+    {
+      "id": 34928,
+      "slug": "boat",
+      "name": "Boat",
+      "website": "https://boat.dev",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The best cloud VMs for billions of agents",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/dd00ca6a15fbe23bc8d3447bda9de39006326892.png"
+    },
+    {
+      "id": 38391,
+      "slug": "boxesdev",
+      "name": "Boxes.dev",
+      "website": "https://boxes.dev",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "A better place to run your coding agents.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/9949c6b8484314fd6471d7e95c251af659528195.png"
+    },
+    {
+      "id": 35289,
+      "slug": "byteask",
+      "name": "ByteAsk",
+      "website": "https://byteask.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The AI coding agent for C and C++",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/6bcbfe2855ffcd587858880c19e9ea0940b81943.png"
+    },
+    {
+      "id": 35458,
+      "slug": "caladh",
+      "name": "Caladh",
+      "website": "https://caladh.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Anti-drone defense for the maritime domain ",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/40892c64e13b8e9e78a67c5002788bc45d17ba1b.png"
+    },
+    {
+      "id": 37698,
+      "slug": "canos",
+      "name": "Canos",
+      "website": "https://www.canos.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI-powered blood test to detect cancer in dogs (and cats soon).",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/7d58fe1baf14d05314df3bf1abc0ca514090d37c.png"
+    },
+    {
+      "id": 35058,
+      "slug": "capveon",
+      "name": "Capveon",
+      "website": "https://capveon.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Turning infrastructure demand into action ",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/55acb7275a696cdf957737bce96b338f2da2d45f.png"
+    },
+    {
+      "id": 37038,
+      "slug": "caveman",
+      "name": "Caveman",
+      "website": "https://caveman.so",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Caveman cuts what AI agents cost without making them dumber.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/255bbf73f87bb02fde740dd7da4814d8d2b5f4e1.png"
+    },
+    {
+      "id": 38556,
+      "slug": "cesara",
+      "name": "Cesara",
+      "website": "https://cesara.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Faster & accurate transactions for health systems",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/180f52381396ddece16d163f3ca2e8585f872871.png"
+    },
+    {
+      "id": 39216,
+      "slug": "championeffect-inc",
+      "name": "ChampionEffect Inc.",
+      "website": "https://championeffect.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "An AI coach for every employee!",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/2386602bfda42032649bbf371ee6b886ac1fd56d.png"
+    },
+    {
+      "id": 34696,
+      "slug": "chempilotai",
+      "name": "ChemPilot.ai",
+      "website": "https://chempilot.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Discover novel defense related materials/molecules.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/4c3f8543148c3a53ebe369d21ece622228018917.png"
+    },
+    {
+      "id": 31412,
+      "slug": "claimkit",
+      "name": "ClaimKit",
+      "website": "https://claimkit.co/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI-native tax firm",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b90bb870bed1955c5ae08362040a4b0a5beed802.png"
+    },
+    {
+      "id": 37137,
+      "slug": "clean",
+      "name": "Clean",
+      "website": "http://www.tryclean.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "We predict when a company is about to buy.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/4e4d496ee0d1967a7b7483c4981a450e6b1130e7.png"
+    },
+    {
+      "id": 31461,
+      "slug": "collar",
+      "name": "Collar",
+      "website": "https://usecollarai.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI-Native Investor Relations For Public Companies",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/35110e6bdfbfbf5706627685cbb370e170ff4a03.png"
+    },
+    {
+      "id": 36972,
+      "slug": "composal",
+      "name": "Composal",
+      "website": "https://composal.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Swarms of agents acting like users to find bugs before release",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/5e1f6f0a97f11c72c78bdc6875df0e065a154770.png"
+    },
+    {
+      "id": 32229,
+      "slug": "confetti",
+      "name": "Confetti",
+      "website": "https://confetti.build",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Build hardware projects using plain-English prompts",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/c81aab8c34b634bf0e3fda422dd809248f73531a.png"
+    },
+    {
+      "id": 36511,
+      "slug": "constor",
+      "name": "Constor",
+      "website": "https://constor.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI native OS for the construction industry",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/bbcd76441dee2bdb14c3fd289a0e0506402935ad.png"
+    },
+    {
+      "id": 31584,
+      "slug": "conus",
+      "name": "CONUS",
+      "website": "https://www.conus-med.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The AI knowledge layer for medical devices",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/8edd99606159933b27bd8c7f3992e7ad9e5b4dea.png"
+    },
+    {
+      "id": 36084,
+      "slug": "covera",
+      "name": "Covera",
+      "website": "https://www.covera-agents.com/?utm_source=ycombinator&utm_medium=company_profile&utm_campaign=yc_f26",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI-native OS for insurance brokers",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/e711e58f600a9ea3c53a45d934c825989e9b5b57.png"
+    },
+    {
+      "id": 37467,
+      "slug": "cyclon",
+      "name": "Cyclon",
+      "website": "https://cyclon.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "a phone where AI is the interface",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/6d4a1648c00832ca1c9d1a963380c29de9ec30af.png"
+    },
+    {
+      "id": 31318,
+      "slug": "databuddy",
+      "name": "Databuddy",
+      "website": "https://www.databuddy.cc",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI Data Analyst for fast-growing teams",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/41cf5cb7088967b39be98f97d7bb5d8f97df5aac.png"
+    },
+    {
+      "id": 37274,
+      "slug": "decent-com",
+      "name": "Decent",
+      "website": "https://decent.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Your health plan should get better year-round. Not just once a year.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/786d073f3a76012e5179c5021d6a0d82644d8d1f.png"
+    },
+    {
+      "id": 38127,
+      "slug": "deepmark",
+      "name": "DeepMark",
+      "website": "https://www.deepmark.me",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "A live watermark inside AI voice that survives phone calls",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/4dfcb45ad1cf6b4da58c1a44a770eb98ac4ec79b.png"
+    },
+    {
+      "id": 32286,
+      "slug": "definite",
+      "name": "Definite",
+      "website": "https://www.usedefinite.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Connect operational data with finance to see what drives the numbers.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/ea163685b0ad74eaec6a19637a061cdb5e63acae.png"
+    },
+    {
+      "id": 31452,
+      "slug": "degla-inc",
+      "name": "Degla Inc",
+      "website": "https://degla.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The fully autonomous intelligence layer in the sky.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/9b4aa40c1f823de9d3ec9a6c4b04e1e382dc5a85.png"
+    },
+    {
+      "id": 35455,
+      "slug": "deploy",
+      "name": "Deploy",
+      "website": "https://deployrobotics.co/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The generalist robot deployment company.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/6d01c6f3a4b9cb73c5468cd6441f7c93909edb6a.png"
+    },
+    {
+      "id": 35850,
+      "slug": "dreamscale-labs",
+      "name": "Dreamscale Labs",
+      "website": "https://dreamscalelabs.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Real-time cloud inference for robotics.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/5a0eb88901e7f46ec71cc8739e8069f4815b0a52.png"
+    },
+    {
+      "id": 35392,
+      "slug": "dydema",
+      "name": "Dydema",
+      "website": "https://dydema.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "A consumer brain-computer interface you can map to anything.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/85eacc9eef1101a2060cf6b9873797fd43445325.png"
+    },
+    {
+      "id": 35291,
+      "slug": "elimentary",
+      "name": "Elimentary",
+      "website": "https://www.elimentary.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Agents that run middle/back-office operations for Private Capital",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/5345725230878bce19968d49bf36c1acda691f77.png"
+    },
+    {
+      "id": 37237,
+      "slug": "elithia",
+      "name": "Elithia",
+      "website": "https://elithia.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Agents for the medical review behind every claim",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/20436ab063ed4eb9cfc3c31dc2982dbc3d245463.png"
+    },
+    {
+      "id": 36974,
+      "slug": "epsilab-com",
+      "name": "Epsilab",
+      "website": "https://www.epsilab.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Long horizon RL environments from real-life data",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/164ea33865ee89b7b5313a5260d5dec8510fb8ec.png"
+    },
+    {
+      "id": 33705,
+      "slug": "ernd",
+      "name": "ernd",
+      "website": "https://ernd.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The Credit Card for the AI stack ",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/0abccc9bf2a6589b531983e558b31a32246f63fb.png"
+    },
+    {
+      "id": 35520,
+      "slug": "evardi",
+      "name": "Evardi",
+      "website": "https://evardi.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Agents that engineer the grid edge",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/a85f77006a403a25551aac949ce21876d2c6b48f.png"
+    },
+    {
+      "id": 36088,
+      "slug": "everyapp",
+      "name": "EveryApp",
+      "website": "https://everyapp.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Making every SaaS open source",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/4748ea4cce3f5b77e3f8a5d77e2720edaffb5983.png"
+    },
+    {
+      "id": 32197,
+      "slug": "evident-machines",
+      "name": "Evident Machines",
+      "website": "https://evidentmachines.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Benchmarks and RL environments for electrical engineering",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/295be512801662b8dbfc7a0247cb6e74b367b70c.png"
+    },
+    {
+      "id": 34896,
+      "slug": "faraday",
+      "name": "Faraday",
+      "website": "https://faradaycompute.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Industrial aOS coordinating humans, agents, and machines ",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/fbde4bac30252064b1c0af408469172eea1d9b55.png"
+    },
+    {
+      "id": 31575,
+      "slug": "fire-wallet",
+      "name": "Fire Wallet",
+      "website": "https://fire.co",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Fire Wallet is a privacy-first crypto wallet designed to just work,…",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b24edcd9c30661e9d4cf818ec14536902f2b2c41.png"
+    },
+    {
+      "id": 35527,
+      "slug": "fleety",
+      "name": "Fleety",
+      "website": "https://usefleety.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Fleety is an AI dispatcher for plumbing and HVAC companies.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/db07ec09ef8192bbc52f5bc207031df3e5646dac.png"
+    },
+    {
+      "id": 37273,
+      "slug": "frontrunner",
+      "name": "Frontrunner",
+      "website": "https://usefr.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Engineer your GTM",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/a9d85abe63d98ee4de2bf8d852d5f9cf4ad82e21.png"
+    },
+    {
+      "id": 31378,
+      "slug": "godhands",
+      "name": "GodHands",
+      "website": "https://godhands.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Turn how your team works into playbooks and agents.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/5ec540989c0e572731406bc02714d7608e407cc3.png"
+    },
+    {
+      "id": 32620,
+      "slug": "gradon",
+      "name": "Gradon",
+      "website": "https://heygradon.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Legora for AEC (Architecture, Engineering, & Construction) firms",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/7505a6a55a850d54a7b75a5750c0282f58f9001f.png"
+    },
+    {
+      "id": 36513,
+      "slug": "graphide",
+      "name": "Graphide",
+      "website": "https://graphide.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "CI 10-20× faster than GitHub runners, with a 24/7 agent optimizing it.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/6a8a1620a1957b907f1e344c44b332ea9f5af430.png"
+    },
+    {
+      "id": 37435,
+      "slug": "graypass",
+      "name": "GrayPass",
+      "website": "https://graypass.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Verify the expected person is still in control before sensitive…",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/824e97773961053f47e92f9a1a6fd805d2328d0b.png"
+    },
+    {
+      "id": 33672,
+      "slug": "grep-ai",
+      "name": "Grep AI",
+      "website": "https://grep.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Self-improving agents that automate your growth bottlenecks",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/2d86a599f458e2be0f1c7c75f915dda507376482.png"
+    },
+    {
+      "id": 37533,
+      "slug": "habu",
+      "name": "HABU",
+      "website": "https://buildhabu.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Like Crosby, but for real estate development",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/afbe75a6c02bccd51c23fca509a7ba3de70f6920.png"
+    },
+    {
+      "id": 35883,
+      "slug": "halmos-labs",
+      "name": "Halmos Labs",
+      "website": "https://halmoslabs.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Rebuilding the drug discovery pipeline around agents",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/093fdc6d2122e7140cab391f450941fd3922b145.png"
+    },
+    {
+      "id": 35322,
+      "slug": "helios-intelligence",
+      "name": "Helios Intelligence",
+      "website": "https://www.heliosinc.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "At-home molecular body test: 1,000+ biomarkers from a drop of blood",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/7dc9a239cf834c9434b809e9cda6ac12630153db.png"
+    },
+    {
+      "id": 35522,
+      "slug": "hemlock",
+      "name": "Hemlock",
+      "website": "https://hemlock.inc",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Force + contact dynamics collected at scale for training physical AI.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/9593981f6acf78f7e8d4417ca9346aed3d279da4.png"
+    },
+    {
+      "id": 34464,
+      "slug": "herdr",
+      "name": "herdr",
+      "website": "https://herdr.dev/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "building the open agent runtime",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/16f63118d9ed1edf6a055497860b53107c37b334.png"
+    },
+    {
+      "id": 36086,
+      "slug": "hesper-ai",
+      "name": "Hesper AI",
+      "website": "https://gethesperai.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI Claims Investigator for Insurance",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/22aa0e43c8572c7233989f7b9c4d18841280c577.png"
+    },
+    {
+      "id": 31725,
+      "slug": "hickory-and-company",
+      "name": "Hickory & Company",
+      "website": "https://hickory.co",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Hickory is agentic compliance and BSA for banks and fintechs",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/99defc038609729a80c544eca98af6bec719647d.png"
+    },
+    {
+      "id": 33318,
+      "slug": "hillstar",
+      "name": "HillStar",
+      "website": "https://hillstar.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Agents to help utilities make better buying decisions.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/5b2a3199ea6bce97161125f2d12ceedf9cc1ecd2.png"
+    },
+    {
+      "id": 35265,
+      "slug": "hopper",
+      "name": "Hopper",
+      "website": "https://withhopper.com/code",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The Inference cloud for voice ",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/6640b732eb4efe17f2fb11ff75f6f6bc14184872.png"
+    },
+    {
+      "id": 35256,
+      "slug": "horizontal",
+      "name": "horizontal.",
+      "website": "https://horizontal-tech.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI agents that run factory operations end-to-end.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/2ba2a7c31a26b5e1a29a7aa8375c9dd030c5c3d6.png"
+    },
+    {
+      "id": 34431,
+      "slug": "hue",
+      "name": "Hue",
+      "website": "https://hue.run/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Test agents in realistic worlds built from production usage",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/1c5e6f96d14890d7f03f32c22ceed76e4fc923f2.png"
+    },
+    {
+      "id": 37732,
+      "slug": "hundred",
+      "name": "Hundred",
+      "website": "http://hundred.systems/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "100% automated inspection for precision hardware parts",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/cb93bf36f8b635434211fe78f5b4192e14187067.png"
+    },
+    {
+      "id": 35524,
+      "slug": "hyperbench",
+      "name": "HyperBench",
+      "website": "https://hyperbench.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI agents for hardware/software co-development",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/4577a9f33ff1caa656255245607b5054740ac2ab.png"
+    },
+    {
+      "id": 36015,
+      "slug": "ignition-benefits",
+      "name": "Ignition Benefits",
+      "website": "https://www.ignitionbenefits.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The AI-Native Benefits Brokerage",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/14580e0fabb4e383e5286e8af972648e4bc2b5af.png"
+    },
+    {
+      "id": 35025,
+      "slug": "inflection-space-systems",
+      "name": "Inflection Space Systems",
+      "website": "https://inflection-space.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Hyperscaling space manufacturing",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/9391545f5f098175eca1fe35fba695db3a2e0766.png"
+    },
+    {
+      "id": 36675,
+      "slug": "infraoptimal",
+      "name": "InfraOptimal",
+      "website": "https://infraoptimal.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Self optimizing dedicated inference endpoints",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/003b5c5d89d4f8298ea282b6da72cc45a233eae6.png"
+    },
+    {
+      "id": 35355,
+      "slug": "invertix",
+      "name": "Invertix",
+      "website": "https://www.invertix.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI that operates power plants",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/c2332aa776f979c1ef83d3026fd24932b6576eea.png"
+    },
+    {
+      "id": 33250,
+      "slug": "isoquant",
+      "name": "isoquant",
+      "website": "https://isoquant.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Self-optimizing inference cloud for faster, cheaper AI",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/2393ff6f2bb8fa724b4d08301f7b560ba116be78.png"
+    },
+    {
+      "id": 38490,
+      "slug": "jinko",
+      "name": "Jinko",
+      "website": "https://gojinko.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Travel Search & Booking Infrastructure for AI agents",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/94899e15d10f620110f9390e865fcdb324fbce08.png"
+    },
+    {
+      "id": 34828,
+      "slug": "kailash-labs",
+      "name": "Kailash Labs",
+      "website": "https://www.kailashlabs.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "A factory for small and specialized video reasoning models",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/9a65a6096b4135a40d95b668829c8fca7b87354d.png"
+    },
+    {
+      "id": 37831,
+      "slug": "kairos-health",
+      "name": "Kairos Health",
+      "website": "https://kairoshealthai.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI front desk that fills every chair for dental practices",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/2d10a5b9186b6b90521d447c81f5fffdf97d2c25.png"
+    },
+    {
+      "id": 35457,
+      "slug": "kairox-systems",
+      "name": "Kairox Systems",
+      "website": "http://www.kairoxsys.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Autonomous drones that fly and swim",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/737f3333be41dc7af0dd82ff9092c0e46f2105a6.png"
+    },
+    {
+      "id": 36514,
+      "slug": "kanopy",
+      "name": "Kanopy",
+      "website": "https://www.kanopy-ai.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Computer vision operating layer for physical infrastructure",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/8db59405c47dfd1fbe3cb7db6cb17937d104692a.png"
+    },
+    {
+      "id": 38589,
+      "slug": "keres",
+      "name": "Keres",
+      "website": "https://www.keresaero.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Kill the drone, keep the jet. Reusable unmanned interceptors.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/d410d4ceb3965f8c5b5e653e10007865ff03aaf9.png"
+    },
+    {
+      "id": 37863,
+      "slug": "kiwi",
+      "name": "Kiwi",
+      "website": "https://withkiwi.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Kiwi is your GTM agent's favorite data engineer.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/6492ecdf3ad27ca28600ae19b9da5cbf338cadc3.png"
+    },
+    {
+      "id": 35190,
+      "slug": "lantern-ai",
+      "name": "Lantern AI",
+      "website": "https://lantern.md",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Turn Your Taste Into Hires",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b98395722e26f62e5f8c6de59c2dd27361270ec7.png"
+    },
+    {
+      "id": 37601,
+      "slug": "lark-2",
+      "name": "Lark",
+      "website": "https://larkagents.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI agents that automate workflows for distributors",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/658417946c5809d1681eb90f9636442c2526cc5c.png"
+    },
+    {
+      "id": 34899,
+      "slug": "letter-dev",
+      "name": "Letter",
+      "website": "https://letter.dev",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The world's first coding agent, IDE & infra for growth engineering.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/52ab0840253398a6b68d120c27e1324adecaa262.png"
+    },
+    {
+      "id": 33243,
+      "slug": "limnion",
+      "name": "Limnion",
+      "website": "https://limnion.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Telemetry storage for the agentic era.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/717af69f91680aebaf844c3d21687d8e728c80c2.png"
+    },
+    {
+      "id": 32847,
+      "slug": "liquid-energy",
+      "name": "Liquid Energy",
+      "website": "https://www.liquidenergy.world",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Self contained solar-powered AI inference modules: the NanoDC",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/0cd0771f97af67208bd0d5a30aaee3a43988fec3.png"
+    },
+    {
+      "id": 36512,
+      "slug": "lux-foods",
+      "name": "Lux Foods",
+      "website": "https://www.luxfoods.xyz",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Crops engineered for premium fruit, grown without sunlight.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/70e9b745ac33a56539f3038ba0c3e2c84a81500d.png"
+    },
+    {
+      "id": 32191,
+      "slug": "lyon",
+      "name": "Lyon",
+      "website": "https://lyon.so",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Foundation models on enterprise event data.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/27ce3fff3af03da64bc8cfefeb3efef7b6d080b7.png"
+    },
+    {
+      "id": 38061,
+      "slug": "maritime",
+      "name": "Maritime",
+      "website": "https://maritime.sh/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The managed cloud for AI agents.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/d8ff801ef7e9094077a292c8bed3e86ce7e01f00.png"
+    },
+    {
+      "id": 36907,
+      "slug": "melty-gg",
+      "name": "Melty",
+      "website": "https://www.melty.gg",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Mashup any game",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/7f04b686429aece5fee0ca691cbdb211b8619d31.png"
+    },
+    {
+      "id": 33674,
+      "slug": "metalcraft",
+      "name": "Metalcraft",
+      "website": "https://metalcraft.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Advancing biological models",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/5f7933f1917a47bf844572cf253da02eeececc9f.png"
+    },
+    {
+      "id": 35224,
+      "slug": "micora",
+      "name": "Micora",
+      "website": "https://micora.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Micro-grids in a box deploying industrial power autonomously in weeks",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/a0a97fca2be3106359f418115639c47c692f9199.png"
+    },
+    {
+      "id": 35258,
+      "slug": "mirrors",
+      "name": "Mirrors",
+      "website": "https://www.mirrors.dev",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Fix recurring AI agent mistakes with real-time guidance",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/e98a564b21ba044528e16126406d35b7464044b7.png"
+    },
+    {
+      "id": 35191,
+      "slug": "munito-ai",
+      "name": "Munito AI",
+      "website": "https://munito.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Open-model inference provider for Europe, private by default.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/287fb0bcb8cbc376d57a3e34f3cd0cdda9966268.png"
+    },
+    {
+      "id": 36279,
+      "slug": "native",
+      "name": "Native",
+      "website": "https://native.no/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Artificial Intuition for marketing",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/150e28c9ae3ba8f6c0bac4696c53752a638f59ff.png"
+    },
+    {
+      "id": 33804,
+      "slug": "neomatter",
+      "name": "Neomatter",
+      "website": "https://neomatter.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI that works for in-house legal teams",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/a30dd6a7d86e342da32a42b330195358721c4571.png"
+    },
+    {
+      "id": 35157,
+      "slug": "nitroduck",
+      "name": "Nitroduck",
+      "website": "https://nitroduck.tech/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Monsanto for yummy crops, but without pesticides",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/7e416670a0235f0c59a215dc6e113e1bf72a82f5.png"
+    },
+    {
+      "id": 35257,
+      "slug": "nodus-compute",
+      "name": "Nodus Compute",
+      "website": "https://www.nodus-compute.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "More AI from your GPUs",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/cf5d37476e8f7b170957ddb85fd0254d52fa2634.png"
+    },
+    {
+      "id": 31490,
+      "slug": "nxtcure-labs",
+      "name": "Nxtcure Labs",
+      "website": "https://nxtcure.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Engineering the future of Cancer Drug Discovery",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b4d6319538171495ccc1876c381fe69a4f658969.png"
+    },
+    {
+      "id": 35396,
+      "slug": "oasive",
+      "name": "Oasive",
+      "website": "https://www.oasive.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Credit research for municipal bond analysts",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/bc57ec29fb0414ace78c3d3c1e5d7acfef9c0c5c.png"
+    },
+    {
+      "id": 35685,
+      "slug": "obia",
+      "name": "Obia",
+      "website": "https://obia.io/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI-native commercial real estate brokerage",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/2d934a569ca7e9c9f8cd404a1de2cd48f7e9510e.png"
+    },
+    {
+      "id": 36774,
+      "slug": "obsessiondb",
+      "name": "ObsessionDB",
+      "website": "https://obsessiondb.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Real-time data warehouse for agents",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/4d02f08af0be569fcf511900d03b0d8eccfdf473.png"
+    },
+    {
+      "id": 36444,
+      "slug": "odin-robotics",
+      "name": "Odin Robotics",
+      "website": "https://odin-robotics.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Robot arms that do repetitive manual work in existing factories.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/3df37a1fb66526c47cc75fbebe1f480c83847131.png"
+    },
+    {
+      "id": 35389,
+      "slug": "open-actuation",
+      "name": "Open Actuation",
+      "website": "https://openactuation.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Quick-turn, purpose-built motors & actuators for all",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/04bbecc591031b8b78b9a43b4f8c9cd329829f72.png"
+    },
+    {
+      "id": 35260,
+      "slug": "opencrawl",
+      "name": "OpenCrawl",
+      "website": "https://getopencrawl.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Shared context for your agents.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/a4fa8d15d930712db8c5f88de73e777865076822.png"
+    },
+    {
+      "id": 37864,
+      "slug": "openhack",
+      "name": "OpenHack",
+      "website": "https://openhack.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Always-on AI security engineer",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/3665e2fbd95736778f3748429060face49d74d6d.png"
+    },
+    {
+      "id": 35223,
+      "slug": "openlake-technologies",
+      "name": "OpenLake Technologies",
+      "website": "https://openlakehq.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Models which improve the more you use them",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b1d7d1c63b80a9929499e7b55e2263eaf7cb1a4f.png"
+    },
+    {
+      "id": 34895,
+      "slug": "openscaffold",
+      "name": "OpenScaffold",
+      "website": "https://openscaffold.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Superagent for Deployment Teams",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/f7d38b3eee0095a6968f8c9f98029c1e58d352d1.png"
+    },
+    {
+      "id": 36577,
+      "slug": "opera",
+      "name": "OpEra",
+      "website": "https://operatechnologies.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The AI decision engine for factories, warehouses and fleets",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/31457ec77d0c307cc8c7986a68fd9d81c50a99ce.png"
+    },
+    {
+      "id": 35525,
+      "slug": "orca-aerospace",
+      "name": "Orca Aerospace",
+      "website": "https://orcaaerospace.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI spacecraft operators that lives onboard the vehicle",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/afa6ce6fe3345bb9e7b6296e9877371ada8e2155.png"
+    },
+    {
+      "id": 35421,
+      "slug": "ordo-labs",
+      "name": "Ordo Labs",
+      "website": "https://ordolabs.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The AI-native OS for regulated labs",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/5db3ba9e7d7bb9c75e6f53fd5737442d244c4f85.png"
+    },
+    {
+      "id": 36082,
+      "slug": "organizely",
+      "name": "Organizely",
+      "website": "https://organizely.io/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "A New AI-Native ERP for American Manufacturers 🇺🇸",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/26f181ecd0a89fb752608405bfab226e7b6bf3a0.png"
+    },
+    {
+      "id": 34926,
+      "slug": "orgo",
+      "name": "Orgo",
+      "website": "https://www.orgo.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Computers for Agents",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/2e545998082b7c19d428d475144fca56ffb388bb.png"
+    },
+    {
+      "id": 35521,
+      "slug": "oro-ai",
+      "name": "ORO AI",
+      "website": "https://www.oroagents.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "RL environments & simulations for autonomous businesses.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b66a9717c54294ba9f6e296bb8c04f9c3da74d27.png"
+    },
+    {
+      "id": 36643,
+      "slug": "papaya",
+      "name": "Papaya",
+      "website": "https://papaya.fyi/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Continuously improve the quality of your AI agents.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/90437a276bb22b842ea04cd42e19389e216c984c.png"
+    },
+    {
+      "id": 36114,
+      "slug": "particularity",
+      "name": "Particularity",
+      "website": "https://particularity.io",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Building the tech stack for government regulators",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/bcbf7ec4217465351ee9a2745d3429e194218ed3.png"
+    },
+    {
+      "id": 35262,
+      "slug": "perceptual-labs",
+      "name": "Perceptual Labs",
+      "website": "https://www.perceptuallabs.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Building the next generation of visual intelligence",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/e4fc1c46193139a87be8a9d372f3ac8ccd413c42.png"
+    },
+    {
+      "id": 36741,
+      "slug": "peritai",
+      "name": "Perit.AI",
+      "website": "https://www.perit.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Expert-collected voice, egocentric and RL training data for frontier…",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/a35e9e2f6026717a2640d1e01b9215eaff2d4310.png"
+    },
+    {
+      "id": 34794,
+      "slug": "petrichor",
+      "name": "Petrichor",
+      "website": "https://petrichorbio.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Wet lab infrastructure that turns AI experiments into training data.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/fdb7aea2b5558307f53190af023d8e6a2c7ac3be.png"
+    },
+    {
+      "id": 37997,
+      "slug": "phone-harness",
+      "name": "Phone Harness",
+      "website": "https://phone-harness.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Let your agent control your phone",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/23ec853288e1b553559441fa473fe33b364597cb.png"
+    },
+    {
+      "id": 35393,
+      "slug": "plek-ai",
+      "name": "Plek AI",
+      "website": "https://www.plek.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The AI company brain for PE value creation",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/baac91bf298be9980db66929732a5dd51b6fe558.png"
+    },
+    {
+      "id": 35587,
+      "slug": "ploid",
+      "name": "Ploid",
+      "website": "https://ploid.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The people data company for the agent era",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/0818fc968494e08cc15fca10a1d1c43ca33aa3e0.png"
+    },
+    {
+      "id": 35586,
+      "slug": "plover-labs",
+      "name": "Plover Labs",
+      "website": "https://ploverlabs.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Enable enterprises to ship agent code without human review",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/a310be93d13c548ee674125ec85077cd90ed1e23.png"
+    },
+    {
+      "id": 36081,
+      "slug": "polemos-industries",
+      "name": "Polemos Industries",
+      "website": "https://polemosindustries.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI-guided ballistic missiles, built for mass manufacturing",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/52d6be23c1a08e2020010a26b5bd336554572d38.png"
+    },
+    {
+      "id": 36016,
+      "slug": "pomerado",
+      "name": "Pomerado",
+      "website": "https://www.pomerado.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Turn any website into an MCP for your agents, in minutes",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/4d4ea3739a0bbffad42b3f827b3d69b5ad605a8f.png"
+    },
+    {
+      "id": 35422,
+      "slug": "praxis",
+      "name": "Praxis",
+      "website": "https://runpraxis.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI agents that run law firm operations.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/aac3b9688bfcfe828ca1449c50d9d85d7e55ad89.png"
+    },
+    {
+      "id": 36510,
+      "slug": "preload",
+      "name": "Preload",
+      "website": "https://preload.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Sensorimotor context for physical AI",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/6b263628afee781ad6a54e9c6db03225c28f419f.png"
+    },
+    {
+      "id": 35652,
+      "slug": "primordiant",
+      "name": "Primordiant",
+      "website": "https://primordiant.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Embodied Scientific Intelligence",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/15a7e2a5caa04595d7620cd8161f3b2cffd00a51.png"
+    },
+    {
+      "id": 38029,
+      "slug": "proto",
+      "name": "Proto",
+      "website": "https://www.prototypes.fun/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "A design tool with the accuracy of Cursor & creative freedom of Figma",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/866ee3646a792a9ad235a6201c3aae8380279ba8.png"
+    },
+    {
+      "id": 36940,
+      "slug": "quippy",
+      "name": "Quippy",
+      "website": "https://quippyapp.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Helps build social skills through daily practice",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/97c02b937035318f812614d4d9362e5c060a6f72.png"
+    },
+    {
+      "id": 35397,
+      "slug": "quivly-ai",
+      "name": "Quivly AI",
+      "website": "https://www.quivly.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI agents that run onboarding, adoption, and renewals",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/c9dd1fbd0b76e538f581f702ad2deb68c3eca171.png"
+    },
+    {
+      "id": 37999,
+      "slug": "ratlog",
+      "name": "RATLOG",
+      "website": "https://www.ratlog.space/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Reusable heavy-lift rockets",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/c91e646aa134e7ed3da1082d56c2a3cdd68f8337.png"
+    },
+    {
+      "id": 35356,
+      "slug": "ravenphone",
+      "name": "Raven",
+      "website": "https://ravenphone.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "A new phone rebuilt around agents: more done, less time on screen.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/754de4c0d947ee0ffec143a04381c7d7cdcc0667.png"
+    },
+    {
+      "id": 31458,
+      "slug": "reason-machines",
+      "name": "Reason Machines",
+      "website": "https://reasonmachines.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Reason is world's most effective agent on cost per task",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/ac8d1fbd9622030ddfab1cc9a6fac1907350004f.png"
+    },
+    {
+      "id": 36147,
+      "slug": "reconero",
+      "name": "Reconero",
+      "website": "https://reconero.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Reconero helps police officers automate their workflows with AI",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b80e05ae693ed71f511c4061b98e40ea8c93e882.png"
+    },
+    {
+      "id": 37600,
+      "slug": "redoubt-insurance",
+      "name": "Redoubt Insurance",
+      "website": "https://www.redoubt.insure",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Commercial insurance for small businesses",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/1ee4cc24084cdd9a8a0fe0d70982248244d6fd3a.png"
+    },
+    {
+      "id": 34860,
+      "slug": "reific",
+      "name": "Reific",
+      "website": "https://www.reific.co/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "RL environments for superhuman reasoning over time",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/15150d0dab29e0b9d4c44b12fc87e17632fb4819.png"
+    },
+    {
+      "id": 35950,
+      "slug": "resin-technologies",
+      "name": "Resin Technologies",
+      "website": "https://resineda.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Resin helps engineers design electronics faster and more reliably",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/bc5f059ee240037dfd1bb651a9c69886e3dceef6.png"
+    },
+    {
+      "id": 37171,
+      "slug": "rezora-io",
+      "name": "Rezora IO",
+      "website": "https://rezora.io/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI voice agents for home services and real estate",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/22b8fb8db1fec9cd1b1b6da222946a31fcfe5373.png"
+    },
+    {
+      "id": 35127,
+      "slug": "rhem-labs",
+      "name": "Rhem Labs",
+      "website": "https://rhem.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/36cbf39bb5d034d7765e7ee595b7fac4dc2358e5.png"
+    },
+    {
+      "id": 31591,
+      "slug": "rightnow",
+      "name": "RightNow",
+      "website": "https://runinfra.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Co-designing the fastest intelligence",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/59b2e02a314037738d9f32192f83e8bd442be246.png"
+    },
+    {
+      "id": 32650,
+      "slug": "risklytics",
+      "name": "Risklytics",
+      "website": "https://www.risklytics.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI-Native Insurance for Frontier Tech",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/879622d4fa103941586542ac659eaf9b60d897f0.png"
+    },
+    {
+      "id": 35263,
+      "slug": "rivereditor",
+      "name": "River",
+      "website": "https://meetriver.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The AI computer.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/47198fc0e393650eaf6b3a2b120ff40b912a2645.png"
+    },
+    {
+      "id": 31509,
+      "slug": "rodeo-robotics",
+      "name": "Rodeo Robotics",
+      "website": "https://www.rodeorobotics.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Robots for vehicle maintenance.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/ed94f83ed341c4f879d7c08c2570c04ba145e07c.png"
+    },
+    {
+      "id": 32088,
+      "slug": "roma",
+      "name": "Roma",
+      "website": "https://roma.app",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Roma is the to-do list that does itself",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/0acebf173c06922baca9b12940df90492d951704.png"
+    },
+    {
+      "id": 35982,
+      "slug": "routant",
+      "name": "Routant",
+      "website": "https://routant.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Last mile deployment and connectivity for Agents as a Service",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/447dd9475c7b300e10d5e9da6bfeb6b3c50ed0d3.png"
+    },
+    {
+      "id": 36908,
+      "slug": "routerplus",
+      "name": "RouterPlus",
+      "website": "https://routerplus.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Marketplace for AI inference: the right model at the best price",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/6bb3c1b091b775faf5b88bf2fdc28cd10b50bb08.png"
+    },
+    {
+      "id": 34365,
+      "slug": "runtimesi",
+      "name": "Runtime.si",
+      "website": "https://runtime.si/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Robots that think in simulation",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/461a9d05728add7a3449b82167ac418e94d301eb.png"
+    },
+    {
+      "id": 31389,
+      "slug": "ryhla",
+      "name": "Ryhla",
+      "website": "https://ryhla.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Faster power grid connection for your projects",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/958ce266d784412860aea37d9654c70b9d6bae3b.png"
+    },
+    {
+      "id": 35751,
+      "slug": "rystic",
+      "name": "Rystic",
+      "website": "https://rystic.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Train models and test agents in high-fidelity simulated environments",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/bfa5e505d77a3f64c4f5ed8941cc14f8318a3a34.png"
+    },
+    {
+      "id": 34862,
+      "slug": "saccade",
+      "name": "Saccade",
+      "website": "https://saccade.health",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "World's Earliest Test for Alzheimer's Biomarkers",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/e30db37d0cbb762632d614afb3918a8e0b4131cb.png"
+    },
+    {
+      "id": 34898,
+      "slug": "se3-labs",
+      "name": "SE3 Labs",
+      "website": "https://se3labs.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Real-World RL Environments for Physical AI",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/9a66a484e10ea17972fe78ce644666d531e75814.png"
+    },
+    {
+      "id": 34597,
+      "slug": "sentient-os",
+      "name": "Sentient OS",
+      "website": "https://sentient-os.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "On-device AI that knows your entire life and does your work overnight.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/39c30a4d604edd955f2c2b37f1f7281571ae18fb.png"
+    },
+    {
+      "id": 35454,
+      "slug": "shepherd-robotics",
+      "name": "Shepherd Robotics",
+      "website": "https://shepherdrobotics.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Robots for high skilled labor powering AI infrastructure",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/aeedcbe594abc3d35bb21642c507ec105a0f502a.png"
+    },
+    {
+      "id": 36345,
+      "slug": "shire-intelligence",
+      "name": "Shire Intelligence",
+      "website": "https://shireintelligence.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Shire uses CCTV to run restaurants in real time.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/ddb902daa9bf41440f3e332ac02be9ee50de271c.png"
+    },
+    {
+      "id": 36346,
+      "slug": "silica",
+      "name": "Silica",
+      "website": "https://silicamachines.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Actuators for Physical AI",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/2b8e6b4aadfde14366461b6e47d3f4d14e736df5.png"
+    },
+    {
+      "id": 33838,
+      "slug": "simantic",
+      "name": "Simantic",
+      "website": "https://simantic.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Firmware simulation for AI agents",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/12eef74104b6e57636a6f0d2305e3a2d18d5c2e5.png"
+    },
+    {
+      "id": 34629,
+      "slug": "simulithic",
+      "name": "Simulithic",
+      "website": "https://simulithic.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI users that test your app on every device and browser",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/58a972cb3cb171dd4300267d241cc6705539f906.png"
+    },
+    {
+      "id": 36708,
+      "slug": "sinter-systems",
+      "name": "Sinter",
+      "website": "https://sinter.systems",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Accelerated plastics manufacturing",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/392a3938deea813eb9351409e9ac2cd528e737d7.png"
+    },
+    {
+      "id": 37995,
+      "slug": "sintropix",
+      "name": "Sintropix",
+      "website": "https://sintropix.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Autonomous accounting platform for global companies",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/8e0565abd52682e4249720fb4eb646f17fbbdd65.png"
+    },
+    {
+      "id": 36777,
+      "slug": "sona8",
+      "name": "Sona8",
+      "website": "https://sona8.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Voice agents survey employees to map, improve & automate workflows",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/68fe01dae2c3bf0906f880c9a0f3fca2b2a16863.png"
+    },
+    {
+      "id": 38953,
+      "slug": "spacesheep",
+      "name": "Spacesheep",
+      "website": "https://spacesheep.dev/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Documents of the future: the collaboration surface for people and…",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/2cb23e26aad8ff71438bd185c90588109bbf3d5f.png"
+    },
+    {
+      "id": 37236,
+      "slug": "spine",
+      "name": "Spine",
+      "website": "https://www.joinspine.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "We run benefits, payroll & compliance for startups, for free",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/e227fdb2c6620d1b088142bc179befd86c865fee.png"
+    },
+    {
+      "id": 35096,
+      "slug": "stacktrace",
+      "name": "Stacktrace",
+      "website": "https://stacktrace.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Give agents autonomy without losing control",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/e79ba1ad9464ac22023bbed994e2299d2ae8addf.png"
+    },
+    {
+      "id": 37797,
+      "slug": "stasis",
+      "name": "STASIS",
+      "website": "https://www.get-stasis.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The WHOOP for 16 billion eyes",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/670dd0e2fb9cb21d4541907259f19468dcbf4a1f.png"
+    },
+    {
+      "id": 35487,
+      "slug": "streamline-systems",
+      "name": "Streamline Systems",
+      "website": "https://streamlinesystems.ltd/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Precision navigation for UAVs operating without GPS. ",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/989b85da2420d6592fdbd561cfe2e0802ebf6933.png"
+    },
+    {
+      "id": 34497,
+      "slug": "summer-engine",
+      "name": "Summer Engine",
+      "website": "https://www.summerengine.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The AI game engine.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/a8b58f70a8432dea519529b674c139984fb84cc2.png"
+    },
+    {
+      "id": 38094,
+      "slug": "super-powers-mobility-spm",
+      "name": "Super Powers Mobility (SPM)",
+      "website": "https://www.spm.us",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The highest performance modular battery packs for mobility/vehicles",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/a5c35648a3ac00d7da1ce27b5b0a62372c6a5f2e.png"
+    },
+    {
+      "id": 37602,
+      "slug": "superserve",
+      "name": "Superserve",
+      "website": "https://superserve.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Virtual machines for long-running agents",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/30c23ee4b16858a917c5254b034633777d99a5f2.png"
+    },
+    {
+      "id": 36576,
+      "slug": "sutrix",
+      "name": "Sutrix",
+      "website": "https://www.sutrix.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Deployed AI to turn EHR data into study-ready datasets ",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/10aa0357ff173a9e31708ec1fdba33b53c40c20f.png"
+    },
+    {
+      "id": 36378,
+      "slug": "synara",
+      "name": "Synara",
+      "website": "https://synaraops.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Building the next generation of AI enabled monitoring ",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/dd7f562c2b84a1527d622d32cb773ab28925d85e.png"
+    },
+    {
+      "id": 35095,
+      "slug": "taanai",
+      "name": "Taan.ai",
+      "website": "https://taan.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "the most precise & controllable foundation music models ",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/e81be68dcd0ecbbf3a0f1bdcbf4488f4e6bdcc21.png"
+    },
+    {
+      "id": 35128,
+      "slug": "talos-us",
+      "name": "Talos",
+      "website": "https://www.talos-us.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Predictive maintenance for power infrastructure.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/adf2f2d3e67de554b1df8a77cdc1d6dd943928ec.png"
+    },
+    {
+      "id": 35983,
+      "slug": "telamont",
+      "name": "Telamont",
+      "website": "https://telamont.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Sentry for errors in construction documents",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/91ca6e13f61dd82bb7d60aab67dcbaec5b7eab25.png"
+    },
+    {
+      "id": 37566,
+      "slug": "the-agentic-data-co",
+      "name": "The Agentic Data Co.",
+      "website": "https://theagenticdatacompany.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Training Data For Speech Models.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/72ebbcacfd48c52bf6fc298c17ddf035a00bbc08.png"
+    },
+    {
+      "id": 31371,
+      "slug": "the-company-company",
+      "name": "The Company Company",
+      "website": "https://www.thecompany.company",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The operating system for tech startups.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/c2e02b231781598e474507da2cdfd670adae06e9.png"
+    },
+    {
+      "id": 37272,
+      "slug": "the-subvocal-company",
+      "name": "The Subvocal Company",
+      "website": "https://subvocal.company",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Glasses that turn silent speech into text",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/932b2d47f36f3bce67a23cc2ce77599b9f364edd.png"
+    },
+    {
+      "id": 34530,
+      "slug": "theo",
+      "name": "Theo",
+      "website": "https://theo.site/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The site-builder and engine that gets your business found. ",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/df947f888c98a4ba3a32f2fa4873fc57321747c2.png"
+    },
+    {
+      "id": 37401,
+      "slug": "theseus-robotics",
+      "name": "Theseus Robotics",
+      "website": "https://theseus.bot/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Humanoids to restock retail shelves & pick orders",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/7e2fc8bde838b206a0f59886a05a00e2d3d89335.png"
+    },
+    {
+      "id": 37105,
+      "slug": "tilion",
+      "name": "Tilion",
+      "website": "https://tilion.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Super fast, unblockable browser infra for agents",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/119cb04a763e823c00332f94249a1f95dc277724.png"
+    },
+    {
+      "id": 37830,
+      "slug": "tilo",
+      "name": "Tilo",
+      "website": "https://tilo.so",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The Microsoft of the AI era: the operating system for AI agents.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/5ee5f7b68452b3800941d6ce5bfbfacd28c318f2.png"
+    },
+    {
+      "id": 30290,
+      "slug": "tire-swing",
+      "name": "Tire Swing",
+      "website": "https://gettireswing.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The AI Affordable Housing Platform",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/954a6e03dc3be9737df64c792b63e036b1c580cf.png"
+    },
+    {
+      "id": 34861,
+      "slug": "topos",
+      "name": "Topos",
+      "website": "https://www.toposlab.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Agent swarms",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/07dc8cbe943d3786ff88a0ef85951aa9f324ee98.png"
+    },
+    {
+      "id": 37731,
+      "slug": "trepo",
+      "name": "Trepo",
+      "website": "https://hellotrepo.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The agentic grocery shopper that knows what you have and need.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b665bafb6e74d729c276a76da1d06f81bdac762a.png"
+    },
+    {
+      "id": 35266,
+      "slug": "truemile",
+      "name": "TrueMile",
+      "website": "https://TrueMile.AI/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI-native trucking company",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/94408cc02a79b94fd281d47aabc0056465683df6.png"
+    },
+    {
+      "id": 36347,
+      "slug": "trylatent",
+      "name": "Latent",
+      "website": "http://runlatent.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Catch wrong LLM answers before your customers do",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/21bc57f59a4d430a3377808350ec1df0915386dd.png"
+    },
+    {
+      "id": 35523,
+      "slug": "twentyfour26",
+      "name": "twentyfour26",
+      "website": "https://twentyfour26.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Building Autonomous Factories in America, Starting with On-Demand CNC…",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/ceb91f5325b460f109e85bc25abd1618a24863cb.png"
+    },
+    {
+      "id": 35094,
+      "slug": "useforward",
+      "name": "Forward",
+      "website": "https://www.useforward.co/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The private credit network for leading debt advisors",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/da8faffaa022dc56157a591e901324e4d786a015.png"
+    },
+    {
+      "id": 37238,
+      "slug": "useterse",
+      "name": "Terse",
+      "website": "https://www.useterse.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Durable state for AI agents",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/cd6be2cf6a34817d94716dd43cba7de917787b78.png"
+    },
+    {
+      "id": 36776,
+      "slug": "uxduck",
+      "name": "UXDuck",
+      "website": "https://uxduck.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Build better drones. Run better missions.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/fe3dd63fd9bab004c38089f8c0ed95063c64bb18.png"
+    },
+    {
+      "id": 34761,
+      "slug": "veeza-ai",
+      "name": "Veeza AI",
+      "website": "https://veeza.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI tourist visa agent for people with weak passports.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/1ff98253605935aaa53bb31e8330be6a74309c6d.png"
+    },
+    {
+      "id": 32352,
+      "slug": "veltha",
+      "name": "Veltha",
+      "website": "https://veltha.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI native TPA starting with workers comp",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/086027e8af9fab6d08a460f136457d84dbf6f354.png"
+    },
+    {
+      "id": 37005,
+      "slug": "verdun",
+      "name": "Verdun",
+      "website": "https://verdun.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The world's most advanced security monitoring service",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/3746c317ac24f2b0122040095c3cecb0332727b6.png"
+    },
+    {
+      "id": 35949,
+      "slug": "verno",
+      "name": "Verno",
+      "website": "https://verno-ai.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI engineering industrials like chip fabs, refineries and power plants",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/74ef12c285d4addcc60a88f490fbbb178260035f.png"
+    },
+    {
+      "id": 36873,
+      "slug": "versine",
+      "name": "Versine",
+      "website": "https://versine.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Let your agents send and receive money. We're Venmo for agents.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/586c3fb683e34649e1401cfc1d48117092317176.png"
+    },
+    {
+      "id": 36180,
+      "slug": "vexo",
+      "name": "Vexo",
+      "website": "https://www.vexoai.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "An AI bracelet that remembers your day and acts before you ask.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/4ccc1a7fb19ab15125c649c10eac42aa5856ed4e.png"
+    },
+    {
+      "id": 34904,
+      "slug": "viraj-aero",
+      "name": "Viraj Aero",
+      "website": "https://www.viraj-aero.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Next generation gas turbines for data centers & aviation",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/d151d30449f8a414c0594312df47a98193fd069b.png"
+    },
+    {
+      "id": 37203,
+      "slug": "volaren",
+      "name": "Volaren",
+      "website": "https://www.volaren.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The personal investing agent that comes to you",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/be43cf0580fc71ee690f3408420f4280b5e3665f.png"
+    },
+    {
+      "id": 35784,
+      "slug": "vorelios",
+      "name": "Vorelios",
+      "website": "https://vorelios.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI that can engineer anything",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/511019d13a19f348d6a7c3fc8a084d6b838d2243.png"
+    },
+    {
+      "id": 33574,
+      "slug": "vorflux",
+      "name": "Vorflux",
+      "website": "https://vorflux.ai",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "A cloud-based AI coding agent for teams",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/376bda82fa73bd6edadb1859b1ee16cb3d4d1558.png"
+    },
+    {
+      "id": 36644,
+      "slug": "vouchwealth",
+      "name": "Vouch",
+      "website": "https://vouchwealth.com/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "The AI wealth manager for every Indian",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/088bf2ca78d1e97cb6ffd946a34c10c5e183795a.png"
+    },
+    {
+      "id": 34134,
+      "slug": "voyager",
+      "name": "Voyager",
+      "website": "https://voyager.so",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Open harness for video and other creative work.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/4c6a49b867492868c7c12a9622e59839c26e0b5a.png"
+    },
+    {
+      "id": 36411,
+      "slug": "vyra",
+      "name": "Vyra",
+      "website": "https://usevyra.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Personal video editing agent for shortform content",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/7ad073b0df3558383dd73b1125d5e326d63c3e12.png"
+    },
+    {
+      "id": 31198,
+      "slug": "wingman-law",
+      "name": "Wingman Law",
+      "website": "https://www.wingmanlaw.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI-native personal injury law firm",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/2127606306fa68c80f746873e01b87bbfb011128.png"
+    },
+    {
+      "id": 38226,
+      "slug": "wondersearch",
+      "name": "Wondersearch",
+      "website": "https://wondersearch.com",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Instant semantic search over your data without embeddings.",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/1dfdffe31c74cb7df1b408193b1e4360c19f0815.png"
+    },
+    {
+      "id": 35395,
+      "slug": "workers-io",
+      "name": "Workers IO",
+      "website": "https://workers.io",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "Simulation environments for verifying mission-critical software",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/12ec3720a247bad2e5a39d162b68e217ed6b74bd.png"
+    },
+    {
+      "id": 36213,
+      "slug": "yam",
+      "name": "Yam",
+      "website": "https://hiyam.ai/",
+      "batch": "Fall 2026",
+      "status": "Active",
+      "oneLiner": "AI-powered dating sims for women",
+      "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/c297c8850d0327ee68a350cb20ee3ca0b6946537.png"
+    }
+  ]
+}

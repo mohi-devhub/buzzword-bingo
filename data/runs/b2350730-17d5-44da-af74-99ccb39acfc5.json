@@ -1,0 +1,571 @@
+{
+  "_meta": {
+    "header": [
+      "Records a limited crawl and each reserved or reported request charge.",
+      "Makes credit spend and interrupted attempts auditable without exposing credentials."
+    ],
+    "schemaVersion": 1
+  },
+  "id": "b2350730-17d5-44da-af74-99ccb39acfc5",
+  "startedAt": "2026-11-11T13:35:52.075Z",
+  "finishedAt": "2026-11-11T13:39:06.468Z",
+  "batch": "BVP public cloud comparison",
+  "limit": 50,
+  "refresh": false,
+  "selectedSlugs": [
+    "bvp-adbe",
+    "bvp-agys",
+    "bvp-appf",
+    "bvp-asan",
+    "bvp-team",
+    "bvp-avpt",
+    "bvp-bl",
+    "bvp-brze",
+    "bvp-clbt",
+    "bvp-crwd",
+    "bvp-ddog",
+    "bvp-docn",
+    "bvp-docu",
+    "bvp-estc",
+    "bvp-fsly",
+    "bvp-fig",
+    "bvp-frsh",
+    "bvp-gtlb",
+    "bvp-hubs",
+    "bvp-inta",
+    "bvp-kvyo",
+    "bvp-mndy",
+    "bvp-mdb",
+    "bvp-ntsk",
+    "bvp-ntnx",
+    "bvp-okta",
+    "bvp-pd",
+    "bvp-panw",
+    "bvp-payc",
+    "bvp-pcty",
+    "bvp-qtwo",
+    "bvp-qlys",
+    "bvp-rng",
+    "bvp-rbrk",
+    "bvp-crm",
+    "bvp-iot",
+    "bvp-s",
+    "bvp-ttan",
+    "bvp-shop",
+    "bvp-snow",
+    "bvp-cxm",
+    "bvp-tenb",
+    "bvp-tost",
+    "bvp-twlo",
+    "bvp-veev",
+    "bvp-way",
+    "bvp-wix",
+    "bvp-wday",
+    "bvp-zeta",
+    "bvp-zs"
+  ],
+  "requests": [
+    {
+      "attemptId": "ec77fd37-bd90-401f-b758-4f457dd1bd0e",
+      "normalizedUrl": "https://www.adobe.com/",
+      "submittedAt": "2026-11-11T13:35:52.082Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50889
+      }
+    },
+    {
+      "attemptId": "c4d661bc-bc7c-4b21-970a-5ef1e284209c",
+      "normalizedUrl": "http://www.agilysys.com/",
+      "submittedAt": "2026-11-11T13:35:58.880Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50888
+      }
+    },
+    {
+      "attemptId": "0bc5e0fa-f1f9-43ae-b866-fa90b36bd44a",
+      "normalizedUrl": "http://www.appfolioinc.com/",
+      "submittedAt": "2026-11-11T13:36:01.492Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50887
+      }
+    },
+    {
+      "attemptId": "e5d9578f-47e8-4a35-aaed-af9149e130f7",
+      "normalizedUrl": "https://asana.com/",
+      "submittedAt": "2026-11-11T13:36:04.611Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50886
+      }
+    },
+    {
+      "attemptId": "a9a6dec2-6d5b-4594-97f7-56722cfd3d55",
+      "normalizedUrl": "https://www.atlassian.com/",
+      "submittedAt": "2026-11-11T13:36:10.715Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50885
+      }
+    },
+    {
+      "attemptId": "bbe86d58-4716-4688-8059-a0431b0ebce5",
+      "normalizedUrl": "https://www.avepoint.com/",
+      "submittedAt": "2026-11-11T13:36:14.618Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50884
+      }
+    },
+    {
+      "attemptId": "4889829d-590d-4861-876d-9dbf23c6a638",
+      "normalizedUrl": "https://www.blackline.com/",
+      "submittedAt": "2026-11-11T13:36:17.235Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50883
+      }
+    },
+    {
+      "attemptId": "21dcc850-94d0-40bf-8ae6-f9458a040f90",
+      "normalizedUrl": "https://www.braze.com/",
+      "submittedAt": "2026-11-11T13:36:21.218Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50882
+      }
+    },
+    {
+      "attemptId": "5f3b3e32-a5a4-47d5-9a77-4a9d73322d43",
+      "normalizedUrl": "http://www.cellebrite.com/",
+      "submittedAt": "2026-11-11T13:36:26.773Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50881
+      }
+    },
+    {
+      "attemptId": "d1870617-927c-4885-88ae-16f2f6d0a698",
+      "normalizedUrl": "https://www.crowdstrike.com/",
+      "submittedAt": "2026-11-11T13:36:29.863Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50880
+      }
+    },
+    {
+      "attemptId": "31d78711-8cc7-48b5-b0eb-1a6e8e1b61c9",
+      "normalizedUrl": "https://www.datadoghq.com/",
+      "submittedAt": "2026-11-11T13:36:33.227Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50879
+      }
+    },
+    {
+      "attemptId": "c2a6d8c5-791d-49a7-ae73-bf1204f6efbc",
+      "normalizedUrl": "https://www.digitalocean.com/",
+      "submittedAt": "2026-11-11T13:36:35.532Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50878
+      }
+    },
+    {
+      "attemptId": "bf5a78c6-8b16-40e1-9948-0bcab5144be5",
+      "normalizedUrl": "http://www.docusign.com/",
+      "submittedAt": "2026-11-11T13:36:37.921Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50877
+      }
+    },
+    {
+      "attemptId": "f5191f45-b1ec-4f35-9db4-939f0ce66db2",
+      "normalizedUrl": "https://www.elastic.co/",
+      "submittedAt": "2026-11-11T13:36:40.988Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50876
+      }
+    },
+    {
+      "attemptId": "027ddf37-bd91-4f54-9631-0052a0dd4b5b",
+      "normalizedUrl": "https://www.fastly.com/",
+      "submittedAt": "2026-11-11T13:36:44.691Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50875
+      }
+    },
+    {
+      "attemptId": "adc6ae43-5cb4-4417-b16e-29f79af73952",
+      "normalizedUrl": "https://figma.com/",
+      "submittedAt": "2026-11-11T13:36:46.630Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50874
+      }
+    },
+    {
+      "attemptId": "1be6eed1-2edc-4532-92d4-24cf6f43b6d2",
+      "normalizedUrl": "https://www.freshworks.com/",
+      "submittedAt": "2026-11-11T13:36:54.112Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50873
+      }
+    },
+    {
+      "attemptId": "ebb11b20-fd44-4862-b389-d054e6b7c2cd",
+      "normalizedUrl": "https://about.gitlab.com/",
+      "submittedAt": "2026-11-11T13:37:00.015Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50872
+      }
+    },
+    {
+      "attemptId": "828d8fea-b0cd-45e6-9534-0428c7201de8",
+      "normalizedUrl": "http://www.hubspot.com/",
+      "submittedAt": "2026-11-11T13:37:02.229Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50871
+      }
+    },
+    {
+      "attemptId": "a5ae0627-484e-4080-9e77-e92c0da3a858",
+      "normalizedUrl": "https://www.intapp.com/",
+      "submittedAt": "2026-11-11T13:37:06.182Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50870
+      }
+    },
+    {
+      "attemptId": "5e8039c3-0775-42d1-a85f-59659d3d676c",
+      "normalizedUrl": "https://www.klaviyo.com/",
+      "submittedAt": "2026-11-11T13:37:09.807Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50869
+      }
+    },
+    {
+      "attemptId": "ed9f9a1e-2b96-4f95-af01-e66a424420ad",
+      "normalizedUrl": "https://monday.com/",
+      "submittedAt": "2026-11-11T13:37:12.644Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50868
+      }
+    },
+    {
+      "attemptId": "2b2dc857-9f3c-40cd-a137-8a8e8e29b48a",
+      "normalizedUrl": "https://www.mongodb.com/",
+      "submittedAt": "2026-11-11T13:37:15.822Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50867
+      }
+    },
+    {
+      "attemptId": "d9210ace-c428-465d-aead-31f34210f0c2",
+      "normalizedUrl": "http://www.netskope.com/",
+      "submittedAt": "2026-11-11T13:37:19.020Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50866
+      }
+    },
+    {
+      "attemptId": "31f4819f-b254-47d0-858c-ebcedb782f5f",
+      "normalizedUrl": "http://www.nutanix.com/",
+      "submittedAt": "2026-11-11T13:37:24.131Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50865
+      }
+    },
+    {
+      "attemptId": "0980bdda-2725-4128-9219-af9984510408",
+      "normalizedUrl": "https://www.okta.com/",
+      "submittedAt": "2026-11-11T13:37:26.943Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50864
+      }
+    },
+    {
+      "attemptId": "ae049390-11dd-428f-af19-08b30a8acf78",
+      "normalizedUrl": "http://www.pagerduty.com/",
+      "submittedAt": "2026-11-11T13:37:29.504Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50863
+      }
+    },
+    {
+      "attemptId": "667c3d1c-9bb4-4a02-a6d6-2c74fe8cd8d1",
+      "normalizedUrl": "https://www.paloaltonetworks.com/",
+      "submittedAt": "2026-11-11T13:37:37.341Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50862
+      }
+    },
+    {
+      "attemptId": "56150aaf-bc96-4a85-91ca-b994176c1cc1",
+      "normalizedUrl": "https://www.paycom.com/",
+      "submittedAt": "2026-11-11T13:37:40.118Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50861
+      }
+    },
+    {
+      "attemptId": "7f493aac-d3e7-48c9-8d18-3b620101ff09",
+      "normalizedUrl": "https://www.paylocity.com/",
+      "submittedAt": "2026-11-11T13:37:43.627Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50860
+      }
+    },
+    {
+      "attemptId": "006ce1c0-c493-4e7d-9efd-29c645803bdd",
+      "normalizedUrl": "https://www.q2.com/",
+      "submittedAt": "2026-11-11T13:37:46.492Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50859
+      }
+    },
+    {
+      "attemptId": "7bf08d2c-6448-4bcd-bafa-43b7507a4d15",
+      "normalizedUrl": "https://www.qualys.com/",
+      "submittedAt": "2026-11-11T13:37:52.758Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50858
+      }
+    },
+    {
+      "attemptId": "c05a2ed9-8483-464c-8eff-69abfd4b98d1",
+      "normalizedUrl": "https://www.ringcentral.com/",
+      "submittedAt": "2026-11-11T13:37:58.493Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50857
+      }
+    },
+    {
+      "attemptId": "2d71d883-b1a1-47ea-8317-ab96ff0c2ae5",
+      "normalizedUrl": "https://www.rubrik.com/",
+      "submittedAt": "2026-11-11T13:38:01.343Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50856
+      }
+    },
+    {
+      "attemptId": "50e320e8-472b-425a-b2f7-8a575194c41f",
+      "normalizedUrl": "https://www.salesforce.com/",
+      "submittedAt": "2026-11-11T13:38:03.526Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50855
+      }
+    },
+    {
+      "attemptId": "6f539574-2ed3-42a9-95a9-9d1f7d77ad96",
+      "normalizedUrl": "https://www.samsara.com/",
+      "submittedAt": "2026-11-11T13:38:09.155Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50854
+      }
+    },
+    {
+      "attemptId": "6c6ea006-9f0f-472e-9cd1-7682013552b0",
+      "normalizedUrl": "http://www.sentinelone.com/",
+      "submittedAt": "2026-11-11T13:38:12.065Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50853
+      }
+    },
+    {
+      "attemptId": "57629eda-a82f-4a82-938b-7853f01fdd08",
+      "normalizedUrl": "https://servicetitan.com/",
+      "submittedAt": "2026-11-11T13:38:14.642Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50852
+      }
+    },
+    {
+      "attemptId": "48b6a1d7-3418-42d9-8d37-c4dce9adb32e",
+      "normalizedUrl": "https://www.shopify.com/",
+      "submittedAt": "2026-11-11T13:38:20.859Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50851
+      }
+    },
+    {
+      "attemptId": "0fa7645d-12d2-494d-8160-11581624ee6b",
+      "normalizedUrl": "https://www.snowflake.com/",
+      "submittedAt": "2026-11-11T13:38:23.670Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50850
+      }
+    },
+    {
+      "attemptId": "a70ef54c-b7f3-4a4d-8b6a-38359b1597e2",
+      "normalizedUrl": "http://www.sprinklr.com/",
+      "submittedAt": "2026-11-11T13:38:27.983Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50849
+      }
+    },
+    {
+      "attemptId": "c6e481b4-6c64-4abb-bd59-38d88a29b010",
+      "normalizedUrl": "https://www.tenable.com/",
+      "submittedAt": "2026-11-11T13:38:30.552Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50848
+      }
+    },
+    {
+      "attemptId": "3c194af9-4f7b-4e4b-b3fa-41aedbbcbed9",
+      "normalizedUrl": "https://pos.toasttab.com/",
+      "submittedAt": "2026-11-11T13:38:34.022Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50847
+      }
+    },
+    {
+      "attemptId": "cb6010f3-3d2c-4d7f-8ad2-76b00dab8249",
+      "normalizedUrl": "https://www.twilio.com/",
+      "submittedAt": "2026-11-11T13:38:36.481Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50846
+      }
+    },
+    {
+      "attemptId": "93669010-0d4f-4291-8e58-6d7f466dc8df",
+      "normalizedUrl": "https://www.veeva.com/",
+      "submittedAt": "2026-11-11T13:38:39.450Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50845
+      }
+    },
+    {
+      "attemptId": "137cb08c-1638-4f26-ad18-2d4ad2b139bf",
+      "normalizedUrl": "https://www.waystar.com/",
+      "submittedAt": "2026-11-11T13:38:45.187Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50844
+      }
+    },
+    {
+      "attemptId": "344fd268-f507-4962-b88d-fc5af10b84e7",
+      "normalizedUrl": "https://wix.com/",
+      "submittedAt": "2026-11-11T13:38:50.398Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50843
+      }
+    },
+    {
+      "attemptId": "c092c819-7bfd-41ab-989d-861ebcd46956",
+      "normalizedUrl": "https://www.workday.com/",
+      "submittedAt": "2026-11-11T13:38:54.042Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50842
+      }
+    },
+    {
+      "attemptId": "c29bd3ca-33da-4e30-ac5c-99deb8d588e1",
+      "normalizedUrl": "https://www.zetaglobal.com/",
+      "submittedAt": "2026-11-11T13:39:00.841Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50841
+      }
+    },
+    {
+      "attemptId": "922fa069-de77-4a54-ada4-3c9225a84429",
+      "normalizedUrl": "https://www.zscaler.com/",
+      "submittedAt": "2026-11-11T13:39:03.497Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50840
+      }
+    }
+  ],
+  "cacheHits": [],
+  "deferred": []
+}

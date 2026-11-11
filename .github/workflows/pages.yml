@@ -1,0 +1,53 @@
+# Builds the exact approved static snapshot and prepares its GitHub Pages artifact.
+# Keeps public deployment behind an explicit repository release switch and environment gate.
+name: GitHub Pages
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: buzzword-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22.23.4'
+          cache: npm
+      - run: npm ci
+      - name: Build from committed data without crawl credentials
+        env:
+          BINGO_SITE_URL: https://mohi-devhub.github.io/buzzword-bingo/
+          BINGO_BASE: /buzzword-bingo/
+        run: |
+          npm run verify:public
+          npm run check
+          npm test
+          npm run build
+          npm run verify:site
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+  deploy:
+    needs: build
+    if: vars.DEPLOY_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Verify the public opt-out repository and issue template
+        run: |
+          curl --fail --silent --show-error --output /dev/null https://github.com/mohi-devhub/buzzword-bingo
+          curl --fail --silent --show-error --output /dev/null https://raw.githubusercontent.com/mohi-devhub/buzzword-bingo/main/.github/ISSUE_TEMPLATE/company-opt-out.yml
+      - uses: actions/deploy-pages@v4
+        id: deployment

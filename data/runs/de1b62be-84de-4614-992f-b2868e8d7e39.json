@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "header": [
+      "Records a limited crawl and each reserved or reported request charge.",
+      "Makes credit spend and interrupted attempts auditable without exposing credentials."
+    ],
+    "schemaVersion": 1
+  },
+  "id": "de1b62be-84de-4614-992f-b2868e8d7e39",
+  "startedAt": "2026-11-11T09:58:47.662Z",
+  "finishedAt": "2026-11-11T09:59:49.048Z",
+  "batch": "Fall 2026",
+  "limit": 10,
+  "refresh": false,
+  "selectedSlugs": [
+    "0security",
+    "acyclic",
+    "adalat-ai",
+    "adsideai",
+    "agent-37",
+    "agent-relay",
+    "ageospatial",
+    "aikido-technologies",
+    "ailit",
+    "alkera-ai"
+  ],
+  "requests": [
+    {
+      "attemptId": "87b43310-adbe-47db-982e-4ddde9f0a2ec",
+      "normalizedUrl": "https://0.security/",
+      "submittedAt": "2026-11-11T09:58:47.663Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50919
+      }
+    },
+    {
+      "attemptId": "0140dfa8-c7ec-4e9d-9dbb-0d7584b5749c",
+      "normalizedUrl": "https://acyclic.dev/",
+      "submittedAt": "2026-11-11T09:58:54.577Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50918
+      }
+    },
+    {
+      "attemptId": "667342ab-5ae7-415c-86f5-373bdcc211fd",
+      "normalizedUrl": "https://adalat.ai/",
+      "submittedAt": "2026-11-11T09:58:57.695Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50917
+      }
+    },
+    {
+      "attemptId": "4fa00691-d01d-4e76-91e2-6d657ea3dc41",
+      "normalizedUrl": "https://adside.ai/",
+      "submittedAt": "2026-11-11T09:59:01.475Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50916
+      }
+    },
+    {
+      "attemptId": "f02694b3-e9bb-45ec-b878-cc1bdb7decfa",
+      "normalizedUrl": "https://www.agent37.com/cloud",
+      "submittedAt": "2026-11-11T09:59:20.620Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50915
+      }
+    },
+    {
+      "attemptId": "7871f452-98ab-4114-a2ae-17480aa72d06",
+      "normalizedUrl": "https://agentrelay.com/",
+      "submittedAt": "2026-11-11T09:59:26.710Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50914
+      }
+    },
+    {
+      "attemptId": "cd431927-ff19-4bc5-9484-87ae0dd0e9a3",
+      "normalizedUrl": "https://ageospatial.com/",
+      "submittedAt": "2026-11-11T09:59:29.446Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50913
+      }
+    },
+    {
+      "attemptId": "a8a804a3-173b-4f48-8d88-8765052dc62c",
+      "normalizedUrl": "https://www.aikidotechnologies.com/",
+      "submittedAt": "2026-11-11T09:59:34.894Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50912
+      }
+    },
+    {
+      "attemptId": "336bbd79-fdf7-4d32-9150-0cfa1f59b9d7",
+      "normalizedUrl": "https://ailitrail.com/",
+      "submittedAt": "2026-11-11T09:59:39.250Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50911
+      }
+    },
+    {
+      "attemptId": "ce811a24-e378-4ac5-83c5-6583d0d98eed",
+      "normalizedUrl": "https://alkera.ai/",
+      "submittedAt": "2026-11-11T09:59:43.055Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50910
+      }
+    }
+  ],
+  "cacheHits": [],
+  "deferred": []
+}

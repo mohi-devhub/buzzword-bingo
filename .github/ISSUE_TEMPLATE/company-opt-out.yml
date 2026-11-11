@@ -1,0 +1,21 @@
+# Collects only the public company details needed to process an opt-out.
+# Makes the removal request clear without asking for personal information.
+name: Company opt-out
+description: Request removal of a company from Buzzword Bingo.
+title: "Company opt-out request"
+body:
+  - type: markdown
+    attributes:
+      value: "This is satire, made with love. We remove a company within a week of receiving its opt-out request. Please include only public company details."
+  - type: input
+    id: company
+    attributes:
+      label: Company name
+    validations:
+      required: true
+  - type: input
+    id: homepage
+    attributes:
+      label: Public homepage URL
+    validations:
+      required: true

@@ -1,0 +1,63 @@
+---
+// Renders the fixed card with company hits or distinct-company cohort coverage.
+// Shows a text count and a hit marker so colour is never the only signal.
+import Icon from "./Icon.astro";
+import type { Comparison } from "../comparison.js";
+import type { ScoredCompany } from "../results.js";
+interface Props {
+  card: ScoredCompany["bingo"] | Comparison["cohorts"][number]["bingo"];
+  dictionary: { id: string; phrase: string }[];
+  theme?: string;
+  compact?: boolean;
+}
+const { card, dictionary, theme = "startups", compact = false } = Astro.props;
+const cohort = "scoredCompanies" in card;
+---
+
+<div
+  class:list={["bingo-card", theme, { compact }]}
+  aria-label={cohort ? "Cohort-wide bingo card" : "Company bingo card"}
+>
+  <div class="bingo-letters" aria-hidden="true">
+    {["B", "I", "N", "G", "O"].map((letter) => (
+      <span>{letter}</span>
+    ))}
+  </div>
+  <div class="bingo-grid" role="list">
+    {card.cells.map((cell) => {
+      const phrase =
+        cell.phraseId === null
+          ? "FREE"
+          : (dictionary.find((word) => word.id === cell.phraseId)?.phrase ??
+            cell.phraseId);
+      const count = "companiesHit" in cell ? cell.companiesHit : null;
+      return (
+        <div
+          role="listitem"
+          class:list={[
+            "bingo-cell",
+            { hit: cell.hit, free: cell.phraseId === null },
+          ]}
+        >
+          {cell.hit && cell.phraseId !== null && (
+            <span class="cell-check" aria-label="Hit">
+              <Icon name="check" size={11} />
+            </span>
+          )}
+          <span class="cell-phrase">{phrase}</span>
+          {cell.phraseId === null ? (
+            <span class="cell-count">on the house</span>
+          ) : cohort ? (
+            <span class="cell-count">
+              {count} {count === 1 ? "company" : "companies"}
+            </span>
+          ) : (
+            <span class="cell-count">
+              {cell.hit ? "spotted" : "not spotted"}
+            </span>
+          )}
+        </div>
+      );
+    })}
+  </div>
+</div>

@@ -1,0 +1,8 @@
+{
+  "_meta": {
+    "header": ["Lists company IDs and homepages excluded from Buzzword Bingo.", "Keeps opted-out companies out of collection and future publication."],
+    "schemaVersion": 1
+  },
+  "companyIds": [],
+  "normalizedUrls": []
+}

@@ -1,0 +1,104 @@
+{
+  "_meta": {
+    "header": [
+      "Records real-browser behavior and screenshot provenance for Phase 3.",
+      "Makes the gate review traceable to the built static sample without new homepage requests."
+    ],
+    "schemaVersion": 1
+  },
+  "passed": true,
+  "checks": [
+    "Startups default to the saved most-buzzwords order",
+    "Incumbents tab switches panels",
+    "Least order uses exact ascending densities",
+    "Sort direction is announced accessibly",
+    "AI category uses saved category densities",
+    "Zero-hit companies remain visible and unscored pages stay out",
+    "A completed row announces BINGO and 5/5",
+    "Visitor round survives a reload",
+    "Reset clears all visitor marks and preserves FREE",
+    "Company evidence contains real marks and line progress",
+    "Company X share contains saved density and route",
+    "Company large-image metadata points to its own OG image",
+    "Unscored page explains its missing score and history",
+    "Methodology links the source note and full dictionary",
+    "Opt-out uses the configurable approved GitHub destination and no email",
+    "Home fits mobile viewport",
+    "Company fits mobile viewport",
+    "Review fix: company context follows its heading",
+    "Review fix: company back and bingo hit markers use SVG",
+    "Review fix: sorting rotates SVG while announcing direction"
+  ],
+  "engine": "Chrome 156, isolated headless profile via local CDP",
+  "origin": "http://127.0.0.1:4321",
+  "viewports": {
+    "desktop": [
+      1440,
+      1000
+    ],
+    "mobile": [
+      390,
+      844
+    ]
+  },
+  "creditsUsed": 0,
+  "screenshots": [
+    "home-desktop.png",
+    "company-desktop.png",
+    "home-mobile.png",
+    "company-mobile.png",
+    "comparison-desktop.png"
+  ],
+  "images": [
+    {
+      "file": "company-desktop.png",
+      "width": 1440,
+      "height": 2992,
+      "sha256": "d9811afa90228c8ef97c92b3418421ce505a742f25eb06e05fb1563729c98e78",
+      "origin": "Local static browser capture"
+    },
+    {
+      "file": "company-mobile.png",
+      "width": 390,
+      "height": 3584,
+      "sha256": "8797ffd245747623a4c04af9f72aacb13cd4757a23299b90ea3c784434b99c46",
+      "origin": "Local static browser capture"
+    },
+    {
+      "file": "comparison-desktop.png",
+      "width": 1200,
+      "height": 880,
+      "sha256": "eb5986d53a172c133a9d3265056cde2b934df74fae21354b7baab665e1ae617b",
+      "origin": "Local static browser capture"
+    },
+    {
+      "file": "home-desktop.png",
+      "width": 1440,
+      "height": 4786,
+      "sha256": "072b83922690fc25bbef6b9a7fedb69e8c171682cb2d9e16c9e406a3a7e8e90f",
+      "origin": "Local static browser capture"
+    },
+    {
+      "file": "home-mobile.png",
+      "width": 390,
+      "height": 5519,
+      "sha256": "28711e2799015905c5a7c2864b403d3ad2a8f5a962a0f2948cd47c423fa3948d",
+      "origin": "Local static browser capture"
+    },
+    {
+      "file": "og-company.png",
+      "width": 1200,
+      "height": 630,
+      "sha256": "1acc3b8f96a30db947948548de8d5c5392eee10882c8791a985484105b4d464c",
+      "origin": "scripts/og.ts; saved score JSON; local Satori/resvg renderer and bundled fonts"
+    },
+    {
+      "file": "og-comparison.png",
+      "width": 1200,
+      "height": 630,
+      "sha256": "f6afd8fba3661ca67ca40d63762c60338e35fc6be2cf2b2b7782513ea571be09",
+      "origin": "scripts/og.ts; saved score JSON; local Satori/resvg renderer and bundled fonts"
+    }
+  ],
+  "reviewCorrections": "All three requested corrections applied; screenshots recaptured from the corrected build."
+}

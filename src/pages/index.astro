@@ -1,0 +1,220 @@
+---
+// Leads with cohort results derived directly from saved score JSON.
+// Lets visitors compare the evidence before browsing either company leaderboard.
+import Base from "../layouts/Base.astro";
+import Icon from "../components/Icon.astro";
+import BingoCard from "../components/BingoCard.astro";
+import Leaderboard from "../components/Leaderboard.astro";
+import {
+  siteData,
+  sitePath,
+  formatDensity,
+  formatPercent,
+} from "../site-data.js";
+const data = await siteData();
+const startupMedian = data.startups.summary.medianDensity;
+const incumbentMedian = data.incumbents.summary.medianDensity;
+const result =
+  startupMedian === null || incumbentMedian === null
+    ? "A snapshot of the language on company homepages."
+    : incumbentMedian > startupMedian
+      ? "The public-cloud cohort has a higher median buzzword density than the YC cohort."
+      : startupMedian > incumbentMedian
+        ? "The YC cohort has a higher median buzzword density than the public-cloud cohort."
+        : "The two cohorts have the same median buzzword density.";
+const share = `https://twitter.com/intent/tweet?${new URLSearchParams({ text: `${data.config.provisional ? "Provisional " : ""}Buzzword Bingo: median density ${formatDensity(startupMedian)} for YC vs ${formatDensity(incumbentMedian)} for public cloud. Same dictionary. Made with love.`, url: new URL(sitePath(""), Astro.site || Astro.url.origin).href })}`;
+---
+
+<Base>
+  <section class="hero shell" id="comparison">
+    <div class="hero-heading">
+      <div>
+        <h1>
+          The buzzwords
+          <br />
+          have gone <span>public.</span>
+        </h1>
+        <p class="hero-description">
+          {result}
+          <br />
+          Same dictionary. Same rules. Slightly awkward.
+        </p>
+      </div>
+      <div class="hero-aside">
+        <div class="ticket-stamp">
+          <span>MADE WITH</span>
+          <strong>LOVE</strong>
+          <span>AND A WORD COUNTER</span>
+        </div>
+        <p>
+          A lovingly unserious look at
+          <br />
+          seriously ambitious homepages.
+        </p>
+      </div>
+    </div>
+    <div class="comparison-board">
+      <div class="board-label">
+        <span>THE HOMEPAGE SCOREBOARD</span>
+        <span class="sample-label">
+          {data.config.provisional ? "Provisional" : "Full YC batch snapshot"} ·{" "}
+          {data.week}
+        </span>
+      </div>
+      <div class="scoreboard-columns">
+        {data.cohorts.map((cohort) => (
+          <article class:list={["scoreboard-cohort", cohort.kind]}>
+            <div class="cohort-title">
+              <span class={`series-dot ${cohort.kind}`}></span>
+              <h2>{cohort.shortLabel}</h2>
+              <span>
+                {cohort.kind === "startups"
+                  ? `YC ${cohort.score.batch}`
+                  : "Public cloud companies"}
+              </span>
+            </div>
+            <div class="median-line">
+              <strong class="median-value" data-stat={`median-${cohort.kind}`}>
+                {formatDensity(cohort.summary.medianDensity)}
+              </strong>
+              <div class="median-caption">
+                median buzzword
+                <br />
+                density
+              </div>
+            </div>
+            <p class="density-unit">weighted hits per 100 homepage words</p>
+            <div class="cohort-stats">
+              <div>
+                <strong data-stat={`zero-${cohort.kind}`}>
+                  {formatPercent(cohort.summary.zeroHitPercent)}
+                </strong>
+                <span>with zero buzzwords</span>
+              </div>
+              <div>
+                <strong>
+                  {cohort.summary.scored}
+                  <span class="fraction">/{cohort.summary.selected}</span>
+                </strong>
+                <span>homepages scored</span>
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+      <div class="board-foot">
+        <p>
+          {data.config.provisional
+            ? "Provisional samples. Results will be recomputed after the full YC batch crawl."
+            : "Full eligible YC batch vs a systematic public-cloud sample. Scored homepages only."}
+        </p>
+        <a href={sitePath("about/#selection")}>
+          Meet the cohorts <Icon name="arrow" size={15} />
+        </a>
+      </div>
+    </div>
+    <div class="agentic-strip">
+      <div class="agentic-title">
+        <span class="quote-mark" aria-hidden="true">
+          “
+        </span>
+        <h2>
+          Agentic.
+          <br />
+          <span>Apparently, it’s a thing.</span>
+        </h2>
+      </div>
+      <div class="agentic-results">
+        {data.agentic.map((phrase) => (
+          <div>
+            <strong data-stat={`agentic-${phrase.label.toLowerCase()}`}>
+              {formatPercent(phrase.sharePercent)}
+            </strong>
+            <span>
+              {phrase.companiesHit}/{phrase.scored} {phrase.label.toLowerCase()}{" "}
+              using it
+            </span>
+            <small data-stat={`agentic-mentions-${phrase.label.toLowerCase()}`}>
+              {phrase.hits} raw mentions
+            </small>
+          </div>
+        ))}
+      </div>
+      <p>
+        Share of scored companies using “agentic”.
+        <br />
+        Raw mentions shown below.
+      </p>
+    </div>
+    <div class="hero-actions">
+      <a class="button primary" href="#leaderboard">
+        Follow the buzzwords <Icon name="down" />
+      </a>
+      <a
+        class="text-action"
+        href={share}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Share the comparison <Icon name="share" size={16} />
+      </a>
+    </div>
+  </section>
+  <Leaderboard cohorts={data.cohorts} />
+  <section class="cohort-bingo-section section-space" id="cohort-cards">
+    <div class="shell">
+      <div class="section-heading">
+        <div>
+          <h2>It takes a cohort to get bingo.</h2>
+          <p>One company says it. The whole card gets a little louder.</p>
+        </div>
+        <span class="sample-label">
+          {data.config.provisional
+            ? "Provisional company counts"
+            : "Distinct-company counts"}
+        </span>
+      </div>
+      <div class="cohort-card-pair">
+        {data.cohorts.map((cohort) => (
+          <article class={`cohort-card-wrap ${cohort.kind}`}>
+            <div class="card-heading">
+              <div>
+                <span class={`series-dot ${cohort.kind}`}></span>
+                <h3>{cohort.shortLabel}</h3>
+              </div>
+              <span class="progress-badge">
+                Best line {cohort.summary.bingo.bestLine.hits}/
+                {cohort.summary.bingo.bestLine.total}
+              </span>
+            </div>
+            <BingoCard
+              card={cohort.summary.bingo}
+              dictionary={data.dictionary}
+              theme={cohort.kind}
+            />
+            <p class="card-foot">
+              A hit means at least one of {cohort.summary.scored} scored
+              companies used the phrase. Each company counts once.
+            </p>
+          </article>
+        ))}
+      </div>
+      <p class="cohort-card-note">
+        Same fixed card. Different company counts. FREE is on us.{" "}
+        <a href={sitePath("about/#bingo")}>How the cards work</a>
+      </p>
+    </div>
+  </section>
+  <section class="play-banner shell section-space">
+    <div class="play-ball" aria-hidden="true">
+      B
+    </div>
+    <div>
+      <h2>Your tabs. Your bingo card.</h2>
+      <p>Open a landing page, spot a buzzword, make your mark.</p>
+    </div>
+    <a class="button light" href={sitePath("play/")}>
+      Play your own round <Icon name="arrow" />
+    </a>
+  </section>
+</Base>

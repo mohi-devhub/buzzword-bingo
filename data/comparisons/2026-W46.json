@@ -1,0 +1,5695 @@
+{
+  "_meta": {
+    "header": [
+      "Compares the full pinned YC batch with the fixed public-cloud-company cohort.",
+      "Reports medians, zero-hit rates, phrase coverage, and bingo progress without changing scores."
+    ],
+    "schemaVersion": 1
+  },
+  "week": "2026-W46",
+  "formula": "Median of company weighted-hit densities; zero-hit percentage among valid scored pages.",
+  "bingoPresentationVersion": "cohort-progress-v1",
+  "cohorts": [
+    {
+      "id": "yc-current",
+      "label": "Fall 2026",
+      "scoreFile": "data/scores/2026-W46.json",
+      "scoringVersion": "v1-ac78c5b97c1f",
+      "selected": 225,
+      "scored": 215,
+      "unscored": 10,
+      "medianDensity": 0.08561643835616438,
+      "zeroHits": 99,
+      "zeroHitPercent": 46.04651162790697,
+      "phrases": [
+        {
+          "id": "ai-agent",
+          "phrase": "AI agent",
+          "weight": 1,
+          "dictionaryIndex": 6,
+          "hits": 79,
+          "companiesHit": 43
+        },
+        {
+          "id": "end-to-end",
+          "phrase": "end-to-end",
+          "weight": 1,
+          "dictionaryIndex": 24,
+          "hits": 36,
+          "companiesHit": 24
+        },
+        {
+          "id": "ai-native",
+          "phrase": "AI-native",
+          "weight": 3,
+          "dictionaryIndex": 1,
+          "hits": 21,
+          "companiesHit": 8
+        },
+        {
+          "id": "leverage",
+          "phrase": "leverage",
+          "weight": 1,
+          "dictionaryIndex": 18,
+          "hits": 21,
+          "companiesHit": 3
+        },
+        {
+          "id": "agentic",
+          "phrase": "agentic",
+          "weight": 1,
+          "dictionaryIndex": 2,
+          "hits": 18,
+          "companiesHit": 14
+        },
+        {
+          "id": "unlock",
+          "phrase": "unlock",
+          "weight": 1,
+          "dictionaryIndex": 17,
+          "hits": 17,
+          "companiesHit": 11
+        },
+        {
+          "id": "copilot",
+          "phrase": "copilot",
+          "weight": 1,
+          "dictionaryIndex": 3,
+          "hits": 15,
+          "companiesHit": 6
+        },
+        {
+          "id": "ai-assistant",
+          "phrase": "AI assistant",
+          "weight": 2,
+          "dictionaryIndex": 12,
+          "hits": 11,
+          "companiesHit": 7
+        },
+        {
+          "id": "10x",
+          "phrase": "10x",
+          "weight": 3,
+          "dictionaryIndex": 35,
+          "hits": 10,
+          "companiesHit": 9
+        },
+        {
+          "id": "the-future-of",
+          "phrase": "the future of",
+          "weight": 3,
+          "dictionaryIndex": 37,
+          "hits": 8,
+          "companiesHit": 8
+        },
+        {
+          "id": "streamline",
+          "phrase": "streamline",
+          "weight": 1,
+          "dictionaryIndex": 22,
+          "hits": 7,
+          "companiesHit": 5
+        },
+        {
+          "id": "scalable",
+          "phrase": "scalable",
+          "weight": 1,
+          "dictionaryIndex": 26,
+          "hits": 6,
+          "companiesHit": 6
+        },
+        {
+          "id": "ai-powered",
+          "phrase": "AI-powered",
+          "weight": 2,
+          "dictionaryIndex": 0,
+          "hits": 5,
+          "companiesHit": 4
+        },
+        {
+          "id": "exponential",
+          "phrase": "exponential",
+          "weight": 2,
+          "dictionaryIndex": 45,
+          "hits": 5,
+          "companiesHit": 4
+        },
+        {
+          "id": "seamless",
+          "phrase": "seamless",
+          "weight": 1,
+          "dictionaryIndex": 15,
+          "hits": 4,
+          "companiesHit": 4
+        },
+        {
+          "id": "next-generation",
+          "phrase": "next-generation",
+          "weight": 2,
+          "dictionaryIndex": 28,
+          "hits": 4,
+          "companiesHit": 4
+        },
+        {
+          "id": "disrupt",
+          "phrase": "disrupt",
+          "weight": 2,
+          "dictionaryIndex": 47,
+          "hits": 4,
+          "companiesHit": 4
+        },
+        {
+          "id": "superintelligence",
+          "phrase": "superintelligence",
+          "weight": 3,
+          "dictionaryIndex": 13,
+          "hits": 4,
+          "companiesHit": 3
+        },
+        {
+          "id": "unmatched",
+          "phrase": "unmatched",
+          "weight": 2,
+          "dictionaryIndex": 48,
+          "hits": 4,
+          "companiesHit": 3
+        },
+        {
+          "id": "empower",
+          "phrase": "empower",
+          "weight": 1,
+          "dictionaryIndex": 19,
+          "hits": 4,
+          "companiesHit": 2
+        },
+        {
+          "id": "robust",
+          "phrase": "robust",
+          "weight": 1,
+          "dictionaryIndex": 16,
+          "hits": 3,
+          "companiesHit": 3
+        },
+        {
+          "id": "revolutionize",
+          "phrase": "revolutionize",
+          "weight": 3,
+          "dictionaryIndex": 36,
+          "hits": 3,
+          "companiesHit": 2
+        },
+        {
+          "id": "ai-driven",
+          "phrase": "AI-driven",
+          "weight": 2,
+          "dictionaryIndex": 5,
+          "hits": 2,
+          "companiesHit": 2
+        },
+        {
+          "id": "multi-agent",
+          "phrase": "multi-agent",
+          "weight": 1,
+          "dictionaryIndex": 8,
+          "hits": 2,
+          "companiesHit": 2
+        },
+        {
+          "id": "agentic-workflow",
+          "phrase": "agentic workflow",
+          "weight": 3,
+          "dictionaryIndex": 10,
+          "hits": 2,
+          "companiesHit": 2
+        },
+        {
+          "id": "game-changing",
+          "phrase": "game-changing",
+          "weight": 3,
+          "dictionaryIndex": 21,
+          "hits": 2,
+          "companiesHit": 2
+        },
+        {
+          "id": "all-in-one",
+          "phrase": "all-in-one",
+          "weight": 1,
+          "dictionaryIndex": 25,
+          "hits": 2,
+          "companiesHit": 2
+        },
+        {
+          "id": "limitless",
+          "phrase": "limitless",
+          "weight": 2,
+          "dictionaryIndex": 44,
+          "hits": 2,
+          "companiesHit": 2
+        },
+        {
+          "id": "autonomous-agent",
+          "phrase": "autonomous agent",
+          "weight": 3,
+          "dictionaryIndex": 7,
+          "hits": 2,
+          "companiesHit": 1
+        },
+        {
+          "id": "supercharge",
+          "phrase": "supercharge",
+          "weight": 2,
+          "dictionaryIndex": 20,
+          "hits": 1,
+          "companiesHit": 1
+        },
+        {
+          "id": "cutting-edge",
+          "phrase": "cutting-edge",
+          "weight": 2,
+          "dictionaryIndex": 27,
+          "hits": 1,
+          "companiesHit": 1
+        },
+        {
+          "id": "best-in-class",
+          "phrase": "best-in-class",
+          "weight": 3,
+          "dictionaryIndex": 29,
+          "hits": 1,
+          "companiesHit": 1
+        },
+        {
+          "id": "holistic",
+          "phrase": "holistic",
+          "weight": 1,
+          "dictionaryIndex": 31,
+          "hits": 1,
+          "companiesHit": 1
+        },
+        {
+          "id": "ecosystem",
+          "phrase": "ecosystem",
+          "weight": 1,
+          "dictionaryIndex": 32,
+          "hits": 1,
+          "companiesHit": 1
+        },
+        {
+          "id": "mission-critical",
+          "phrase": "mission-critical",
+          "weight": 2,
+          "dictionaryIndex": 33,
+          "hits": 1,
+          "companiesHit": 1
+        },
+        {
+          "id": "first-ever",
+          "phrase": "first-ever",
+          "weight": 3,
+          "dictionaryIndex": 38,
+          "hits": 1,
+          "companiesHit": 1
+        },
+        {
+          "id": "world-class",
+          "phrase": "world-class",
+          "weight": 3,
+          "dictionaryIndex": 39,
+          "hits": 1,
+          "companiesHit": 1
+        },
+        {
+          "id": "unprecedented",
+          "phrase": "unprecedented",
+          "weight": 3,
+          "dictionaryIndex": 42,
+          "hits": 1,
+          "companiesHit": 1
+        },
+        {
+          "id": "transformative",
+          "phrase": "transformative",
+          "weight": 2,
+          "dictionaryIndex": 43,
+          "hits": 1,
+          "companiesHit": 1
+        },
+        {
+          "id": "ai-first",
+          "phrase": "AI-first",
+          "weight": 3,
+          "dictionaryIndex": 4,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "generative-ai",
+          "phrase": "generative AI",
+          "weight": 2,
+          "dictionaryIndex": 9,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "intelligent-automation",
+          "phrase": "intelligent automation",
+          "weight": 2,
+          "dictionaryIndex": 11,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "human-level",
+          "phrase": "human-level",
+          "weight": 3,
+          "dictionaryIndex": 14,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "frictionless",
+          "phrase": "frictionless",
+          "weight": 2,
+          "dictionaryIndex": 23,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "synergy",
+          "phrase": "synergy",
+          "weight": 2,
+          "dictionaryIndex": 30,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "turnkey",
+          "phrase": "turnkey",
+          "weight": 1,
+          "dictionaryIndex": 34,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "industry-leading",
+          "phrase": "industry-leading",
+          "weight": 3,
+          "dictionaryIndex": 40,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "groundbreaking",
+          "phrase": "groundbreaking",
+          "weight": 3,
+          "dictionaryIndex": 41,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "paradigm-shift",
+          "phrase": "paradigm shift",
+          "weight": 3,
+          "dictionaryIndex": 46,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "unparalleled",
+          "phrase": "unparalleled",
+          "weight": 3,
+          "dictionaryIndex": 49,
+          "hits": 0,
+          "companiesHit": 0
+        }
+      ],
+      "bingo": {
+        "cells": [
+          {
+            "index": 0,
+            "phraseId": "ai-powered",
+            "hit": true,
+            "companiesHit": 4
+          },
+          {
+            "index": 1,
+            "phraseId": "seamless",
+            "hit": true,
+            "companiesHit": 4
+          },
+          {
+            "index": 2,
+            "phraseId": "10x",
+            "hit": true,
+            "companiesHit": 9
+          },
+          {
+            "index": 3,
+            "phraseId": "best-in-class",
+            "hit": true,
+            "companiesHit": 1
+          },
+          {
+            "index": 4,
+            "phraseId": "unlock",
+            "hit": true,
+            "companiesHit": 11
+          },
+          {
+            "index": 5,
+            "phraseId": "paradigm-shift",
+            "hit": false,
+            "companiesHit": 0
+          },
+          {
+            "index": 6,
+            "phraseId": "unprecedented",
+            "hit": true,
+            "companiesHit": 1
+          },
+          {
+            "index": 7,
+            "phraseId": "world-class",
+            "hit": true,
+            "companiesHit": 1
+          },
+          {
+            "index": 8,
+            "phraseId": "empower",
+            "hit": true,
+            "companiesHit": 2
+          },
+          {
+            "index": 9,
+            "phraseId": "next-generation",
+            "hit": true,
+            "companiesHit": 4
+          },
+          {
+            "index": 10,
+            "phraseId": "the-future-of",
+            "hit": true,
+            "companiesHit": 8
+          },
+          {
+            "index": 11,
+            "phraseId": "leverage",
+            "hit": true,
+            "companiesHit": 3
+          },
+          {
+            "index": 12,
+            "phraseId": null,
+            "hit": true,
+            "companiesHit": null
+          },
+          {
+            "index": 13,
+            "phraseId": "supercharge",
+            "hit": true,
+            "companiesHit": 1
+          },
+          {
+            "index": 14,
+            "phraseId": "ai-native",
+            "hit": true,
+            "companiesHit": 8
+          },
+          {
+            "index": 15,
+            "phraseId": "game-changing",
+            "hit": true,
+            "companiesHit": 2
+          },
+          {
+            "index": 16,
+            "phraseId": "superintelligence",
+            "hit": true,
+            "companiesHit": 3
+          },
+          {
+            "index": 17,
+            "phraseId": "revolutionize",
+            "hit": true,
+            "companiesHit": 2
+          },
+          {
+            "index": 18,
+            "phraseId": "unparalleled",
+            "hit": false,
+            "companiesHit": 0
+          },
+          {
+            "index": 19,
+            "phraseId": "industry-leading",
+            "hit": false,
+            "companiesHit": 0
+          },
+          {
+            "index": 20,
+            "phraseId": "frictionless",
+            "hit": false,
+            "companiesHit": 0
+          },
+          {
+            "index": 21,
+            "phraseId": "first-ever",
+            "hit": true,
+            "companiesHit": 1
+          },
+          {
+            "index": 22,
+            "phraseId": "cutting-edge",
+            "hit": true,
+            "companiesHit": 1
+          },
+          {
+            "index": 23,
+            "phraseId": "all-in-one",
+            "hit": true,
+            "companiesHit": 2
+          },
+          {
+            "index": 24,
+            "phraseId": "ai-driven",
+            "hit": true,
+            "companiesHit": 2
+          }
+        ],
+        "completedLines": [
+          "row-1",
+          "row-3",
+          "column-2",
+          "column-3"
+        ],
+        "hasBingo": true,
+        "lineProgress": [
+          {
+            "lineId": "row-1",
+            "hits": 5,
+            "total": 5
+          },
+          {
+            "lineId": "row-2",
+            "hits": 4,
+            "total": 5
+          },
+          {
+            "lineId": "row-3",
+            "hits": 5,
+            "total": 5
+          },
+          {
+            "lineId": "row-4",
+            "hits": 3,
+            "total": 5
+          },
+          {
+            "lineId": "row-5",
+            "hits": 4,
+            "total": 5
+          },
+          {
+            "lineId": "column-1",
+            "hits": 3,
+            "total": 5
+          },
+          {
+            "lineId": "column-2",
+            "hits": 5,
+            "total": 5
+          },
+          {
+            "lineId": "column-3",
+            "hits": 5,
+            "total": 5
+          },
+          {
+            "lineId": "column-4",
+            "hits": 4,
+            "total": 5
+          },
+          {
+            "lineId": "column-5",
+            "hits": 4,
+            "total": 5
+          },
+          {
+            "lineId": "diagonal-main",
+            "hits": 4,
+            "total": 5
+          },
+          {
+            "lineId": "diagonal-anti",
+            "hits": 4,
+            "total": 5
+          }
+        ],
+        "bestLine": {
+          "hits": 5,
+          "total": 5,
+          "lineIds": [
+            "row-1",
+            "row-3",
+            "column-2",
+            "column-3"
+          ]
+        },
+        "scoredCompanies": 215
+      },
+      "companyProgress": [
+        {
+          "slug": "0security",
+          "name": "0.security",
+          "status": "scored",
+          "density": 0.4257907542579075,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "diagonal-main"
+            ]
+          },
+          "sourceTextHash": "0564c85783794e912559a4e634fe0d04cb8ef6b6d08793739126d0830e86a2d8"
+        },
+        {
+          "slug": "acyclic",
+          "name": "Acyclic Labs",
+          "status": "scored",
+          "density": 1.644736842105263,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "70a7e711cb1920bba9c2bb5c5e946692f5cd4c20ebef0fc69cd576d981a0ff67"
+        },
+        {
+          "slug": "adalat-ai",
+          "name": "Adalat AI",
+          "status": "scored",
+          "density": 1.6353229762878168,
+          "bestLine": {
+            "hits": 3,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3"
+            ]
+          },
+          "sourceTextHash": "dc2cc41ff21a69e7bc7140947bf2e31813b16a0f53c57132bb72c383f5a7f4a1"
+        },
+        {
+          "slug": "adsideai",
+          "name": "Adside.ai",
+          "status": "scored",
+          "density": 0.2904162633107454,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "19e5edcfa95738c60dc55929e1d550e6e866ade5c4b3a201b9dd62734a7ef6d4"
+        },
+        {
+          "slug": "agent-37",
+          "name": "Agent 37",
+          "status": "scored",
+          "density": 0.0757002271006813,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "d8f2795cfa5afe923b50799df0eb8fcb9c053b949a4716d9d114130cc75b8dfd"
+        },
+        {
+          "slug": "agent-relay",
+          "name": "Agent Relay",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "724b3e8ba0892e2767d57103aed09100e107a3bf90652e13f64b4cbd3ffcc597"
+        },
+        {
+          "slug": "ageospatial",
+          "name": "Ageospatial",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "17155378067414f959c54f9a3a4af3adf7aa6911ac7b0acd1904b1d5f4c5679d"
+        },
+        {
+          "slug": "aikido-technologies",
+          "name": "Aikido Technologies",
+          "status": "scored",
+          "density": 1.7751479289940828,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-1",
+              "column-3",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "66914273ca9b430edf898a0b856867ca00cef394dbea8595dbd96710dfd83a54"
+        },
+        {
+          "slug": "ailit",
+          "name": "Ailit",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "889b3411739c88f0df4a1f4ef3fd1a9d8029faf274a4ca999a3af88fd8323501"
+        },
+        {
+          "slug": "alkera-ai",
+          "name": "Alkera AI",
+          "status": "scored",
+          "density": 0.2702702702702703,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "45cbcb56839ea439b3bacccfc7c7339ec5b8e8383effa672cd890f6d5d27124e"
+        },
+        {
+          "slug": "altair-health",
+          "name": "Altair Health",
+          "status": "scored",
+          "density": 0.13210039630118892,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "3206a2d76c600d98530a9a77548f3645f600082295f1795918c6ddd963f3820f"
+        },
+        {
+          "slug": "ample-computer",
+          "name": "Ample Computer",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "57e77d2c672aaacb1c6ff3c297f9fc1ac2ce1c67b5619bb7ce63f55221ac77a7"
+        },
+        {
+          "slug": "antimattr",
+          "name": "antimattr",
+          "status": "scored",
+          "density": 0.16891891891891891,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-1",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "5b8a7dc3a3a3272eaf888cfa219e822d3ea8aa7f60594b38162793de77f97bd0"
+        },
+        {
+          "slug": "antropi-robotics",
+          "name": "Antropi Robotics",
+          "status": "scored",
+          "density": 3.4334763948497855,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-1",
+              "column-3",
+              "diagonal-main"
+            ]
+          },
+          "sourceTextHash": "9d08bb52efbd69019feba6e60e8bb1ec54d42f007f30871286c0806c025febce"
+        },
+        {
+          "slug": "anyalpha",
+          "name": "AnyAlpha",
+          "status": "scored",
+          "density": 0.33222591362126247,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "5c9e9d4aa2185fd63953d7e8fa0d426474afb5c5ecbbc1ed949d019233bb680c"
+        },
+        {
+          "slug": "anywhere",
+          "name": "Anywhere",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "c7e37b51b2bd6baf7fc3afbc808ae8a783b64741734caef0d90b2b5fcc72e881"
+        },
+        {
+          "slug": "applied-kinetics",
+          "name": "Applied Kinetics",
+          "status": "scored",
+          "density": 0.6349206349206349,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "diagonal-main"
+            ]
+          },
+          "sourceTextHash": "acd3dec5104e9f46d170d7aa391a46369c1e92c38fb95b85e5bc2a2f3e42615d"
+        },
+        {
+          "slug": "archangel-health",
+          "name": "Archangel Health",
+          "status": "unscored",
+          "reason": "insufficient_text"
+        },
+        {
+          "slug": "archgen-labs",
+          "name": "Archgen Labs",
+          "status": "scored",
+          "density": 0.5797101449275363,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-3"
+            ]
+          },
+          "sourceTextHash": "c639bf262f84f0989ac1630b52682c752f78a153d0bcc8455e561af900fa9bd0"
+        },
+        {
+          "slug": "armorer-labs",
+          "name": "Armorer Labs",
+          "status": "scored",
+          "density": 1.3461538461538463,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "c26c2f490800cf5f69fe8eeb28efd969c4b98698ee6dd30de0c21e2191b2c685"
+        },
+        {
+          "slug": "asakana",
+          "name": "Asakana",
+          "status": "scored",
+          "density": 0.1218026796589525,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-1",
+              "row-3",
+              "column-2",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "f337d099305eb03b3e34d57f8885fa5298923da3f9073b06777a20c06126fc41"
+        },
+        {
+          "slug": "ascenix",
+          "name": "Ascenix",
+          "status": "scored",
+          "density": 0.07215007215007214,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "bc04cd609058375ac817c7854d7f28b1d077904b32e47ba509e3ee8985aa8a22"
+        },
+        {
+          "slug": "asim-group",
+          "name": "Asim",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "f60172f09f0d129b5179d85ebae6f0e446ca99acb7e7642e6e0be0cd3c9afd6d"
+        },
+        {
+          "slug": "aucert",
+          "name": "Aucert",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "4c5ee5afced416aaaade62c623f2ac3494b365f1b8eb75f205562beb19901933"
+        },
+        {
+          "slug": "audora",
+          "name": "Audora",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "d4304bed40c2382442a18e64c10f6dd10348c0342c76557a39bb7ed4cf9962ff"
+        },
+        {
+          "slug": "aviern",
+          "name": "Aviern",
+          "status": "unscored",
+          "reason": "partial_page"
+        },
+        {
+          "slug": "axiomat",
+          "name": "Axiomat",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "6642470ad9a5574aeb1e014ac71c442dad9c28874e8f49c1936a560543d717cf"
+        },
+        {
+          "slug": "axonnic",
+          "name": "Axonnic",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "a3caf8a05aec073bdde1223855fee5a6cf5c0c3027f6a5842bdfef3555fc8323"
+        },
+        {
+          "slug": "bayworks",
+          "name": "Bayworks",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "d08ad38736aa1d34752fd3f26abf7ec47a14cd5961edb38eb9a739d0a530910f"
+        },
+        {
+          "slug": "biodelivera",
+          "name": "BioDelivera",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "f909bcfdec6bbd1d2d59d15c56ff445ad5dae89f9b176ed025cab9e0f2c7826e"
+        },
+        {
+          "slug": "blinka",
+          "name": "Blinka",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "c1b40f044bfadf5cf0281ed80a2fc286aa105dfec126d51e2febdfddf5ded2a6"
+        },
+        {
+          "slug": "boat",
+          "name": "Boat",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "1560c3efca122670294df62d1e9e34eaa89664195b95ab9b5d06dda7a96c756c"
+        },
+        {
+          "slug": "boxesdev",
+          "name": "Boxes.dev",
+          "status": "scored",
+          "density": 0.07163323782234957,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "f8ead552d6da6d187c54e38a8002d1f3bc41e7ccc369f03612cffb5c10b5fca8"
+        },
+        {
+          "slug": "byteask",
+          "name": "ByteAsk",
+          "status": "scored",
+          "density": 0.16447368421052633,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "cf2cce4f109fcecea87ea56aff6676ec8a807ee88d1854f1bc9decdbd5abdc8a"
+        },
+        {
+          "slug": "caladh",
+          "name": "Caladh",
+          "status": "scored",
+          "density": 0.7130124777183601,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "diagonal-main"
+            ]
+          },
+          "sourceTextHash": "d5c38d55c141faa09e345e35bdb7b09213d0f89fb01a3bed57c3ff87d409a46c"
+        },
+        {
+          "slug": "canos",
+          "name": "Canos",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "7d1e6ec4e65f9ce05ca0ceb5881dfca9abb9fd96bb4a81336a28d752ce355a4c"
+        },
+        {
+          "slug": "capveon",
+          "name": "Capveon",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "c7ee43d73328e5bfb54426129ec94484553facea39558f4dcb3d7b944bd78063"
+        },
+        {
+          "slug": "caveman",
+          "name": "Caveman",
+          "status": "scored",
+          "density": 0.18948365703458075,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "9b3012a5a9850eb5f77d01f101fa478e9482fdf66e78c4a5412b02073a2592ff"
+        },
+        {
+          "slug": "cesara",
+          "name": "Cesara",
+          "status": "scored",
+          "density": 0.3003003003003003,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "d967e85613d8852758e1925248e3f9504970b9fc4e3eb8c52cb7db8550a8f4a3"
+        },
+        {
+          "slug": "championeffect-inc",
+          "name": "ChampionEffect Inc.",
+          "status": "scored",
+          "density": 1.288659793814433,
+          "bestLine": {
+            "hits": 3,
+            "total": 5,
+            "lineIds": [
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "e3ffb598a23f444a7c23d11874e0fd099be5a12b868298e5c927ccf9f7ab756a"
+        },
+        {
+          "slug": "chempilotai",
+          "name": "ChemPilot.ai",
+          "status": "scored",
+          "density": 0.8403361344537815,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-3"
+            ]
+          },
+          "sourceTextHash": "4f68999bc2ece02ba7e650e682b9f15ef498e1ba03d1f17cfecb74389535b2b7"
+        },
+        {
+          "slug": "claimkit",
+          "name": "ClaimKit",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "355d350e064ddeec8c3a090618620e2d7ceb3af6706e7c55e4a5be75298184ff"
+        },
+        {
+          "slug": "clean",
+          "name": "Clean",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "05049f8c708c4b1c46600f458ad80818052c2a8147725c3ade56fd773669d448"
+        },
+        {
+          "slug": "collar",
+          "name": "Collar",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "84c3fcf11ce7dae6d61ebdeb1cfa9726c76d44635eeb965f5c8cb03b56758993"
+        },
+        {
+          "slug": "composal",
+          "name": "Composal",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "c24543bed1f66be0a9f445192f7a41ee6beb39b102b977b3d3875f0b2942a8fb"
+        },
+        {
+          "slug": "confetti",
+          "name": "Confetti",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "9bcc713cd1ae6842fc59f3ce2eb0b2c835205cb5ffdf4ea10b16cff6e9785814"
+        },
+        {
+          "slug": "constor",
+          "name": "Constor",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "327fd3fc96c503345988df4ea0bc7a218e237e66d0c5a308edb01fae3e9bea9a"
+        },
+        {
+          "slug": "conus",
+          "name": "CONUS",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "0e1f8860724abf1b81a4c50b1ce79c6a5383250e14930b222bf1c249db16b261"
+        },
+        {
+          "slug": "covera",
+          "name": "Covera",
+          "status": "scored",
+          "density": 0.21334958854007924,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "13a50c675596777e3bcbbaff19fd7e7123c0b5d85c2b217948e817cdb89ed248"
+        },
+        {
+          "slug": "cyclon",
+          "name": "Cyclon",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "1909a0e8449bcacbc7d9ee0443870c7b3cf465a8b07b99251dbba6363f66dc4b"
+        },
+        {
+          "slug": "databuddy",
+          "name": "Databuddy",
+          "status": "scored",
+          "density": 0.5119453924914675,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "column-3"
+            ]
+          },
+          "sourceTextHash": "1d7ddc090eef11be3e74392745474f1a987894543399c73dd6c7bbeffa4d40c3"
+        },
+        {
+          "slug": "decent-com",
+          "name": "Decent",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "fc6d7de8a70236b02b5edb4ce83d09dd873bce32b91fe2b21668d42131f3232d"
+        },
+        {
+          "slug": "deepmark",
+          "name": "DeepMark",
+          "status": "scored",
+          "density": 0.0782472613458529,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "4395ea5fb333c6dcd0f9e936eebd50abf0595011fcc5a827bf12373a84848aae"
+        },
+        {
+          "slug": "definite",
+          "name": "Definite",
+          "status": "scored",
+          "density": 0.14450867052023122,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "5dd2b8b1905b3d0fafb53c2102977422648d9225010453f1af0323b6f92cfb48"
+        },
+        {
+          "slug": "degla-inc",
+          "name": "Degla Inc",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "a36d55e045e25faf40e96a44925a7b7a4a45d34eb422fe00e6a5ace3da98c9da"
+        },
+        {
+          "slug": "deploy",
+          "name": "Deploy",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "76eeef65e506cf52523c85fc4026e1fa7124c6d847aba1762c72de1da9a76f6f"
+        },
+        {
+          "slug": "dreamscale-labs",
+          "name": "Dreamscale Labs",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "b9dfb49bbc0c11e125b3b6aa9515a67695edb2be46392bc372ebe7bd1a79ba0f"
+        },
+        {
+          "slug": "dydema",
+          "name": "Dydema",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "e5f4dbd5f3443315cb654a6438e48d6c17be51d35d47835d1c392c90930026d8"
+        },
+        {
+          "slug": "elimentary",
+          "name": "Elimentary",
+          "status": "scored",
+          "density": 1.320754716981132,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "02761ea9207d2438a0c4997b896ecc705f4b58561e5106d6dbd5349df6fa4161"
+        },
+        {
+          "slug": "elithia",
+          "name": "Elithia",
+          "status": "scored",
+          "density": 0.4444444444444444,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-1",
+              "row-3",
+              "column-2",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "debfc06b113247940326702f44bb9322f073e8bf735901466bf1aeba73449dbb"
+        },
+        {
+          "slug": "epsilab-com",
+          "name": "Epsilab",
+          "status": "unscored",
+          "reason": "insufficient_text"
+        },
+        {
+          "slug": "ernd",
+          "name": "ernd",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "d4fea4b9a158362c0f4b50be19302910c5d63f9084e955b2beb8511790ddb4bb"
+        },
+        {
+          "slug": "evardi",
+          "name": "Evardi",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "b3c004b5a0f263f473d12365eef3de8d6eee22d306d2a8e87dadfc2b88884d6e"
+        },
+        {
+          "slug": "everyapp",
+          "name": "EveryApp",
+          "status": "scored",
+          "density": 0.49261083743842365,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "f5907e1bd5218c2c059729023445cb4c3b573c90ba0adbf86edbf7ad509d0bd9"
+        },
+        {
+          "slug": "evident-machines",
+          "name": "Evident Machines",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "b45563c343be0600a69d83795566913af4905caaf1bdd5306f2d255934b73ae4"
+        },
+        {
+          "slug": "faraday",
+          "name": "Faraday",
+          "status": "scored",
+          "density": 1.075268817204301,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "a1ef75c33753525fb77f8ba3d43c0d4768a677af2c6bebe928d9073074c2e1be"
+        },
+        {
+          "slug": "fire-wallet",
+          "name": "Fire Wallet",
+          "status": "scored",
+          "density": 0.9205983889528193,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-3"
+            ]
+          },
+          "sourceTextHash": "79dcfd39d2587069207be9f74f5c11a61679a5c64f04ee6eb87a6d6d4411d800"
+        },
+        {
+          "slug": "fleety",
+          "name": "Fleety",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "bd8990a4d97b430e8adb08340e437b1afb5d0839f922ebab8df0b64da9a6103e"
+        },
+        {
+          "slug": "frontrunner",
+          "name": "Frontrunner",
+          "status": "scored",
+          "density": 0.2691790040376851,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "2e3e6994aa9cc418955a1c9b7dce383271a0b4ce07d732a9c2b80a37654d6e7a"
+        },
+        {
+          "slug": "godhands",
+          "name": "GodHands",
+          "status": "scored",
+          "density": 0.17699115044247787,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "06b239e42b4fd5bd1b02bfc130c3fbf5332c0f18a1837e5cea54bb8654206da3"
+        },
+        {
+          "slug": "gradon",
+          "name": "Gradon",
+          "status": "unscored",
+          "reason": "insufficient_text"
+        },
+        {
+          "slug": "graphide",
+          "name": "Graphide",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "d2265d2945c8e0a88c3db0ed498b720027f2f458af59adda1e8be6ec67bc8c8c"
+        },
+        {
+          "slug": "graypass",
+          "name": "GrayPass",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "091324367b4bdabbb2325d990f96053747d9fec29f01a41450f5dafce054eda7"
+        },
+        {
+          "slug": "grep-ai",
+          "name": "Grep AI",
+          "status": "scored",
+          "density": 0.35566093657379966,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-1",
+              "column-3",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "90130bf1390edd7c24d3633b437274ae9b910cf003cb66c082749fda9ee2805e"
+        },
+        {
+          "slug": "habu",
+          "name": "HABU",
+          "status": "scored",
+          "density": 2.9245283018867925,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-3"
+            ]
+          },
+          "sourceTextHash": "c718d34fad9c21bd9dc36ddfe1ef3d4a796e89ecfc2d31560224d3168174c8c9"
+        },
+        {
+          "slug": "halmos-labs",
+          "name": "Halmos Labs",
+          "status": "scored",
+          "density": 0.2145922746781116,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "d0f2a6d9cd6512a9f8d413eff12b5ff4132539389fe4eb7678dbf94bec93f984"
+        },
+        {
+          "slug": "helios-intelligence",
+          "name": "Helios Intelligence",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "251290e2a7a750c1d94c7c58cc960f04c18e6a0b75c0c4e77edc0e2fab0557b4"
+        },
+        {
+          "slug": "hemlock",
+          "name": "Hemlock",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "18dfde3ceb4de5660ddc24779852ace4462f55b6da23aa098f6a56bab2e174ce"
+        },
+        {
+          "slug": "herdr",
+          "name": "herdr",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "e1b90ab818b5c27d986b5693fe10a9ae7d7541cdb466182a7f5aae06d55468f1"
+        },
+        {
+          "slug": "hesper-ai",
+          "name": "Hesper AI",
+          "status": "scored",
+          "density": 0.2518891687657431,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "05990ddcc388a6bd1073bdecaaf0be88da73a00b1bf1e545eb193f3fa5cc7452"
+        },
+        {
+          "slug": "hickory-and-company",
+          "name": "Hickory & Company",
+          "status": "scored",
+          "density": 0.8064516129032258,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "column-3"
+            ]
+          },
+          "sourceTextHash": "17a795aed17dbc9711e4b9ff846144619a73f6359991b6a82d96078eed39c4f5"
+        },
+        {
+          "slug": "hillstar",
+          "name": "HillStar",
+          "status": "scored",
+          "density": 0.3460207612456747,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "column-3"
+            ]
+          },
+          "sourceTextHash": "3d66bacfe751e1fd8f5e66e4604e9d05f564772975106b634c6c0c6ba44b381c"
+        },
+        {
+          "slug": "hopper",
+          "name": "Hopper",
+          "status": "scored",
+          "density": 2.255639097744361,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "column-3"
+            ]
+          },
+          "sourceTextHash": "fd8da48f30905b8341882260099b89b623cfb31b782cb842dc0f8737ef72884e"
+        },
+        {
+          "slug": "horizontal",
+          "name": "horizontal.",
+          "status": "scored",
+          "density": 0.45871559633027525,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "c6d76796307bd92f968b453eb6a70281f5f9a01f113a137fd0ed68367b5249a7"
+        },
+        {
+          "slug": "hue",
+          "name": "Hue",
+          "status": "scored",
+          "density": 0.22988505747126436,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "4cbcdaff03f953648b145f7e768ea9b594a9ff28dad76a2068a281c81eb53fbf"
+        },
+        {
+          "slug": "hundred",
+          "name": "Hundred",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "0ccc6e49a07959698726332e1a3fae5279d5d3df4e7bb62be0bbe8d9f2afe608"
+        },
+        {
+          "slug": "hyperbench",
+          "name": "HyperBench",
+          "status": "scored",
+          "density": 0.591715976331361,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "3551b3209b984d5619c13758a8895069367952fa54c350c934a73a294f9d5a27"
+        },
+        {
+          "slug": "ignition-benefits",
+          "name": "Ignition Benefits",
+          "status": "scored",
+          "density": 0.13191451939143434,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-3"
+            ]
+          },
+          "sourceTextHash": "fba40c2e393c8439620bbfe5147756af7dca487c8daa48cef0d7ea8f00261cf0"
+        },
+        {
+          "slug": "inflection-space-systems",
+          "name": "Inflection Space Systems",
+          "status": "scored",
+          "density": 1.4880952380952381,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-3"
+            ]
+          },
+          "sourceTextHash": "285ebe6907a8dfa500c3eaff61b033211a701a203dd3bd7719976360b168cad7"
+        },
+        {
+          "slug": "infraoptimal",
+          "name": "InfraOptimal",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "54e2f24d795e3b724a1b937078e14abd059e184139b10b438dc55a00263613bc"
+        },
+        {
+          "slug": "invertix",
+          "name": "Invertix",
+          "status": "scored",
+          "density": 0.7267441860465116,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "bce78d9281488aa62bf8f00ef8ce2dd3ea88221a5db37c848554022075ed0ac2"
+        },
+        {
+          "slug": "isoquant",
+          "name": "isoquant",
+          "status": "scored",
+          "density": 0.1724137931034483,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "b49472bfea4e34118a490635fd472e967682d91b2edd108b7af4b704dc67fe5c"
+        },
+        {
+          "slug": "jinko",
+          "name": "Jinko",
+          "status": "scored",
+          "density": 1.996007984031936,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "d8fd4f48f688516cf66a644f302bc2e3cc6649cb4e1592bdfeb7c0c60d32df82"
+        },
+        {
+          "slug": "kailash-labs",
+          "name": "Kailash Labs",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "1e8cb59d7f1e903e19136efaf5cac04abda2064f03f6e1345617c33bf6aeb9fc"
+        },
+        {
+          "slug": "kairos-health",
+          "name": "Kairos Health",
+          "status": "scored",
+          "density": 0.702576112412178,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-3"
+            ]
+          },
+          "sourceTextHash": "35360f4c1516b977b45ae76888b52fb757eba53b7f0186c75fb512648e194416"
+        },
+        {
+          "slug": "kairox-systems",
+          "name": "Kairox Systems",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "403accee3f8688bcca85cc6ac21ec0aeb82d8a12331861d164c8c4f7d7a2839e"
+        },
+        {
+          "slug": "kanopy",
+          "name": "Kanopy",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "ea3f9e1539004cd0654e09f301b2b4683b0983dead94154786aaef6801ee67e1"
+        },
+        {
+          "slug": "keres",
+          "name": "Keres",
+          "status": "unscored",
+          "reason": "insufficient_text"
+        },
+        {
+          "slug": "kiwi",
+          "name": "Kiwi",
+          "status": "scored",
+          "density": 0.1524390243902439,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "8e5cb6f718cb898e7ab1dfe4a10bf5f72ed446b2c2b03ee488b9534c0c235a0c"
+        },
+        {
+          "slug": "lantern-ai",
+          "name": "Lantern AI",
+          "status": "scored",
+          "density": 0.1718213058419244,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "ec2ab5cd9b71e35496be9e0c110557cad101dded3c921d9a931807176bd7a486"
+        },
+        {
+          "slug": "lark-2",
+          "name": "Lark",
+          "status": "scored",
+          "density": 0.03992015968063872,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "2a7f522a1621a7e4e31dd0a4082427b9549db0457b7354eb4645b03afb39e5f9"
+        },
+        {
+          "slug": "letter-dev",
+          "name": "Letter",
+          "status": "scored",
+          "density": 0.38204393505253104,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "0f3582842816e2257b4e20e4e8fcccf756874769a16cc70cf1d871be08b5f9e4"
+        },
+        {
+          "slug": "limnion",
+          "name": "Limnion",
+          "status": "scored",
+          "density": 0.78125,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "456f7bab4c3451dc43223fa08fd1e4803465bde370dbb9cb2d0caf6368c864b7"
+        },
+        {
+          "slug": "liquid-energy",
+          "name": "Liquid Energy",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "35a27bed38b17e8d844559e4b0c44dd72ad2a3a22f9a9e3df961fe22cdeb45e3"
+        },
+        {
+          "slug": "lux-foods",
+          "name": "Lux Foods",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "87ca6c6e0ad3ae4f7a8b6c501992bf5f63f34fd990b7b34883007307170182f2"
+        },
+        {
+          "slug": "lyon",
+          "name": "Lyon",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "51f5d5ab083c934903cb191b7875cb9c7a9f02c2c4a48b31431fde3c5dc6874c"
+        },
+        {
+          "slug": "maritime",
+          "name": "Maritime",
+          "status": "scored",
+          "density": 0.15806111696522657,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "0d9533d0b8cff56abc2e87df1c3085bef80a9802a001b8f326aa0ea6941e2074"
+        },
+        {
+          "slug": "melty-gg",
+          "name": "Melty",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "6dd474960ec584d7758eaa8f63b1e848206f3d9df0defb3c1b6e8fc2433d9306"
+        },
+        {
+          "slug": "metalcraft",
+          "name": "Metalcraft",
+          "status": "unscored",
+          "reason": "insufficient_text"
+        },
+        {
+          "slug": "micora",
+          "name": "Micora",
+          "status": "scored",
+          "density": 0.91324200913242,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-2",
+              "row-3",
+              "column-3",
+              "column-5",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "77f79c35deb9639ea371530bc868de174432a2301c533165238f88d05bb28559"
+        },
+        {
+          "slug": "mirrors",
+          "name": "Mirrors",
+          "status": "scored",
+          "density": 0.26109660574412535,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "9c0bbc0a1edce1bf0edc3c73eb55926e0b5b16d3edb4e84ffa90cc420dc91f80"
+        },
+        {
+          "slug": "munito-ai",
+          "name": "Munito AI",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "409f25cfd7cfc74e6ed49ff9862839e817f80b5ec94e90b06cea06854582f670"
+        },
+        {
+          "slug": "native",
+          "name": "Native",
+          "status": "scored",
+          "density": 0.13812154696132597,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "276e55b58d76dcc5435aa0a67f0deb991ba7b4cf2b2ae2183fe7b6c6fea5d4db"
+        },
+        {
+          "slug": "neomatter",
+          "name": "Neomatter",
+          "status": "scored",
+          "density": 0.15527950310559005,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "4e65a885663ae3aa9f79861c2e238246b3b0335db7554908db76adec8ebff521"
+        },
+        {
+          "slug": "nitroduck",
+          "name": "Nitroduck",
+          "status": "scored",
+          "density": 2.3622047244094486,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "column-3"
+            ]
+          },
+          "sourceTextHash": "825c340545b48d851ceb6ab887182c1b2598a2f16290945d8b9e50c2e6eac544"
+        },
+        {
+          "slug": "nodus-compute",
+          "name": "Nodus Compute",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "fe4f6e343bdf52a75163e71a35c47016da7b6618448b69604ead886b41259921"
+        },
+        {
+          "slug": "nxtcure-labs",
+          "name": "Nxtcure Labs",
+          "status": "scored",
+          "density": 0.683371298405467,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "column-5",
+              "diagonal-main"
+            ]
+          },
+          "sourceTextHash": "5c9caaa052588d5f99f2cd619e2efa21ec568b9f19e9ba8b1a2b233e6ccd7994"
+        },
+        {
+          "slug": "oasive",
+          "name": "Oasive",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "0a0727d582a038d51e099d29902af27488aaa2fe7c67f87885500b747c913886"
+        },
+        {
+          "slug": "obia",
+          "name": "Obia",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "dc7f5256e883e716a199d21f0da17826044feef908f3e0405753fef8f31b77be"
+        },
+        {
+          "slug": "obsessiondb",
+          "name": "ObsessionDB",
+          "status": "scored",
+          "density": 0.43591979075850046,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "a34dd4e8eef2798d4e6f3db05d89b9b76cace740c01b5af3e70baca0f686bca7"
+        },
+        {
+          "slug": "odin-robotics",
+          "name": "Odin Robotics",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "050322c25235887d2dcf39a21618c0a2c8135f353786e137904f6a5692853b0c"
+        },
+        {
+          "slug": "open-actuation",
+          "name": "Open Actuation",
+          "status": "unscored",
+          "reason": "insufficient_text"
+        },
+        {
+          "slug": "opencrawl",
+          "name": "OpenCrawl",
+          "status": "scored",
+          "density": 0.17316017316017315,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "0802800e9452f0109584ad4179c814f83064e1ef3961ab5d73609b5d92bf0679"
+        },
+        {
+          "slug": "openhack",
+          "name": "OpenHack",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "4278040b12066332461f2bd12933400325e4585eb9432dd60aebec5d42a12505"
+        },
+        {
+          "slug": "openlake-technologies",
+          "name": "OpenLake Technologies",
+          "status": "scored",
+          "density": 0.46296296296296297,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "dc394eb743d0d1a12bcd690823e19187c7936e4a56bc6810b8d83dab17981489"
+        },
+        {
+          "slug": "openscaffold",
+          "name": "OpenScaffold",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "d8e61cc8527cdd921be973a4a59d58e529560303db373b4c99b897db666ec240"
+        },
+        {
+          "slug": "opera",
+          "name": "OpEra",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "eb0b54af54eba39f5e9a1674e3513da6f7922e6ddcd781c3ce07e1e1357ea737"
+        },
+        {
+          "slug": "orca-aerospace",
+          "name": "Orca Aerospace",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "f1284e53eecb14e60b24687a81e09b2b2c4607408adfe0fdbb342dd3ac3bf2b3"
+        },
+        {
+          "slug": "ordo-labs",
+          "name": "Ordo Labs",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "9965c7218c68a3222ac3bf279f05edccbbf75b684e0c0638b648833083ed3010"
+        },
+        {
+          "slug": "organizely",
+          "name": "Organizely",
+          "status": "scored",
+          "density": 0.19801980198019803,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "22d45f1072e7806260a664568d04bc640018f7e18aca4eb3098244a41642e66c"
+        },
+        {
+          "slug": "orgo",
+          "name": "Orgo",
+          "status": "scored",
+          "density": 0.38809831824062097,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "00aff9f4bf9f283ff5d04d0a9b6210086ecf659679f0ac05829d2f151ab80fc4"
+        },
+        {
+          "slug": "oro-ai",
+          "name": "ORO AI",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "351af779c7b0b3c2828a35c1623530e35234631ad36c35fc5917e595379b2846"
+        },
+        {
+          "slug": "papaya",
+          "name": "Papaya",
+          "status": "scored",
+          "density": 0.05763688760806916,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "bc0d63a9e47738466a24345d2b13817188f924db9dfb039dfd29c3b6ae611da7"
+        },
+        {
+          "slug": "particularity",
+          "name": "Particularity",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "1e75fd283aee42cc716f44375d97305375be82ee0b8a1b251dbeb6be0febabe2"
+        },
+        {
+          "slug": "perceptual-labs",
+          "name": "Perceptual Labs",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "fb9588787e49b323249ca88fc76dfb75c556e439aaf02970731f75d588efe2ff"
+        },
+        {
+          "slug": "peritai",
+          "name": "Perit.AI",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "226471b08e22d2b78159ecefc747f85e30d3cabd41305d3b3a166676ed320804"
+        },
+        {
+          "slug": "petrichor",
+          "name": "Petrichor",
+          "status": "scored",
+          "density": 1.1278195488721805,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "c1f2a79ecb7370c32bfa70decd482491c9487543a9a21ee97ae77dc58dc1896b"
+        },
+        {
+          "slug": "phone-harness",
+          "name": "Phone Harness",
+          "status": "scored",
+          "density": 0.2777777777777778,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "636af2dcd82872deabbf36f0d0116bc99c6f46afd10b5a8891d9e1320b9d64b9"
+        },
+        {
+          "slug": "plek-ai",
+          "name": "Plek AI",
+          "status": "scored",
+          "density": 0.1589825119236884,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "61e023277ebbafc1798930092aa4129023a17432176accccf5303287949ee5b9"
+        },
+        {
+          "slug": "ploid",
+          "name": "Ploid",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "d3e78e9c400af1784fdc6fbbed628700eb413b741a593036dd3fdd1428d6eaf6"
+        },
+        {
+          "slug": "plover-labs",
+          "name": "Plover Labs",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "37e60f9f7a937948f324a39d9a466999963ef0b2bfa68acf72d7d4c5397de609"
+        },
+        {
+          "slug": "polemos-industries",
+          "name": "Polemos Industries",
+          "status": "scored",
+          "density": 1.3888888888888888,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-3"
+            ]
+          },
+          "sourceTextHash": "39268f0ae559d7c0a3cb4b8580d9693b9419a368fc3c6e1bbecd3ea5988644be"
+        },
+        {
+          "slug": "pomerado",
+          "name": "Pomerado",
+          "status": "scored",
+          "density": 0.06476683937823834,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "2e4c27f47304bad6ef231024cde4b29af90429e7c65f282adcca8caa8da1563a"
+        },
+        {
+          "slug": "praxis",
+          "name": "Praxis",
+          "status": "scored",
+          "density": 0.2296211251435132,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "ee62836687b18787f9764fea2b2d46f246cd37bc55458aaee11e974efcc4c4ee"
+        },
+        {
+          "slug": "preload",
+          "name": "Preload",
+          "status": "scored",
+          "density": 0.5089058524173028,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "04b0ae3bedc2ae1a6bd1d8f70502e3d4b0ae0b63e576a3c04a75a0f11094bacb"
+        },
+        {
+          "slug": "primordiant",
+          "name": "Primordiant",
+          "status": "scored",
+          "density": 0.16155088852988692,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "396571ca775415795a7d962470e8ad88fe708dc0740788c9f174e992f3f45b4e"
+        },
+        {
+          "slug": "proto",
+          "name": "Proto",
+          "status": "unscored",
+          "reason": "insufficient_text"
+        },
+        {
+          "slug": "quippy",
+          "name": "Quippy",
+          "status": "scored",
+          "density": 0.0966183574879227,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "b6296d6e3aa49e68804d6bb1e61d5172bb9c87685b202df69c5009ba33ee7bc7"
+        },
+        {
+          "slug": "quivly-ai",
+          "name": "Quivly AI",
+          "status": "scored",
+          "density": 0.12077294685990338,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "76ea1322dd2d1879f1ff6aa527c650644c2da3adf5e8deec662d8912aa4f6cba"
+        },
+        {
+          "slug": "ratlog",
+          "name": "RATLOG",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "b3a5c0283f91258ab4489f18554d37503ea7a9c990d25853346497b68572499b"
+        },
+        {
+          "slug": "ravenphone",
+          "name": "Raven",
+          "status": "scored",
+          "density": 0.10152284263959391,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "21f3b0402046d17b9bff01510bcb2d070750ab1b4b13855ccf6a8779c65e649a"
+        },
+        {
+          "slug": "reason-machines",
+          "name": "Reason Machines",
+          "status": "scored",
+          "density": 0.26109660574412535,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "3b30ca1516f9d75773a4ced8e7e9c2ba5e5fd8808448626b9a326ac870cc2997"
+        },
+        {
+          "slug": "reconero",
+          "name": "Reconero",
+          "status": "scored",
+          "density": 3.1847133757961785,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-3"
+            ]
+          },
+          "sourceTextHash": "fcec710a88496a2a4e500ee6514bb1b2a8957bc89543f8fc2039e36e6cd07f57"
+        },
+        {
+          "slug": "redoubt-insurance",
+          "name": "Redoubt Insurance",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "eb5a282ee35c7d9fcba725bf15e9a3e0c1cb9450bb3caced39dd9c8ec87be396"
+        },
+        {
+          "slug": "reific",
+          "name": "Reific",
+          "status": "scored",
+          "density": 0.062034739454094295,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "09b25aa76c74931f4874c6288347ff4a998cb091feeca2df46adccc9677ea477"
+        },
+        {
+          "slug": "resin-technologies",
+          "name": "Resin Technologies",
+          "status": "scored",
+          "density": 0.6589785831960461,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "column-3"
+            ]
+          },
+          "sourceTextHash": "623efb06e36501fc0e82752cf173d3ed7f78fadfd1bae68f11dbda2490417035"
+        },
+        {
+          "slug": "rezora-io",
+          "name": "Rezora IO",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "a1e9da14b6ce29bc5b7d53750cfd2b6f59e789d8a4e0a18c2aab9f750e338e34"
+        },
+        {
+          "slug": "rhem-labs",
+          "name": "Rhem Labs",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "e48bf473b6731882ec48d6ae38b95d922c9b0108568470497e4335b9d49706c5"
+        },
+        {
+          "slug": "rightnow",
+          "name": "RightNow",
+          "status": "scored",
+          "density": 0.18691588785046728,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "aa4dbecf980fb424c60df63a9eb77882d2536678eaeab7c2cabad4844da648fb"
+        },
+        {
+          "slug": "risklytics",
+          "name": "Risklytics",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "53ed60e597195fa0bc2da0d671bc60e96d69fe8143e8332d49f593216e5e35da"
+        },
+        {
+          "slug": "rivereditor",
+          "name": "River",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "4a384c7c6ea3cac18edede939fe5b10883d77081ff2570f5fd5b1107e06bae19"
+        },
+        {
+          "slug": "rodeo-robotics",
+          "name": "Rodeo Robotics",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "8d98bb18c94cc49025265d885df5a4491e092b0a857c3dd880e49b183f62b702"
+        },
+        {
+          "slug": "roma",
+          "name": "Roma",
+          "status": "scored",
+          "density": 0.176522506619594,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "8a1b93edaffdfec7fe816f26948253bb080dcb90f813d651eb7f35891a4fcdd5"
+        },
+        {
+          "slug": "routant",
+          "name": "Routant",
+          "status": "scored",
+          "density": 0.2066115702479339,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "398a20ceb5aa7afab441cccff5b36836c4de1da1d17c63b830bcaac2f52fee21"
+        },
+        {
+          "slug": "routerplus",
+          "name": "RouterPlus",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "650d64583f7597b8109bd89d445f02c6579ee1da0e87dcb87991551df633e415"
+        },
+        {
+          "slug": "runtimesi",
+          "name": "Runtime.si",
+          "status": "scored",
+          "density": 0.273972602739726,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "774fd9286e80fb4fd91183bd082bf8bfda1715d8b6a888a6f2dd6def3ef59e45"
+        },
+        {
+          "slug": "ryhla",
+          "name": "Ryhla",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "1359708730ce7e7fe04d17829a1c86e35dcca206c62ac4d3c9b80c23c503bedf"
+        },
+        {
+          "slug": "rystic",
+          "name": "Rystic",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "9fd159ef5dcc8c25c3e5464e22aaabc32373bd3de58c232a5de29dd7b6f13183"
+        },
+        {
+          "slug": "saccade",
+          "name": "Saccade",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "89dd01a4956944478a7a10c331270ad09caf7da12dfafebe6d510e9d845b6c03"
+        },
+        {
+          "slug": "se3-labs",
+          "name": "SE3 Labs",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "662e45397eaaa4a1e1ef8b9617281bd4f80a9f36510ced6b89c0aad03f60c8c7"
+        },
+        {
+          "slug": "sentient-os",
+          "name": "Sentient OS",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "b9eb30f930fa9313be9ea3128aefd0f83ee13505314efa21016a5da9cb1ffca8"
+        },
+        {
+          "slug": "shepherd-robotics",
+          "name": "Shepherd Robotics",
+          "status": "scored",
+          "density": 0.199203187250996,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "f16c030f643a805bec71d198a83fdeaa2925480f8a80931ab79aae85b9689a17"
+        },
+        {
+          "slug": "shire-intelligence",
+          "name": "Shire Intelligence",
+          "status": "scored",
+          "density": 0.42613636363636365,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "2d82e81a9393164a6683b555b4baa36deb0dcf7cc490afca6c9eb7d296546948"
+        },
+        {
+          "slug": "silica",
+          "name": "Silica",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "43e5324cd94fc55e8dc9018e1baa1f21590f9d415d154cc35c3e7b81e3a0f5f7"
+        },
+        {
+          "slug": "simantic",
+          "name": "Simantic",
+          "status": "scored",
+          "density": 0.3333333333333333,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "1b2fc4cb451e3a5482e31d922d3efbe5c628c21b0bd1bd7df78c258abca3f1ed"
+        },
+        {
+          "slug": "simulithic",
+          "name": "Simulithic",
+          "status": "scored",
+          "density": 1.0810810810810811,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "75c1de40375f0a814b6fe2d59a3a7975e542351d3434f74f68f773cc41193503"
+        },
+        {
+          "slug": "sinter-systems",
+          "name": "Sinter",
+          "status": "scored",
+          "density": 0.5167958656330749,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-2",
+              "row-3",
+              "column-3",
+              "column-5",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "ae2e9a78b181fca56decc019090c5194c86225c23428c817ea94f2369ffba38c"
+        },
+        {
+          "slug": "sintropix",
+          "name": "Sintropix",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "243079e4650c4eaff1d26b22b0bf528ee5516a1f4e835e98fb22171ba5ff98b5"
+        },
+        {
+          "slug": "sona8",
+          "name": "Sona8",
+          "status": "scored",
+          "density": 0.2840909090909091,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "61ccc2ea8eaa5e1b22ba6c39de55ecd7ade6e08591492b8da3f962686e66542e"
+        },
+        {
+          "slug": "spacesheep",
+          "name": "Spacesheep",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "185b8c8cbc5969f7748c1a3daf54f7ff05b7e2af6a83b29777a11d1b72cc53f0"
+        },
+        {
+          "slug": "spine",
+          "name": "Spine",
+          "status": "scored",
+          "density": 1.0224948875255624,
+          "bestLine": {
+            "hits": 3,
+            "total": 5,
+            "lineIds": [
+              "row-3"
+            ]
+          },
+          "sourceTextHash": "07f0ae615a8cf4870a2c3f10ec14a0b992faa2e68e592cd29baddca1c256949e"
+        },
+        {
+          "slug": "stacktrace",
+          "name": "Stacktrace",
+          "status": "scored",
+          "density": 0.3058103975535168,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "e1d60ed57113bee26ddd0780017b598b6b0c30e2bc7967bc24ec8655231dab12"
+        },
+        {
+          "slug": "stasis",
+          "name": "STASIS",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "87dba049585599a417b7cdd3dc011ca8aa70b2e328c4d7d86ce913c933f9d343"
+        },
+        {
+          "slug": "streamline-systems",
+          "name": "Streamline Systems",
+          "status": "scored",
+          "density": 3.225806451612903,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "249be6b0a0878ffe1afb9eae80b849181c5796134b8d3470004acd5536a5f016"
+        },
+        {
+          "slug": "summer-engine",
+          "name": "Summer Engine",
+          "status": "scored",
+          "density": 0.1362397820163488,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "row-5",
+              "column-3",
+              "column-4",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "a4987fab215b0be03b2cdbd8350b715870cef94c5c4bcc7aea2741320410fe4d"
+        },
+        {
+          "slug": "super-powers-mobility-spm",
+          "name": "Super Powers Mobility (SPM)",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "40dea864d208ccc85116fffa901b2c5d2cd24cc47e9f30e036fe7bff0f29730d"
+        },
+        {
+          "slug": "superserve",
+          "name": "Superserve",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "a0237e13cbb8221937f87dd157391486bd49b3a02ce9b5e98633f90a583100ec"
+        },
+        {
+          "slug": "sutrix",
+          "name": "Sutrix",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "8d5f57d5873cf30ce49d39a961c9f83c0a76318d7eaaeba869946edd09b0a83a"
+        },
+        {
+          "slug": "synara",
+          "name": "Synara",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "28a39b44029127ce7dafde7926776927dc03b3940a7be5ee1f1cf3be592e897f"
+        },
+        {
+          "slug": "taanai",
+          "name": "Taan.ai",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "0109bf101b9e707f429e689d8cb5fd7fc04c3734975620e33644a4783e68c268"
+        },
+        {
+          "slug": "talos-us",
+          "name": "Talos",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "b977b79beab11273e6bffeddef945afa78be16dff72b14dcb300f6beeddc3602"
+        },
+        {
+          "slug": "telamont",
+          "name": "Telamont",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "774341479cf4e948f1fab0112c3727cdfeba6834691ded2afb57ee92035787e9"
+        },
+        {
+          "slug": "the-agentic-data-co",
+          "name": "The Agentic Data Co.",
+          "status": "scored",
+          "density": 0.32679738562091504,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "f20731ef7bff747db08eb207295a4392bdf367e88af905c3d539657a7c0cf34e"
+        },
+        {
+          "slug": "the-company-company",
+          "name": "The Company Company",
+          "status": "scored",
+          "density": 0.2077562326869806,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-3"
+            ]
+          },
+          "sourceTextHash": "f7cb6695fcc510a2368e8b4cb6c4a97ce4cc0c65b5e938bd18e759bfcd6bd1bc"
+        },
+        {
+          "slug": "the-subvocal-company",
+          "name": "The Subvocal Company",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "59cdf30cbbe909490d20c5127b77fa1a2a004f2cee1ad45ef6946c75ee77d118"
+        },
+        {
+          "slug": "theo",
+          "name": "Theo",
+          "status": "scored",
+          "density": 0.10714285714285714,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "row-5",
+              "column-2",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "5eb67851655b519be77eb52353f02cca7ee7fbcdb1e673bc4150c5acdc27f009"
+        },
+        {
+          "slug": "theseus-robotics",
+          "name": "Theseus Robotics",
+          "status": "unscored",
+          "reason": "insufficient_text"
+        },
+        {
+          "slug": "tilion",
+          "name": "Tilion",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "f2240e1003be7827eff1586331bf44ceea7c04ff2a6feeb35fa179e0b0afbd43"
+        },
+        {
+          "slug": "tilo",
+          "name": "Tilo",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "22ba6e600bf667fcd5fbbf6181685adbaed8b5997fe086829b7fbeb4b6b621dd"
+        },
+        {
+          "slug": "tire-swing",
+          "name": "Tire Swing",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "5451f86cc012ec2c71473afb01d338d4ae257b3b5d98270d2c0507b48d268478"
+        },
+        {
+          "slug": "topos",
+          "name": "Topos",
+          "status": "unscored",
+          "reason": "insufficient_text"
+        },
+        {
+          "slug": "trepo",
+          "name": "Trepo",
+          "status": "scored",
+          "density": 0.13774104683195593,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "row-5",
+              "column-3",
+              "column-4",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "becab2764b0d25ca2a665227275f545babcde3e9dbca2c07009382602987504d"
+        },
+        {
+          "slug": "truemile",
+          "name": "TrueMile",
+          "status": "scored",
+          "density": 1.585014409221902,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "diagonal-main"
+            ]
+          },
+          "sourceTextHash": "9ab361220b9db18d3c9f203af08e7175defc0714e5cb24b5b36627eda7442bfa"
+        },
+        {
+          "slug": "trylatent",
+          "name": "Latent",
+          "status": "scored",
+          "density": 0.1360544217687075,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "column-3"
+            ]
+          },
+          "sourceTextHash": "a4f7598730ab3f501852d21fcb33b79913007ca681f21c2a2b864a48e107e8ac"
+        },
+        {
+          "slug": "twentyfour26",
+          "name": "twentyfour26",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "22687440188bd51b9d9040f9881c7e5f1b1d51f62675ea2746c54c92a3ec8550"
+        },
+        {
+          "slug": "useforward",
+          "name": "Forward",
+          "status": "scored",
+          "density": 0.9382716049382716,
+          "bestLine": {
+            "hits": 3,
+            "total": 5,
+            "lineIds": [
+              "row-3"
+            ]
+          },
+          "sourceTextHash": "a3c483a34a64ad485d6de780714d79b6f8fe9e2ad383ee4b7f1a4c8b5f309653"
+        },
+        {
+          "slug": "useterse",
+          "name": "Terse",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "f1d41117615db205c7e34a5e6092d664a46af19b53e2edea71b031dd12b064a5"
+        },
+        {
+          "slug": "uxduck",
+          "name": "UXDuck",
+          "status": "scored",
+          "density": 0.1388888888888889,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "796e1e4a8f1accc0af19421e60d154438cd4d70cf60b62c8fc9f8f7f30c194f3"
+        },
+        {
+          "slug": "veeza-ai",
+          "name": "Veeza AI",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "6356f612a74e473f3142a345ad335d75d548c78c35ae7e2f173a3bbb1cae5684"
+        },
+        {
+          "slug": "veltha",
+          "name": "Veltha",
+          "status": "scored",
+          "density": 0.08792497069167643,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-3"
+            ]
+          },
+          "sourceTextHash": "4bf1b8c79bfc7a24ca7f96233087dc1fb5eb15d33894614c44892786f2521506"
+        },
+        {
+          "slug": "verdun",
+          "name": "Verdun",
+          "status": "scored",
+          "density": 0.48661800486618007,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "95bbe746ac854e4ab8a29dd6d58ce6977e62bd63e91159bf230c6d308d71359d"
+        },
+        {
+          "slug": "verno",
+          "name": "Verno",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "2da3482806cae5bdbcd6a4a6644e9905ac4e996f0b95f3eb6753d6b4036c548e"
+        },
+        {
+          "slug": "versine",
+          "name": "Versine",
+          "status": "scored",
+          "density": 0.1141552511415525,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "39857d0abe2622414313ba9e342a492255761ee5b6cda24e40dae118e2be213a"
+        },
+        {
+          "slug": "vexo",
+          "name": "Vexo",
+          "status": "scored",
+          "density": 0.1593625498007968,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "fe997cdc2ad4265c16c1d5a6813177c18313be150039621d1c1963cfd8fa75bf"
+        },
+        {
+          "slug": "viraj-aero",
+          "name": "Viraj Aero",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "37b24f72bb36779b6502a0489595a2a4b2292599c6cf6f6272e8e4c346c79edf"
+        },
+        {
+          "slug": "volaren",
+          "name": "Volaren",
+          "status": "scored",
+          "density": 0.3486750348675035,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "b876d554a18e4b384b70b0a06af9f750fb87b72d1cd54f89b7c19ba1371d1931"
+        },
+        {
+          "slug": "vorelios",
+          "name": "Vorelios",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "cf4d991fc3d232e2f488058030b57ebee5da12a5f80c227813e5eea67169828d"
+        },
+        {
+          "slug": "vorflux",
+          "name": "Vorflux",
+          "status": "scored",
+          "density": 0.08561643835616438,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "becf0e93586849d49109faabd0368cd066c9a99277f544ce75d08734963d564b"
+        },
+        {
+          "slug": "vouchwealth",
+          "name": "Vouch",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "6cbc69845d2a6b3d8ce6b5eced537f947ff32e807c216f395892a9cd418f41ad"
+        },
+        {
+          "slug": "voyager",
+          "name": "Voyager",
+          "status": "scored",
+          "density": 0.10857763300760044,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "14b5cf2d6ff5d415fd2e66e5f825563c0a1603a99cc5297d4a6ce9f617745337"
+        },
+        {
+          "slug": "vyra",
+          "name": "Vyra",
+          "status": "scored",
+          "density": 0.32404406999351915,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "row-4",
+              "column-1",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "86fc62376727872e593e05f6fd0c50b44411720bf9a557d58a561afa5d334cb5"
+        },
+        {
+          "slug": "wingman-law",
+          "name": "Wingman Law",
+          "status": "scored",
+          "density": 0,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "bbddda43589069181a05e5d7912c31d591c4790cc328d32e23c9f8930a699af2"
+        },
+        {
+          "slug": "wondersearch",
+          "name": "Wondersearch",
+          "status": "scored",
+          "density": 1.3774104683195592,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "1471c78ebab702f463505d55d423f3665f8c1aaf803adff6850cd5286d2e89fe"
+        },
+        {
+          "slug": "workers-io",
+          "name": "Workers IO",
+          "status": "scored",
+          "density": 0.09900990099009901,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "2cd0bf549692a8e2f9800470d717b8ecdf7cf7def7e99f580996ec484d73954c"
+        },
+        {
+          "slug": "yam",
+          "name": "Yam",
+          "status": "scored",
+          "density": 0.09626183218353923,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-2",
+              "row-3",
+              "column-3",
+              "column-5",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "9815fcaa0bb4994624ae7df94ab4667f1e539c00ea016907b172e7f9d30a4836"
+        }
+      ]
+    },
+    {
+      "id": "bvp-established",
+      "label": "BVP public cloud comparison",
+      "scoreFile": "data/scores/2026-W46/bvp-established.json",
+      "scoringVersion": "v1-ac78c5b97c1f",
+      "selected": 50,
+      "scored": 49,
+      "unscored": 1,
+      "medianDensity": 1.5645371577574967,
+      "zeroHits": 0,
+      "zeroHitPercent": 0,
+      "phrases": [
+        {
+          "id": "agentic",
+          "phrase": "agentic",
+          "weight": 1,
+          "dictionaryIndex": 2,
+          "hits": 124,
+          "companiesHit": 28
+        },
+        {
+          "id": "ai-agent",
+          "phrase": "AI agent",
+          "weight": 1,
+          "dictionaryIndex": 6,
+          "hits": 99,
+          "companiesHit": 28
+        },
+        {
+          "id": "ai-powered",
+          "phrase": "AI-powered",
+          "weight": 2,
+          "dictionaryIndex": 0,
+          "hits": 62,
+          "companiesHit": 22
+        },
+        {
+          "id": "next-generation",
+          "phrase": "next-generation",
+          "weight": 2,
+          "dictionaryIndex": 28,
+          "hits": 38,
+          "companiesHit": 5
+        },
+        {
+          "id": "seamless",
+          "phrase": "seamless",
+          "weight": 1,
+          "dictionaryIndex": 15,
+          "hits": 35,
+          "companiesHit": 17
+        },
+        {
+          "id": "streamline",
+          "phrase": "streamline",
+          "weight": 1,
+          "dictionaryIndex": 22,
+          "hits": 32,
+          "companiesHit": 17
+        },
+        {
+          "id": "empower",
+          "phrase": "empower",
+          "weight": 1,
+          "dictionaryIndex": 19,
+          "hits": 31,
+          "companiesHit": 17
+        },
+        {
+          "id": "end-to-end",
+          "phrase": "end-to-end",
+          "weight": 1,
+          "dictionaryIndex": 24,
+          "hits": 30,
+          "companiesHit": 12
+        },
+        {
+          "id": "ai-native",
+          "phrase": "AI-native",
+          "weight": 3,
+          "dictionaryIndex": 1,
+          "hits": 30,
+          "companiesHit": 10
+        },
+        {
+          "id": "ecosystem",
+          "phrase": "ecosystem",
+          "weight": 1,
+          "dictionaryIndex": 32,
+          "hits": 28,
+          "companiesHit": 15
+        },
+        {
+          "id": "unlock",
+          "phrase": "unlock",
+          "weight": 1,
+          "dictionaryIndex": 17,
+          "hits": 21,
+          "companiesHit": 16
+        },
+        {
+          "id": "scalable",
+          "phrase": "scalable",
+          "weight": 1,
+          "dictionaryIndex": 26,
+          "hits": 17,
+          "companiesHit": 12
+        },
+        {
+          "id": "ai-driven",
+          "phrase": "AI-driven",
+          "weight": 2,
+          "dictionaryIndex": 5,
+          "hits": 16,
+          "companiesHit": 8
+        },
+        {
+          "id": "ai-assistant",
+          "phrase": "AI assistant",
+          "weight": 2,
+          "dictionaryIndex": 12,
+          "hits": 14,
+          "companiesHit": 5
+        },
+        {
+          "id": "all-in-one",
+          "phrase": "all-in-one",
+          "weight": 1,
+          "dictionaryIndex": 25,
+          "hits": 13,
+          "companiesHit": 10
+        },
+        {
+          "id": "leverage",
+          "phrase": "leverage",
+          "weight": 1,
+          "dictionaryIndex": 18,
+          "hits": 11,
+          "companiesHit": 8
+        },
+        {
+          "id": "agentic-workflow",
+          "phrase": "agentic workflow",
+          "weight": 3,
+          "dictionaryIndex": 10,
+          "hits": 11,
+          "companiesHit": 7
+        },
+        {
+          "id": "the-future-of",
+          "phrase": "the future of",
+          "weight": 3,
+          "dictionaryIndex": 37,
+          "hits": 10,
+          "companiesHit": 9
+        },
+        {
+          "id": "industry-leading",
+          "phrase": "industry-leading",
+          "weight": 3,
+          "dictionaryIndex": 40,
+          "hits": 9,
+          "companiesHit": 8
+        },
+        {
+          "id": "best-in-class",
+          "phrase": "best-in-class",
+          "weight": 3,
+          "dictionaryIndex": 29,
+          "hits": 9,
+          "companiesHit": 5
+        },
+        {
+          "id": "robust",
+          "phrase": "robust",
+          "weight": 1,
+          "dictionaryIndex": 16,
+          "hits": 8,
+          "companiesHit": 4
+        },
+        {
+          "id": "disrupt",
+          "phrase": "disrupt",
+          "weight": 2,
+          "dictionaryIndex": 47,
+          "hits": 7,
+          "companiesHit": 6
+        },
+        {
+          "id": "mission-critical",
+          "phrase": "mission-critical",
+          "weight": 2,
+          "dictionaryIndex": 33,
+          "hits": 7,
+          "companiesHit": 5
+        },
+        {
+          "id": "copilot",
+          "phrase": "copilot",
+          "weight": 1,
+          "dictionaryIndex": 3,
+          "hits": 7,
+          "companiesHit": 4
+        },
+        {
+          "id": "world-class",
+          "phrase": "world-class",
+          "weight": 3,
+          "dictionaryIndex": 39,
+          "hits": 6,
+          "companiesHit": 3
+        },
+        {
+          "id": "generative-ai",
+          "phrase": "generative AI",
+          "weight": 2,
+          "dictionaryIndex": 9,
+          "hits": 5,
+          "companiesHit": 5
+        },
+        {
+          "id": "unmatched",
+          "phrase": "unmatched",
+          "weight": 2,
+          "dictionaryIndex": 48,
+          "hits": 4,
+          "companiesHit": 4
+        },
+        {
+          "id": "intelligent-automation",
+          "phrase": "intelligent automation",
+          "weight": 2,
+          "dictionaryIndex": 11,
+          "hits": 4,
+          "companiesHit": 3
+        },
+        {
+          "id": "supercharge",
+          "phrase": "supercharge",
+          "weight": 2,
+          "dictionaryIndex": 20,
+          "hits": 4,
+          "companiesHit": 3
+        },
+        {
+          "id": "frictionless",
+          "phrase": "frictionless",
+          "weight": 2,
+          "dictionaryIndex": 23,
+          "hits": 4,
+          "companiesHit": 3
+        },
+        {
+          "id": "game-changing",
+          "phrase": "game-changing",
+          "weight": 3,
+          "dictionaryIndex": 21,
+          "hits": 3,
+          "companiesHit": 3
+        },
+        {
+          "id": "limitless",
+          "phrase": "limitless",
+          "weight": 2,
+          "dictionaryIndex": 44,
+          "hits": 3,
+          "companiesHit": 2
+        },
+        {
+          "id": "superintelligence",
+          "phrase": "superintelligence",
+          "weight": 3,
+          "dictionaryIndex": 13,
+          "hits": 3,
+          "companiesHit": 1
+        },
+        {
+          "id": "revolutionize",
+          "phrase": "revolutionize",
+          "weight": 3,
+          "dictionaryIndex": 36,
+          "hits": 2,
+          "companiesHit": 2
+        },
+        {
+          "id": "unprecedented",
+          "phrase": "unprecedented",
+          "weight": 3,
+          "dictionaryIndex": 42,
+          "hits": 2,
+          "companiesHit": 2
+        },
+        {
+          "id": "ai-first",
+          "phrase": "AI-first",
+          "weight": 3,
+          "dictionaryIndex": 4,
+          "hits": 2,
+          "companiesHit": 1
+        },
+        {
+          "id": "cutting-edge",
+          "phrase": "cutting-edge",
+          "weight": 2,
+          "dictionaryIndex": 27,
+          "hits": 2,
+          "companiesHit": 1
+        },
+        {
+          "id": "10x",
+          "phrase": "10x",
+          "weight": 3,
+          "dictionaryIndex": 35,
+          "hits": 2,
+          "companiesHit": 1
+        },
+        {
+          "id": "multi-agent",
+          "phrase": "multi-agent",
+          "weight": 1,
+          "dictionaryIndex": 8,
+          "hits": 1,
+          "companiesHit": 1
+        },
+        {
+          "id": "first-ever",
+          "phrase": "first-ever",
+          "weight": 3,
+          "dictionaryIndex": 38,
+          "hits": 1,
+          "companiesHit": 1
+        },
+        {
+          "id": "unparalleled",
+          "phrase": "unparalleled",
+          "weight": 3,
+          "dictionaryIndex": 49,
+          "hits": 1,
+          "companiesHit": 1
+        },
+        {
+          "id": "autonomous-agent",
+          "phrase": "autonomous agent",
+          "weight": 3,
+          "dictionaryIndex": 7,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "human-level",
+          "phrase": "human-level",
+          "weight": 3,
+          "dictionaryIndex": 14,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "synergy",
+          "phrase": "synergy",
+          "weight": 2,
+          "dictionaryIndex": 30,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "holistic",
+          "phrase": "holistic",
+          "weight": 1,
+          "dictionaryIndex": 31,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "turnkey",
+          "phrase": "turnkey",
+          "weight": 1,
+          "dictionaryIndex": 34,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "groundbreaking",
+          "phrase": "groundbreaking",
+          "weight": 3,
+          "dictionaryIndex": 41,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "transformative",
+          "phrase": "transformative",
+          "weight": 2,
+          "dictionaryIndex": 43,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "exponential",
+          "phrase": "exponential",
+          "weight": 2,
+          "dictionaryIndex": 45,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "paradigm-shift",
+          "phrase": "paradigm shift",
+          "weight": 3,
+          "dictionaryIndex": 46,
+          "hits": 0,
+          "companiesHit": 0
+        }
+      ],
+      "bingo": {
+        "cells": [
+          {
+            "index": 0,
+            "phraseId": "ai-powered",
+            "hit": true,
+            "companiesHit": 22
+          },
+          {
+            "index": 1,
+            "phraseId": "seamless",
+            "hit": true,
+            "companiesHit": 17
+          },
+          {
+            "index": 2,
+            "phraseId": "10x",
+            "hit": true,
+            "companiesHit": 1
+          },
+          {
+            "index": 3,
+            "phraseId": "best-in-class",
+            "hit": true,
+            "companiesHit": 5
+          },
+          {
+            "index": 4,
+            "phraseId": "unlock",
+            "hit": true,
+            "companiesHit": 16
+          },
+          {
+            "index": 5,
+            "phraseId": "paradigm-shift",
+            "hit": false,
+            "companiesHit": 0
+          },
+          {
+            "index": 6,
+            "phraseId": "unprecedented",
+            "hit": true,
+            "companiesHit": 2
+          },
+          {
+            "index": 7,
+            "phraseId": "world-class",
+            "hit": true,
+            "companiesHit": 3
+          },
+          {
+            "index": 8,
+            "phraseId": "empower",
+            "hit": true,
+            "companiesHit": 17
+          },
+          {
+            "index": 9,
+            "phraseId": "next-generation",
+            "hit": true,
+            "companiesHit": 5
+          },
+          {
+            "index": 10,
+            "phraseId": "the-future-of",
+            "hit": true,
+            "companiesHit": 9
+          },
+          {
+            "index": 11,
+            "phraseId": "leverage",
+            "hit": true,
+            "companiesHit": 8
+          },
+          {
+            "index": 12,
+            "phraseId": null,
+            "hit": true,
+            "companiesHit": null
+          },
+          {
+            "index": 13,
+            "phraseId": "supercharge",
+            "hit": true,
+            "companiesHit": 3
+          },
+          {
+            "index": 14,
+            "phraseId": "ai-native",
+            "hit": true,
+            "companiesHit": 10
+          },
+          {
+            "index": 15,
+            "phraseId": "game-changing",
+            "hit": true,
+            "companiesHit": 3
+          },
+          {
+            "index": 16,
+            "phraseId": "superintelligence",
+            "hit": true,
+            "companiesHit": 1
+          },
+          {
+            "index": 17,
+            "phraseId": "revolutionize",
+            "hit": true,
+            "companiesHit": 2
+          },
+          {
+            "index": 18,
+            "phraseId": "unparalleled",
+            "hit": true,
+            "companiesHit": 1
+          },
+          {
+            "index": 19,
+            "phraseId": "industry-leading",
+            "hit": true,
+            "companiesHit": 8
+          },
+          {
+            "index": 20,
+            "phraseId": "frictionless",
+            "hit": true,
+            "companiesHit": 3
+          },
+          {
+            "index": 21,
+            "phraseId": "first-ever",
+            "hit": true,
+            "companiesHit": 1
+          },
+          {
+            "index": 22,
+            "phraseId": "cutting-edge",
+            "hit": true,
+            "companiesHit": 1
+          },
+          {
+            "index": 23,
+            "phraseId": "all-in-one",
+            "hit": true,
+            "companiesHit": 10
+          },
+          {
+            "index": 24,
+            "phraseId": "ai-driven",
+            "hit": true,
+            "companiesHit": 8
+          }
+        ],
+        "completedLines": [
+          "row-1",
+          "row-3",
+          "row-4",
+          "row-5",
+          "column-2",
+          "column-3",
+          "column-4",
+          "column-5",
+          "diagonal-main",
+          "diagonal-anti"
+        ],
+        "hasBingo": true,
+        "lineProgress": [
+          {
+            "lineId": "row-1",
+            "hits": 5,
+            "total": 5
+          },
+          {
+            "lineId": "row-2",
+            "hits": 4,
+            "total": 5
+          },
+          {
+            "lineId": "row-3",
+            "hits": 5,
+            "total": 5
+          },
+          {
+            "lineId": "row-4",
+            "hits": 5,
+            "total": 5
+          },
+          {
+            "lineId": "row-5",
+            "hits": 5,
+            "total": 5
+          },
+          {
+            "lineId": "column-1",
+            "hits": 4,
+            "total": 5
+          },
+          {
+            "lineId": "column-2",
+            "hits": 5,
+            "total": 5
+          },
+          {
+            "lineId": "column-3",
+            "hits": 5,
+            "total": 5
+          },
+          {
+            "lineId": "column-4",
+            "hits": 5,
+            "total": 5
+          },
+          {
+            "lineId": "column-5",
+            "hits": 5,
+            "total": 5
+          },
+          {
+            "lineId": "diagonal-main",
+            "hits": 5,
+            "total": 5
+          },
+          {
+            "lineId": "diagonal-anti",
+            "hits": 5,
+            "total": 5
+          }
+        ],
+        "bestLine": {
+          "hits": 5,
+          "total": 5,
+          "lineIds": [
+            "row-1",
+            "row-3",
+            "row-4",
+            "row-5",
+            "column-2",
+            "column-3",
+            "column-4",
+            "column-5",
+            "diagonal-main",
+            "diagonal-anti"
+          ]
+        },
+        "scoredCompanies": 49
+      },
+      "companyProgress": [
+        {
+          "slug": "bvp-adbe",
+          "name": "Adobe",
+          "status": "scored",
+          "density": 2.2254127781765973,
+          "bestLine": {
+            "hits": 3,
+            "total": 5,
+            "lineIds": [
+              "row-1"
+            ]
+          },
+          "sourceTextHash": "62f5a04a0b11b2487c82e8f66d1102b8788199dbdffa1f651e136f477a3c0318"
+        },
+        {
+          "slug": "bvp-agys",
+          "name": "Agilysys",
+          "status": "scored",
+          "density": 1.973051010587103,
+          "bestLine": {
+            "hits": 3,
+            "total": 5,
+            "lineIds": [
+              "column-5"
+            ]
+          },
+          "sourceTextHash": "d199e61f0aceb94a1d6802b26dfcf8a4c7789bf963272e9e3a3668df91362225"
+        },
+        {
+          "slug": "bvp-appf",
+          "name": "AppFolio",
+          "status": "scored",
+          "density": 1.1066398390342052,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "row-5",
+              "column-3"
+            ]
+          },
+          "sourceTextHash": "4b9003719898bfdb3f359d4fe85ec233c194e28ba6f5bd63425447efa3758351"
+        },
+        {
+          "slug": "bvp-asan",
+          "name": "Asana",
+          "status": "scored",
+          "density": 3.5807860262008733,
+          "bestLine": {
+            "hits": 4,
+            "total": 5,
+            "lineIds": [
+              "row-3"
+            ]
+          },
+          "sourceTextHash": "5fb2c3cfcd5d19068281e4d90fb0d271e03f3b83a5be4b3236aa61ebb50d467b"
+        },
+        {
+          "slug": "bvp-team",
+          "name": "Atlassian",
+          "status": "scored",
+          "density": 1.8045112781954886,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-3"
+            ]
+          },
+          "sourceTextHash": "23c87aa84dcad2c081c767b399dc25d153e8a950b16d8d9f51bfdc67b5889701"
+        },
+        {
+          "slug": "bvp-avpt",
+          "name": "AvePoint",
+          "status": "scored",
+          "density": 1.4565826330532212,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "ba4cc26f4fb6a6549f2bdb7477cb2ed32305f72f97b165defa6102fca1c481bc"
+        },
+        {
+          "slug": "bvp-bl",
+          "name": "BlackLine",
+          "status": "scored",
+          "density": 2.2151898734177213,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "99f46e1a3ce4758b3982f5aac1bae6cf29f255673f0fa0936922b3776774f467"
+        },
+        {
+          "slug": "bvp-brze",
+          "name": "Braze",
+          "status": "scored",
+          "density": 0.8051529790660226,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "diagonal-main"
+            ]
+          },
+          "sourceTextHash": "da0b6aae38ab9d1f8e971c0ceb98400e90342b02a74f47c042089bb10fcbc463"
+        },
+        {
+          "slug": "bvp-clbt",
+          "name": "Cellebrite",
+          "status": "scored",
+          "density": 0.43586550435865506,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "diagonal-main"
+            ]
+          },
+          "sourceTextHash": "290f3d5b1292ed1e078466ad6401eb543128affb4adfcf60d7ff8922dc7fb20b"
+        },
+        {
+          "slug": "bvp-crwd",
+          "name": "Crowdstrike",
+          "status": "scored",
+          "density": 3.734302709847984,
+          "bestLine": {
+            "hits": 5,
+            "total": 5,
+            "lineIds": [
+              "column-5"
+            ]
+          },
+          "sourceTextHash": "2a52a425b3a79977eee8de4a4b3c866d9208e063957f660a5cc47f0b2833e9dc"
+        },
+        {
+          "slug": "bvp-ddog",
+          "name": "Datadog",
+          "status": "scored",
+          "density": 3.0120481927710845,
+          "bestLine": {
+            "hits": 3,
+            "total": 5,
+            "lineIds": [
+              "diagonal-main"
+            ]
+          },
+          "sourceTextHash": "697591920f86254b7eb388188e73c41df8f0d38a9718489954a96dfa4b14da5c"
+        },
+        {
+          "slug": "bvp-docn",
+          "name": "DigitalOcean",
+          "status": "scored",
+          "density": 2.22521915037087,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3"
+            ]
+          },
+          "sourceTextHash": "6c3dec802aa50b3032f044451e1ebd40a00422b84c1bb3d67cd99041858d13c4"
+        },
+        {
+          "slug": "bvp-docu",
+          "name": "DocuSign",
+          "status": "scored",
+          "density": 0.8077544426494345,
+          "bestLine": {
+            "hits": 3,
+            "total": 5,
+            "lineIds": [
+              "row-1"
+            ]
+          },
+          "sourceTextHash": "f8e64feacbb9dab0d89b860df7289f1e8993f3b9c93f01bc6357fb710e14266f"
+        },
+        {
+          "slug": "bvp-estc",
+          "name": "Elastic",
+          "status": "scored",
+          "density": 1.0224948875255624,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-1",
+              "row-3",
+              "column-3",
+              "column-4",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "8e14764f6fbf243d6879d2cb36f102f1c45226192cd864664828797161a19d41"
+        },
+        {
+          "slug": "bvp-fsly",
+          "name": "Fastly",
+          "status": "scored",
+          "density": 1.5463917525773196,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-2",
+              "row-3",
+              "column-2",
+              "column-5",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "837cdde3cd84a7fbf51d5c5e208136fc980c19c870970f74d94d2c27d1c8c85f"
+        },
+        {
+          "slug": "bvp-fig",
+          "name": "Figma",
+          "status": "scored",
+          "density": 1.4814814814814814,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-3"
+            ]
+          },
+          "sourceTextHash": "3145e9760c2dde868bdef8bf5275a0e3c90167757c1398b176ffc4a4559898ce"
+        },
+        {
+          "slug": "bvp-frsh",
+          "name": "Freshworks",
+          "status": "scored",
+          "density": 3.0560271646859083,
+          "bestLine": {
+            "hits": 3,
+            "total": 5,
+            "lineIds": [
+              "column-1",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "cf3cd83d9b20782e5b972e90632a2fde665e4bbfe65ad7f40a55d003635ff5bd"
+        },
+        {
+          "slug": "bvp-gtlb",
+          "name": "Gitlab",
+          "status": "scored",
+          "density": 0.7802340702210663,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "17095c25dbec54ff5397dce91bab77cd1ce23a18a0f721f7237380451eb0ca5f"
+        },
+        {
+          "slug": "bvp-hubs",
+          "name": "HubSpot",
+          "status": "scored",
+          "density": 0.6586169045005489,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "48c01aa3c31ef7133c57cdbb25906cb67d37b3eb6e2fdc72a89080e1bf0eb758"
+        },
+        {
+          "slug": "bvp-inta",
+          "name": "Intapp",
+          "status": "scored",
+          "density": 2.1509581540868203,
+          "bestLine": {
+            "hits": 3,
+            "total": 5,
+            "lineIds": [
+              "row-1",
+              "row-3",
+              "column-5"
+            ]
+          },
+          "sourceTextHash": "b4053b30c4e8c2a8dcdffcb86c4b9fedc1e885f21a4b1897984441314d769612"
+        },
+        {
+          "slug": "bvp-kvyo",
+          "name": "Klaviyo",
+          "status": "scored",
+          "density": 0.7220216606498195,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "1cd280799c615858efa02d1b38d7562c76e9ca4c7091505bcc034d68ad99d6b4"
+        },
+        {
+          "slug": "bvp-mndy",
+          "name": "Monday.com",
+          "status": "scored",
+          "density": 0.371900826446281,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "742cda69d62bd2bb6894d7fbaa5330d61acb2feb0564189b58f68e9282076094"
+        },
+        {
+          "slug": "bvp-mdb",
+          "name": "MongoDB",
+          "status": "scored",
+          "density": 1.6741071428571428,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-2"
+            ]
+          },
+          "sourceTextHash": "699123a675aff5855c8933a5c353e3ae40660de069ced8714a32ee0d73384c7c"
+        },
+        {
+          "slug": "bvp-ntsk",
+          "name": "Netskope",
+          "status": "scored",
+          "density": 1.3605442176870748,
+          "bestLine": {
+            "hits": 3,
+            "total": 5,
+            "lineIds": [
+              "row-1",
+              "diagonal-main"
+            ]
+          },
+          "sourceTextHash": "fde8b48ec0b4d20d8719e4075770e39170a50fbb161e4d46062b2d5e441182db"
+        },
+        {
+          "slug": "bvp-ntnx",
+          "name": "Nutanix",
+          "status": "scored",
+          "density": 1.4861995753715498,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "diagonal-main"
+            ]
+          },
+          "sourceTextHash": "8ec3e80eac0159a7839f785396d602a8f503727480ae7dabefead281104561a2"
+        },
+        {
+          "slug": "bvp-okta",
+          "name": "Okta",
+          "status": "scored",
+          "density": 3.4805890227576977,
+          "bestLine": {
+            "hits": 3,
+            "total": 5,
+            "lineIds": [
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "c6976e03434820b52ab2ea261fea2a03177ad0d22d35078a32effb7cadb20850"
+        },
+        {
+          "slug": "bvp-pd",
+          "name": "PagerDuty",
+          "status": "scored",
+          "density": 1.5841584158415842,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "3db1319d0d3762a358ce597f0f0006c0bd74b46e72c77084bf91d0e40747cf5e"
+        },
+        {
+          "slug": "bvp-panw",
+          "name": "Palo Alto Networks",
+          "status": "scored",
+          "density": 3.7522334723049435,
+          "bestLine": {
+            "hits": 4,
+            "total": 5,
+            "lineIds": [
+              "row-3"
+            ]
+          },
+          "sourceTextHash": "0e2d7bef8ae1650f554b5c164fb564f77db0ce5a80bbe9148fa9c7e812620680"
+        },
+        {
+          "slug": "bvp-payc",
+          "name": "Paycom",
+          "status": "scored",
+          "density": 1.1403508771929824,
+          "bestLine": {
+            "hits": 3,
+            "total": 5,
+            "lineIds": [
+              "column-3",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "73c405bfa37e4bec8eb0d0ce75af95339c7cef13b90a52e6d2da568460d1a130"
+        },
+        {
+          "slug": "bvp-pcty",
+          "name": "Paylocity",
+          "status": "scored",
+          "density": 1.326053042121685,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-1",
+              "row-3",
+              "column-1",
+              "column-4",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "8ac10454db935f8c0cdb961f526c6902ec1861b4c0631c56893786e6e89d81d3"
+        },
+        {
+          "slug": "bvp-qtwo",
+          "name": "Q2",
+          "status": "scored",
+          "density": 1.5645371577574967,
+          "bestLine": {
+            "hits": 3,
+            "total": 5,
+            "lineIds": [
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "22e8718cc34fa13b82ed07187a53c7480231e5ddf229e822cdfe15a011a460fd"
+        },
+        {
+          "slug": "bvp-qlys",
+          "name": "Qualys",
+          "status": "scored",
+          "density": 1.8867924528301887,
+          "bestLine": {
+            "hits": 3,
+            "total": 5,
+            "lineIds": [
+              "row-1",
+              "row-3",
+              "column-5",
+              "diagonal-main"
+            ]
+          },
+          "sourceTextHash": "f44d05fad6e63095ff102909c9909a91efb677952fc87b5281067d4de8ea934d"
+        },
+        {
+          "slug": "bvp-rng",
+          "name": "Ringcentral",
+          "status": "scored",
+          "density": 1.607717041800643,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "diagonal-main"
+            ]
+          },
+          "sourceTextHash": "b9b5e521f3ea2428b94c3a22411638c4bbdb7c78bd30ba9ce3e8d47edf46f4d0"
+        },
+        {
+          "slug": "bvp-rbrk",
+          "name": "Rubrik",
+          "status": "unscored",
+          "reason": "insufficient_text"
+        },
+        {
+          "slug": "bvp-crm",
+          "name": "Salesforce",
+          "status": "scored",
+          "density": 1.7033840563252327,
+          "bestLine": {
+            "hits": 3,
+            "total": 5,
+            "lineIds": [
+              "row-1"
+            ]
+          },
+          "sourceTextHash": "2ba5269bf17e100d4fe3e7bde63df4d6c5e11c4c8b4573b6cd544850e51fc1b4"
+        },
+        {
+          "slug": "bvp-iot",
+          "name": "Samsara",
+          "status": "scored",
+          "density": 0.8264462809917356,
+          "bestLine": {
+            "hits": 3,
+            "total": 5,
+            "lineIds": [
+              "diagonal-main"
+            ]
+          },
+          "sourceTextHash": "e40384e215789b1b8ce9fc1b6504ca7ab284e0803384ae2e36e29f659a1f0988"
+        },
+        {
+          "slug": "bvp-s",
+          "name": "SentinelOne",
+          "status": "scored",
+          "density": 2.7247956403269753,
+          "bestLine": {
+            "hits": 3,
+            "total": 5,
+            "lineIds": [
+              "row-3"
+            ]
+          },
+          "sourceTextHash": "e372e2b0fec929ac43f2e83502ae2433c5222a3200c1ca2c48468921e32d307b"
+        },
+        {
+          "slug": "bvp-ttan",
+          "name": "ServiceTitan",
+          "status": "scored",
+          "density": 0.9569377990430622,
+          "bestLine": {
+            "hits": 3,
+            "total": 5,
+            "lineIds": [
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "bd4536fbb8f7b709edbe0a4dad6508a2932818e2d29e3ea40def6c8c473a4799"
+        },
+        {
+          "slug": "bvp-shop",
+          "name": "Shopify",
+          "status": "scored",
+          "density": 0.3401360544217687,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "b0d64a6feffe10c97cb9b634de29276fab7ba531947b3141532392d8001975b4"
+        },
+        {
+          "slug": "bvp-snow",
+          "name": "Snowflake",
+          "status": "scored",
+          "density": 1.861427094105481,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "ac7bf7f30742025454212a3520f27f031b6164c166ecb65afa3ba016e8c72684"
+        },
+        {
+          "slug": "bvp-cxm",
+          "name": "Sprinklr",
+          "status": "scored",
+          "density": 4.230488694383662,
+          "bestLine": {
+            "hits": 4,
+            "total": 5,
+            "lineIds": [
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "c438875782858739a3c22fe49e481b057c34d55fef8d154ff7ecff292e69ebcb"
+        },
+        {
+          "slug": "bvp-tenb",
+          "name": "Tenable",
+          "status": "scored",
+          "density": 2.262443438914027,
+          "bestLine": {
+            "hits": 3,
+            "total": 5,
+            "lineIds": [
+              "diagonal-main"
+            ]
+          },
+          "sourceTextHash": "fc657f3b2838359694adf72a42c066e2ce2afec31bb8f11821335f8e1f0846fb"
+        },
+        {
+          "slug": "bvp-tost",
+          "name": "Toast",
+          "status": "scored",
+          "density": 0.75642965204236,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "dcde072cdadb1f417891d4018eac127550b48fc478a0c4901ad5dd1813416768"
+        },
+        {
+          "slug": "bvp-twlo",
+          "name": "Twilio",
+          "status": "scored",
+          "density": 0.6329113924050633,
+          "bestLine": {
+            "hits": 3,
+            "total": 5,
+            "lineIds": [
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "4480dd9a3e77a8c66fd32a4c383c0e9dad411f4a0ff6d394a72ff8cb6b8710a4"
+        },
+        {
+          "slug": "bvp-veev",
+          "name": "Veeva Systems",
+          "status": "scored",
+          "density": 1.9753086419753085,
+          "bestLine": {
+            "hits": 3,
+            "total": 5,
+            "lineIds": [
+              "row-1",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "0fb6c2f5556e3b932827b79aae815483e6a60c4c6ce1ef4f8590bb8601afac07"
+        },
+        {
+          "slug": "bvp-way",
+          "name": "Waystar",
+          "status": "scored",
+          "density": 4.690831556503198,
+          "bestLine": {
+            "hits": 3,
+            "total": 5,
+            "lineIds": [
+              "row-3"
+            ]
+          },
+          "sourceTextHash": "786f671c578da253a0085ac60dd8701a603d5d28b83910e80b121e04454ccb9b"
+        },
+        {
+          "slug": "bvp-wix",
+          "name": "Wix",
+          "status": "scored",
+          "density": 0.5832449628844114,
+          "bestLine": {
+            "hits": 3,
+            "total": 5,
+            "lineIds": [
+              "row-1"
+            ]
+          },
+          "sourceTextHash": "0a50421f7964ea16a3a3da2d9c781f9a613e64fdfce6a6108367ead5c22e156d"
+        },
+        {
+          "slug": "bvp-wday",
+          "name": "Workday",
+          "status": "scored",
+          "density": 1.7291066282420748,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "column-4",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "aa24501fb82cb7bb0ae3ab47a3f93e2fe558b76e51339f68f033ad1da7fb851f"
+        },
+        {
+          "slug": "bvp-zeta",
+          "name": "Zeta",
+          "status": "scored",
+          "density": 1.3544018058690745,
+          "bestLine": {
+            "hits": 2,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "diagonal-main"
+            ]
+          },
+          "sourceTextHash": "62ad74558041f18f8830a28ee9f06f75ea5eedbabec6d2fc7fa6e2e9f6bf42ff"
+        },
+        {
+          "slug": "bvp-zs",
+          "name": "Zscaler",
+          "status": "scored",
+          "density": 0.4225352112676056,
+          "bestLine": {
+            "hits": 1,
+            "total": 5,
+            "lineIds": [
+              "row-3",
+              "column-3",
+              "diagonal-main",
+              "diagonal-anti"
+            ]
+          },
+          "sourceTextHash": "511e1d6395ed457f511e5ed3628d8fcdb18ef9d9087a9d78935aa55f585a7975"
+        }
+      ]
+    }
+  ]
+}

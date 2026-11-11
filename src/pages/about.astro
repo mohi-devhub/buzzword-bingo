@@ -1,0 +1,219 @@
+---
+// Explains the fixed scoring rules, cohort selection, and capture limitations.
+// Makes the comparison auditable and gives every visitor a visible opt-out route.
+import Base from "../layouts/Base.astro";
+import Icon from "../components/Icon.astro";
+import {
+  siteData,
+  sitePath,
+  formatDensity,
+  formatPercent,
+} from "../site-data.js";
+const data = await siteData();
+---
+
+<Base title="The fine print — Buzzword Bingo">
+  <article class="shell about-page">
+    <header class="about-heading">
+      <h1>
+        Big claims.
+        <br />
+        <span>Small, explainable maths.</span>
+      </h1>
+      <p>
+        Buzzword Bingo counts the language on company homepages. It’s satire,
+        made with love, with a calculator behind the curtain.
+      </p>
+      <span class="sample-label">
+        {data.config.provisional
+          ? "Provisional sample"
+          : "Full YC batch snapshot"}{" "}
+        · {data.week}
+      </span>
+    </header>
+    <div class="about-layout">
+      <nav class="about-nav" aria-label="Methodology sections">
+        <a href="#scoring">The score</a>
+        <a href="#selection">The cohorts</a>
+        <a href="#bingo">The bingo</a>
+        <a href="#dictionary">The dictionary</a>
+        <a href="#fairness">The good manners</a>
+      </nav>
+      <div class="about-content">
+        <section id="scoring">
+          <h2>Count the words. Show the maths.</h2>
+          <p>
+            Each accepted phrase match gets its dictionary weight. Add those
+            points, divide by the homepage word count, and express the result
+            per hundred words.
+          </p>
+          <code class="formula-block">{data.formula}</code>
+          <p>
+            A longer page doesn’t automatically get a higher score. Every
+            category uses the same full-page denominator. Ranking keeps full
+            precision; the interface rounds the display.
+          </p>
+          <p>
+            Matching ignores case and accepts the explicit variants below,
+            including common hyphenation and plurals. Matches stay at word
+            boundaries. “Seamlessly” counts; “unseamly” doesn’t. When phrases
+            overlap, the longest match wins. “Agentic workflow” does not also
+            count as “agentic” in the same place.
+          </p>
+          <p>
+            There is no LLM in the score. No sentiment adjustment. No secret
+            bonus for sounding especially like a startup.
+          </p>
+          <a class="inline-link" href={sitePath("data/score-summary.json")}>
+            Download the saved score data <Icon name="external" size={15} />
+          </a>
+        </section>
+        <section id="selection">
+          <h2>Two cohorts. One rulebook.</h2>
+          <p>
+            {data.config.provisional
+              ? "This comparison uses provisional selected samples."
+              : "This comparison covers every eligible company in the pinned YC batch list and a systematic public-cloud sample. It is not a census of every YC company or every established company."}
+          </p>
+          <div class="method-cohorts">
+            {data.cohorts.map((cohort) => (
+              <div>
+                <h3>{cohort.label}</h3>
+                <p>
+                  <strong>{cohort.summary.selected}</strong> selected ·{" "}
+                  <strong>{cohort.summary.scored}</strong> scored ·{" "}
+                  <strong>{cohort.summary.unscored}</strong> unscored
+                </p>
+                <p>
+                  Median density {formatDensity(cohort.summary.medianDensity)}.
+                  Zero-hit pages {formatPercent(cohort.summary.zeroHitPercent)}.
+                </p>
+                <p>
+                  {cohort.kind === "startups"
+                    ? "All active companies with valid public websites in the pinned Fall 2026 community YC API snapshot. No replacements follow failed captures or low scores. Unlaunched or unlisted companies may be absent from the community source."
+                    : "Systematic, evenly spaced selections across the alphabetical BVP public-cloud directory. Public listing is the operational definition of “incumbent” here. Homepage addresses were verified before scoring."}
+                </p>
+              </div>
+            ))}
+          </div>
+          <p>
+            Cohorts differ in size, industry, and homepage length. Median
+            density gives each scored company equal weight. Zero-hit percentages
+            exclude unavailable or very short pages. Raw phrase totals can be
+            affected by repetition and cohort size.
+          </p>
+          <div class="method-links">
+            <a href={sitePath("COMPARISON.md")}>
+              COMPARISON.md: frozen source & selection
+            </a>
+            <a
+              href="https://yc-oss.github.io/api/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Community YC API <Icon name="external" size={14} />
+            </a>
+            <a
+              href="https://cloudindex.bvp.com/companies"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              BVP public-cloud directory <Icon name="external" size={14} />
+            </a>
+          </div>
+        </section>
+        <section id="bingo">
+          <h2>Same squares. Different boardrooms.</h2>
+          <p>
+            The fixed card is identical for every company and both cohorts. A
+            company marks a phrase once, however often it repeats it. Its best
+            line is the most marked cells in any row, column, or diagonal,
+            including FREE.
+          </p>
+          <p>
+            A cohort-wide cell lights up if any scored company used the phrase.
+            Its label counts distinct companies, not repeated mentions. FREE has
+            no company count. Card coverage is a different measure from density.
+          </p>
+          <p>
+            The card and dictionary were frozen before this comparison. They
+            were not adjusted to make the results funnier.
+          </p>
+        </section>
+        <section id="dictionary">
+          <h2>The whole dictionary.</h2>
+          <p>
+            {data.dictionary.length} phrases. Explicit variants. Weights are a
+            playful editorial choice, not a judgment about whether the product’s
+            claims are true.
+          </p>
+          <div class="table-wrap">
+            <table class="dictionary-table">
+              <thead>
+                <tr>
+                  <th>Phrase</th>
+                  <th>Weight</th>
+                  <th>Category</th>
+                  <th>Accepted variants</th>
+                </tr>
+              </thead>
+              <tbody>
+                {data.dictionary.map((phrase) => (
+                  <tr>
+                    <td>
+                      <strong>{phrase.phrase}</strong>
+                    </td>
+                    <td>{phrase.weight}</td>
+                    <td>{phrase.category}</td>
+                    <td>
+                      {phrase.variants
+                        .filter((variant) => variant !== phrase.phrase)
+                        .join(", ") || "Case and spacing variants"}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p class="muted">
+            All phrases accept case differences and common spaces or hyphens
+            between words. Generic “AI” and generic “agent” are excluded.
+          </p>
+        </section>
+        <section id="fairness">
+          <h2>Good manners are not optional.</h2>
+          <p>
+            <strong>This is satire, made with love.</strong> We score companies,
+            never individuals. A buzzword can describe a real capability. A zero
+            score is not proof of honesty. A high score is not proof of a bad
+            product.
+          </p>
+          <p>
+            Only saved, publicly accessible homepage text enters the score.
+            Navigation and footers are removed where the extractor can identify
+            them. Titles, meta descriptions, directory blurbs, code, image
+            descriptions, and linked pages are excluded. Failed and very short
+            captures remain unscored. Repeated page UI that survives extraction
+            can affect counts.
+          </p>
+          <p>
+            Company pages show the exact phrases, short highlighted excerpts,
+            the word count, and capture date. Text can change after capture. The
+            “agentic” share counts scored companies using that phrase at least
+            once. Raw mentions remain secondary because repetition and cohort
+            size affect them.
+          </p>
+          <p>
+            Companies can request removal. We commit to removing a company from
+            the public site, score data, and share cards within a week of a
+            received request. Future refreshes respect the exclusion list. Old
+            clones and external share-card caches can retain earlier copies.
+          </p>
+          <a class="button secondary" href={sitePath("opt-out/")}>
+            Request a company opt-out <Icon name="arrow" />
+          </a>
+        </section>
+      </div>
+    </div>
+  </article>
+</Base>

@@ -1,0 +1,90 @@
+{
+  "_meta": {
+    "header": [
+      "Records official homepage links for ambiguous or incorrect public metadata.",
+      "Corrects addresses before crawling while preserving every selected constituent."
+    ],
+    "schemaVersion": 1
+  },
+  "verifiedAt": "2026-11-11T13:35:51.340Z",
+  "companies": [
+    {
+      "symbol": "ASAN",
+      "website": "https://asana.com/",
+      "source": "https://asana.com/",
+      "reason": "Official Asana company homepage; distinguishes the software company from yoga and place names."
+    },
+    {
+      "symbol": "AVPT",
+      "website": "https://www.avepoint.com/",
+      "source": "https://www.avepoint.com/",
+      "reason": "Official AvePoint homepage verified before scoring."
+    },
+    {
+      "symbol": "BRZE",
+      "website": "https://www.braze.com/",
+      "source": "https://www.braze.com/",
+      "reason": "Official Braze homepage verified before scoring."
+    },
+    {
+      "symbol": "INTA",
+      "website": "https://www.intapp.com/",
+      "source": "https://www.intapp.com/",
+      "reason": "Official Intapp homepage verified before scoring."
+    },
+    {
+      "symbol": "MNDY",
+      "website": "https://monday.com/",
+      "source": "https://monday.com/",
+      "reason": "Official monday.com homepage verified before scoring."
+    },
+    {
+      "symbol": "OKTA",
+      "website": "https://www.okta.com/",
+      "source": "https://www.okta.com/",
+      "reason": "Official Okta homepage verified before scoring."
+    },
+    {
+      "symbol": "QTWO",
+      "website": "https://www.q2.com/",
+      "source": "https://www.q2.com/",
+      "reason": "Official Q2 digital-banking company homepage; distinguishes it from the generic quarter name."
+    },
+    {
+      "symbol": "IOT",
+      "website": "https://www.samsara.com/",
+      "source": "https://www.samsara.com/",
+      "reason": "Official Samsara company homepage; distinguishes it from religious concepts and other namesakes."
+    },
+    {
+      "symbol": "TOST",
+      "website": "https://pos.toasttab.com/",
+      "source": "https://pos.toasttab.com/",
+      "reason": "Official Toast business homepage rather than the consumer restaurant directory."
+    },
+    {
+      "symbol": "WAY",
+      "website": "https://www.waystar.com/",
+      "source": "https://www.waystar.com/",
+      "reason": "Official Waystar healthcare company homepage verified before scoring."
+    },
+    {
+      "symbol": "ZETA",
+      "website": "https://www.zetaglobal.com/",
+      "source": "https://www.zetaglobal.com/",
+      "reason": "Official Zeta Global homepage; distinguishes it from other Zeta namesakes."
+    },
+    {
+      "symbol": "SNOW",
+      "website": "https://www.snowflake.com/",
+      "source": "https://www.snowflake.com/",
+      "reason": "Official Snowflake company homepage; rejects the incorrect social-network URL from an ambiguous metadata match."
+    },
+    {
+      "symbol": "TWLO",
+      "website": "https://www.twilio.com/",
+      "source": "https://www.twilio.com/",
+      "reason": "Official Twilio company homepage rather than its Authy product homepage."
+    }
+  ]
+}

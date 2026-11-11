@@ -1,0 +1,798 @@
+{
+  "_meta": {
+    "header": [
+      "Freezes public BVP cloud index membership and Wikidata homepage provenance.",
+      "Pins the comparison selection before scraping or scoring any homepage."
+    ],
+    "schemaVersion": 1
+  },
+  "source": "https://cloudindex.bvp.com/companies",
+  "fetchedAt": "2026-11-11T13:30:03.175Z",
+  "htmlSha256": "5397a37a905df847f4833d55a29cd7bcfaa0e05b6e32ac7b6ee8cb2e1fe2d4ac",
+  "constituents": [
+    {
+      "symbol": "ADBE",
+      "name": "Adobe"
+    },
+    {
+      "symbol": "AGYS",
+      "name": "Agilysys"
+    },
+    {
+      "symbol": "ALKT",
+      "name": "Alkami"
+    },
+    {
+      "symbol": "APPF",
+      "name": "AppFolio"
+    },
+    {
+      "symbol": "ASAN",
+      "name": "Asana"
+    },
+    {
+      "symbol": "TEAM",
+      "name": "Atlassian"
+    },
+    {
+      "symbol": "AVPT",
+      "name": "AvePoint"
+    },
+    {
+      "symbol": "BILL",
+      "name": "Bill.com"
+    },
+    {
+      "symbol": "BL",
+      "name": "BlackLine"
+    },
+    {
+      "symbol": "BRZE",
+      "name": "Braze"
+    },
+    {
+      "symbol": "CLBT",
+      "name": "Cellebrite"
+    },
+    {
+      "symbol": "NET",
+      "name": "Cloudflare"
+    },
+    {
+      "symbol": "CRWD",
+      "name": "Crowdstrike"
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog"
+    },
+    {
+      "symbol": "DOCN",
+      "name": "DigitalOcean"
+    },
+    {
+      "symbol": "DOCU",
+      "name": "DocuSign"
+    },
+    {
+      "symbol": "DT",
+      "name": "Dynatrace"
+    },
+    {
+      "symbol": "ESTC",
+      "name": "Elastic"
+    },
+    {
+      "symbol": "FSLY",
+      "name": "Fastly"
+    },
+    {
+      "symbol": "FIG",
+      "name": "Figma"
+    },
+    {
+      "symbol": "FIVN",
+      "name": "Five9"
+    },
+    {
+      "symbol": "FRSH",
+      "name": "Freshworks"
+    },
+    {
+      "symbol": "GTLB",
+      "name": "Gitlab"
+    },
+    {
+      "symbol": "HUBS",
+      "name": "HubSpot"
+    },
+    {
+      "symbol": "INTA",
+      "name": "Intapp"
+    },
+    {
+      "symbol": "FROG",
+      "name": "JFrog"
+    },
+    {
+      "symbol": "KVYO",
+      "name": "Klaviyo"
+    },
+    {
+      "symbol": "MNDY",
+      "name": "Monday.com"
+    },
+    {
+      "symbol": "MDB",
+      "name": "MongoDB"
+    },
+    {
+      "symbol": "NCNO",
+      "name": "nCino"
+    },
+    {
+      "symbol": "NTSK",
+      "name": "Netskope"
+    },
+    {
+      "symbol": "NTNX",
+      "name": "Nutanix"
+    },
+    {
+      "symbol": "OKTA",
+      "name": "Okta"
+    },
+    {
+      "symbol": "PD",
+      "name": "PagerDuty"
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir"
+    },
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks"
+    },
+    {
+      "symbol": "PAYC",
+      "name": "Paycom"
+    },
+    {
+      "symbol": "PCTY",
+      "name": "Paylocity"
+    },
+    {
+      "symbol": "PCOR",
+      "name": "Procore"
+    },
+    {
+      "symbol": "QTWO",
+      "name": "Q2"
+    },
+    {
+      "symbol": "QLYS",
+      "name": "Qualys"
+    },
+    {
+      "symbol": "RNG",
+      "name": "Ringcentral"
+    },
+    {
+      "symbol": "RBRK",
+      "name": "Rubrik"
+    },
+    {
+      "symbol": "SAIL",
+      "name": "SailPoint"
+    },
+    {
+      "symbol": "CRM",
+      "name": "Salesforce"
+    },
+    {
+      "symbol": "IOT",
+      "name": "Samsara"
+    },
+    {
+      "symbol": "S",
+      "name": "SentinelOne"
+    },
+    {
+      "symbol": "NOW",
+      "name": "ServiceNow"
+    },
+    {
+      "symbol": "TTAN",
+      "name": "ServiceTitan"
+    },
+    {
+      "symbol": "SHOP",
+      "name": "Shopify"
+    },
+    {
+      "symbol": "SNOW",
+      "name": "Snowflake"
+    },
+    {
+      "symbol": "CXM",
+      "name": "Sprinklr"
+    },
+    {
+      "symbol": "SPSC",
+      "name": "SPS Commerce"
+    },
+    {
+      "symbol": "TENB",
+      "name": "Tenable"
+    },
+    {
+      "symbol": "TOST",
+      "name": "Toast"
+    },
+    {
+      "symbol": "TWLO",
+      "name": "Twilio"
+    },
+    {
+      "symbol": "PATH",
+      "name": "UiPath"
+    },
+    {
+      "symbol": "VEEV",
+      "name": "Veeva Systems"
+    },
+    {
+      "symbol": "WAY",
+      "name": "Waystar"
+    },
+    {
+      "symbol": "WIX",
+      "name": "Wix"
+    },
+    {
+      "symbol": "WDAY",
+      "name": "Workday"
+    },
+    {
+      "symbol": "WK",
+      "name": "Workiva"
+    },
+    {
+      "symbol": "ZETA",
+      "name": "Zeta"
+    },
+    {
+      "symbol": "ZS",
+      "name": "Zscaler"
+    }
+  ],
+  "selectedSymbols": [
+    "ADBE",
+    "AGYS",
+    "APPF",
+    "ASAN",
+    "TEAM",
+    "AVPT",
+    "BL",
+    "BRZE",
+    "CLBT",
+    "CRWD",
+    "DDOG",
+    "DOCN",
+    "DOCU",
+    "ESTC",
+    "FSLY",
+    "FIG",
+    "FRSH",
+    "GTLB",
+    "HUBS",
+    "INTA",
+    "KVYO",
+    "MNDY",
+    "MDB",
+    "NTSK",
+    "NTNX",
+    "OKTA",
+    "PD",
+    "PANW",
+    "PAYC",
+    "PCTY",
+    "QTWO",
+    "QLYS",
+    "RNG",
+    "RBRK",
+    "CRM",
+    "IOT",
+    "S",
+    "TTAN",
+    "SHOP",
+    "SNOW",
+    "CXM",
+    "TENB",
+    "TOST",
+    "TWLO",
+    "VEEV",
+    "WAY",
+    "WIX",
+    "WDAY",
+    "ZETA",
+    "ZS"
+  ],
+  "resolved": [
+    {
+      "symbol": "ADBE",
+      "name": "Adobe",
+      "website": "https://www.adobe.com/",
+      "entityId": "Q11463",
+      "entityLabel": "Adobe",
+      "revisionId": 2560680740,
+      "websiteStatementId": "Q11463$B4D4590C-F270-4E4B-90E5-7BBFAF977375",
+      "match": "ticker"
+    },
+    {
+      "symbol": "AGYS",
+      "name": "Agilysys",
+      "website": "http://www.agilysys.com/",
+      "entityId": "Q17510106",
+      "entityLabel": "Agilysys",
+      "revisionId": 2534623959,
+      "websiteStatementId": "Q17510106$08CDF6AF-2EAB-455E-9967-D203175643B8",
+      "match": "ticker"
+    },
+    {
+      "symbol": "APPF",
+      "name": "AppFolio",
+      "website": "http://www.appfolioinc.com/",
+      "entityId": "Q25831370",
+      "entityLabel": "AppFolio",
+      "revisionId": 2534913828,
+      "websiteStatementId": "Q25831370$DA592D9B-B052-4592-99FC-051C50477BDD",
+      "match": "ticker"
+    },
+    {
+      "symbol": "ASAN",
+      "name": "Asana",
+      "website": "https://asana.com/",
+      "match": "official-site",
+      "source": "https://asana.com/",
+      "verifiedAt": "2026-11-11T13:35:51.340Z"
+    },
+    {
+      "symbol": "AVPT",
+      "name": "AvePoint",
+      "website": "https://www.avepoint.com/",
+      "match": "official-site",
+      "source": "https://www.avepoint.com/",
+      "verifiedAt": "2026-11-11T13:35:51.340Z"
+    },
+    {
+      "symbol": "BL",
+      "name": "BlackLine",
+      "website": "https://www.blackline.com/",
+      "entityId": "Q28222794",
+      "entityLabel": "BlackLine",
+      "revisionId": 2534616392,
+      "websiteStatementId": "Q28222794$407A24E6-C4C8-4E73-9F3F-A19228ED7DFB",
+      "match": "ticker"
+    },
+    {
+      "symbol": "BRZE",
+      "name": "Braze",
+      "website": "https://www.braze.com/",
+      "match": "official-site",
+      "source": "https://www.braze.com/",
+      "verifiedAt": "2026-11-11T13:35:51.340Z"
+    },
+    {
+      "symbol": "CLBT",
+      "name": "Cellebrite",
+      "website": "http://www.cellebrite.com/",
+      "entityId": "Q5058279",
+      "entityLabel": "Cellebrite",
+      "revisionId": 2534538132,
+      "websiteStatementId": "Q5058279$A1ABD327-E4AD-4C21-A598-F58D93862AFA",
+      "match": "name"
+    },
+    {
+      "symbol": "CRM",
+      "name": "Salesforce",
+      "website": "https://www.salesforce.com/",
+      "entityId": "Q941127",
+      "entityLabel": "Salesforce",
+      "revisionId": 2565590575,
+      "websiteStatementId": "Q941127$B22A6BC0-C511-412F-BE3F-5CA2A7A84E2A",
+      "match": "ticker"
+    },
+    {
+      "symbol": "CRWD",
+      "name": "Crowdstrike",
+      "website": "https://www.crowdstrike.com/",
+      "entityId": "Q24890758",
+      "entityLabel": "CrowdStrike",
+      "revisionId": 2534560198,
+      "websiteStatementId": "Q24890758$C7197BFE-5591-47BF-8D7B-A524FF9D53AB",
+      "match": "ticker"
+    },
+    {
+      "symbol": "CXM",
+      "name": "Sprinklr",
+      "website": "http://www.sprinklr.com/",
+      "entityId": "Q18636409",
+      "entityLabel": "Sprinklr",
+      "revisionId": 2534579208,
+      "websiteStatementId": "Q18636409$164D838A-F133-4EE4-ACA9-1321836F7F59",
+      "match": "ticker"
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "website": "https://www.datadoghq.com/",
+      "entityId": "Q16248637",
+      "entityLabel": "Datadog",
+      "revisionId": 2550592711,
+      "websiteStatementId": "Q16248637$5410F95B-9B60-4D70-A5E2-6B5D3581CA89",
+      "match": "ticker"
+    },
+    {
+      "symbol": "DOCN",
+      "name": "DigitalOcean",
+      "website": "https://www.digitalocean.com/",
+      "entityId": "Q17052116",
+      "entityLabel": "DigitalOcean",
+      "revisionId": 2564563659,
+      "websiteStatementId": "Q17052116$FDD5C7A7-8479-4683-AAB1-E6E41F9777A3",
+      "match": "ticker"
+    },
+    {
+      "symbol": "DOCU",
+      "name": "DocuSign",
+      "website": "http://www.docusign.com/",
+      "entityId": "Q5287613",
+      "entityLabel": "Docusign",
+      "revisionId": 2534537929,
+      "websiteStatementId": "Q5287613$10D823D3-E518-4CAB-8477-339CDDBA53AE",
+      "match": "ticker"
+    },
+    {
+      "symbol": "ESTC",
+      "name": "Elastic",
+      "website": "https://www.elastic.co/",
+      "entityId": "Q22074922",
+      "entityLabel": "Elastic",
+      "revisionId": 2562096817,
+      "websiteStatementId": "Q22074922$ee1c2b00-4bb8-29b0-3d36-1cac6abf1ff5",
+      "match": "ticker"
+    },
+    {
+      "symbol": "FIG",
+      "name": "Figma",
+      "website": "https://figma.com/",
+      "entityId": "Q138548226",
+      "entityLabel": "Figma Inc",
+      "revisionId": 2469064742,
+      "websiteStatementId": "Q138548226$6A71330B-0E80-4C2F-B0CC-972ACFC9A4C5",
+      "match": "ticker"
+    },
+    {
+      "symbol": "FRSH",
+      "name": "Freshworks",
+      "website": "https://www.freshworks.com/",
+      "entityId": "Q117782453",
+      "entityLabel": "Freshworks",
+      "revisionId": 2393697916,
+      "websiteStatementId": "Q117782453$31d46b4c-4be8-c64f-6f36-d2f6cb139aa2",
+      "match": "name"
+    },
+    {
+      "symbol": "FSLY",
+      "name": "Fastly",
+      "website": "https://www.fastly.com/",
+      "entityId": "Q34045622",
+      "entityLabel": "Fastly",
+      "revisionId": 2564801500,
+      "websiteStatementId": "Q34045622$ba714851-4cca-4a7a-f61b-5324d615925f",
+      "match": "ticker"
+    },
+    {
+      "symbol": "GTLB",
+      "name": "Gitlab",
+      "website": "https://about.gitlab.com/company/",
+      "entityId": "Q55589254",
+      "entityLabel": "GitLab Inc.",
+      "revisionId": 2566425613,
+      "websiteStatementId": "Q55589254$1aa856d8-48af-a7f0-ff6c-f69155b9de80",
+      "match": "ticker"
+    },
+    {
+      "symbol": "HUBS",
+      "name": "HubSpot",
+      "website": "http://www.hubspot.com/",
+      "entityId": "Q5926631",
+      "entityLabel": "HubSpot",
+      "revisionId": 2538529653,
+      "websiteStatementId": "Q5926631$16333D3F-61EE-4003-BFE4-4B1AFF390F82",
+      "match": "ticker"
+    },
+    {
+      "symbol": "INTA",
+      "name": "Intapp",
+      "website": "https://www.intapp.com/",
+      "match": "official-site",
+      "source": "https://www.intapp.com/",
+      "verifiedAt": "2026-11-11T13:35:51.340Z"
+    },
+    {
+      "symbol": "IOT",
+      "name": "Samsara",
+      "website": "https://www.samsara.com/",
+      "match": "official-site",
+      "source": "https://www.samsara.com/",
+      "verifiedAt": "2026-11-11T13:35:51.340Z"
+    },
+    {
+      "symbol": "KVYO",
+      "name": "Klaviyo",
+      "website": "https://www.klaviyo.com/",
+      "entityId": "Q106631196",
+      "entityLabel": "Klaviyo",
+      "revisionId": 2538529859,
+      "websiteStatementId": "Q106631196$b63f96ec-4e5b-32dd-ebc6-60bcba65d2ad",
+      "match": "ticker"
+    },
+    {
+      "symbol": "MDB",
+      "name": "MongoDB",
+      "website": "https://www.mongodb.com/",
+      "entityId": "Q4546965",
+      "entityLabel": "MongoDB Inc.",
+      "revisionId": 2534610392,
+      "websiteStatementId": "Q4546965$4506E32F-7304-4BB7-B93E-3628684D8599",
+      "match": "ticker"
+    },
+    {
+      "symbol": "MNDY",
+      "name": "Monday.com",
+      "website": "https://monday.com/",
+      "match": "official-site",
+      "source": "https://monday.com/",
+      "verifiedAt": "2026-11-11T13:35:51.340Z"
+    },
+    {
+      "symbol": "NTNX",
+      "name": "Nutanix",
+      "website": "http://www.nutanix.com/",
+      "entityId": "Q16959629",
+      "entityLabel": "Nutanix",
+      "revisionId": 2561690750,
+      "websiteStatementId": "Q16959629$157eddc9-4484-b586-b776-4aa41cf16a17",
+      "match": "ticker"
+    },
+    {
+      "symbol": "NTSK",
+      "name": "Netskope",
+      "website": "http://www.netskope.com/",
+      "entityId": "Q17082991",
+      "entityLabel": "Netskope, Inc",
+      "revisionId": 2438514398,
+      "websiteStatementId": "Q17082991$D507151C-CEDC-4386-9244-0F275A2F67E8",
+      "match": "name"
+    },
+    {
+      "symbol": "OKTA",
+      "name": "Okta",
+      "website": "https://www.okta.com/",
+      "match": "official-site",
+      "source": "https://www.okta.com/",
+      "verifiedAt": "2026-11-11T13:35:51.340Z"
+    },
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
+      "website": "https://www.paloaltonetworks.com/",
+      "entityId": "Q7128508",
+      "entityLabel": "Palo Alto Networks",
+      "revisionId": 2562724026,
+      "websiteStatementId": "Q7128508$FA09CEE5-1EEC-4FC3-8834-14D12F453A1A",
+      "match": "ticker"
+    },
+    {
+      "symbol": "PAYC",
+      "name": "Paycom",
+      "website": "https://www.paycom.com/",
+      "entityId": "Q17084959",
+      "entityLabel": "Paycom",
+      "revisionId": 2479583334,
+      "websiteStatementId": "Q17084959$CDCF2F32-BD16-4E87-8958-DD0D348EF40D",
+      "match": "ticker"
+    },
+    {
+      "symbol": "PCTY",
+      "name": "Paylocity",
+      "website": "https://www.paylocity.com/",
+      "entityId": "Q7156760",
+      "entityLabel": "Paylocity Corporation",
+      "revisionId": 2524549927,
+      "websiteStatementId": "Q7156760$5CB4F91B-05EE-46C7-A986-747E642BF5D7",
+      "match": "ticker"
+    },
+    {
+      "symbol": "PD",
+      "name": "PagerDuty",
+      "website": "http://www.pagerduty.com/",
+      "entityId": "Q48989804",
+      "entityLabel": "PagerDuty",
+      "revisionId": 2550593068,
+      "websiteStatementId": "Q48989804$832F56E8-75EC-4F6E-945F-2CF817454A57",
+      "match": "ticker"
+    },
+    {
+      "symbol": "QLYS",
+      "name": "Qualys",
+      "website": "https://www.qualys.com/",
+      "entityId": "Q7268802",
+      "entityLabel": "Qualys",
+      "revisionId": 2534608212,
+      "websiteStatementId": "Q7268802$254ae8fc-459a-718d-51a0-80cf2a8c7405",
+      "match": "ticker"
+    },
+    {
+      "symbol": "QTWO",
+      "name": "Q2",
+      "website": "https://www.q2.com/",
+      "match": "official-site",
+      "source": "https://www.q2.com/",
+      "verifiedAt": "2026-11-11T13:35:51.340Z"
+    },
+    {
+      "symbol": "RBRK",
+      "name": "Rubrik",
+      "website": "https://www.rubrik.com/",
+      "entityId": "Q55632076",
+      "entityLabel": "Rubrik",
+      "revisionId": 2567108553,
+      "websiteStatementId": "Q55632076$7908c127-4683-eb67-81b0-b9fc0c2c8f69",
+      "match": "ticker"
+    },
+    {
+      "symbol": "RNG",
+      "name": "Ringcentral",
+      "website": "https://www.ringcentral.com/",
+      "entityId": "Q7334682",
+      "entityLabel": "RingCentral",
+      "revisionId": 2534638658,
+      "websiteStatementId": "Q7334682$9a41d9c5-445b-f95a-099c-58472b8e205a",
+      "match": "ticker"
+    },
+    {
+      "symbol": "S",
+      "name": "SentinelOne",
+      "website": "http://www.sentinelone.com/",
+      "entityId": "Q104844406",
+      "entityLabel": "SentinelOne",
+      "revisionId": 2552175345,
+      "websiteStatementId": "Q104844406$24229E92-44EE-474A-A959-03778FA53A01",
+      "match": "ticker"
+    },
+    {
+      "symbol": "SHOP",
+      "name": "Shopify",
+      "website": "https://www.shopify.com/",
+      "entityId": "Q7501150",
+      "entityLabel": "Shopify",
+      "revisionId": 2560437516,
+      "websiteStatementId": "Q7501150$b718ec00-462c-c976-5ee2-c166162de985",
+      "match": "ticker"
+    },
+    {
+      "symbol": "SNOW",
+      "name": "Snowflake",
+      "website": "https://www.snowflake.com/",
+      "match": "official-site",
+      "source": "https://www.snowflake.com/",
+      "verifiedAt": "2026-11-11T13:35:51.340Z"
+    },
+    {
+      "symbol": "TEAM",
+      "name": "Atlassian",
+      "website": "https://www.atlassian.com/",
+      "entityId": "Q757307",
+      "entityLabel": "Atlassian",
+      "revisionId": 2561306964,
+      "websiteStatementId": "Q757307$6819B79C-94F0-4B22-A6B3-944A96054399",
+      "match": "ticker"
+    },
+    {
+      "symbol": "TENB",
+      "name": "Tenable",
+      "website": "https://www.tenable.com/",
+      "entityId": "Q55948312",
+      "entityLabel": "Tenable Network Security",
+      "revisionId": 2534604441,
+      "websiteStatementId": "Q55948312$9398a0cc-49a3-0dc3-fa29-4e8e10a4d6e1",
+      "match": "ticker"
+    },
+    {
+      "symbol": "TOST",
+      "name": "Toast",
+      "website": "https://pos.toasttab.com/",
+      "match": "official-site",
+      "source": "https://pos.toasttab.com/",
+      "verifiedAt": "2026-11-11T13:35:51.340Z"
+    },
+    {
+      "symbol": "TTAN",
+      "name": "ServiceTitan",
+      "website": "https://servicetitan.com/",
+      "entityId": "Q102229056",
+      "entityLabel": "ServiceTitan",
+      "revisionId": 2484630634,
+      "websiteStatementId": "Q102229056$6D9F430C-477A-4882-A880-6192281FF45A",
+      "match": "name"
+    },
+    {
+      "symbol": "TWLO",
+      "name": "Twilio",
+      "website": "https://www.twilio.com/",
+      "match": "official-site",
+      "source": "https://www.twilio.com/",
+      "verifiedAt": "2026-11-11T13:35:51.340Z"
+    },
+    {
+      "symbol": "VEEV",
+      "name": "Veeva Systems",
+      "website": "https://www.veeva.com/",
+      "entityId": "Q24204493",
+      "entityLabel": "Veeva Systems",
+      "revisionId": 2534656252,
+      "websiteStatementId": "Q24204493$fdbd3b83-4ad1-1efd-8ba0-5c816069d174",
+      "match": "ticker"
+    },
+    {
+      "symbol": "WAY",
+      "name": "Waystar",
+      "website": "https://www.waystar.com/",
+      "match": "official-site",
+      "source": "https://www.waystar.com/",
+      "verifiedAt": "2026-11-11T13:35:51.340Z"
+    },
+    {
+      "symbol": "WDAY",
+      "name": "Workday",
+      "website": "https://www.workday.com/",
+      "entityId": "Q8034666",
+      "entityLabel": "Workday, Inc.",
+      "revisionId": 2560197791,
+      "websiteStatementId": "Q8034666$2f5b7078-43d3-8f00-0caf-c009dca32442",
+      "match": "ticker"
+    },
+    {
+      "symbol": "WIX",
+      "name": "Wix",
+      "website": "https://wix.com/",
+      "entityId": "Q420506",
+      "entityLabel": "Wix.com",
+      "revisionId": 2536450877,
+      "websiteStatementId": "Q420506$3F5B0C3C-8F94-4F06-814F-19F0B93C5A6C",
+      "match": "ticker"
+    },
+    {
+      "symbol": "ZETA",
+      "name": "Zeta",
+      "website": "https://www.zetaglobal.com/",
+      "match": "official-site",
+      "source": "https://www.zetaglobal.com/",
+      "verifiedAt": "2026-11-11T13:35:51.340Z"
+    },
+    {
+      "symbol": "ZS",
+      "name": "Zscaler",
+      "website": "https://www.zscaler.com/",
+      "entityId": "Q8074786",
+      "entityLabel": "Zscaler",
+      "revisionId": 2558757923,
+      "websiteStatementId": "Q8074786$ff1e90f0-4625-86ad-c427-ed9a5716b7bc",
+      "match": "ticker"
+    }
+  ]
+}

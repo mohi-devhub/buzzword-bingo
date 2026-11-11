@@ -1,0 +1,516 @@
+{
+  "_meta": {
+    "header": [
+      "Defines the pinned established-company comparison cohort.",
+      "Enables the same budgeted crawler and deterministic scorer for an external cohort."
+    ],
+    "schemaVersion": 1
+  },
+  "id": "bvp-established",
+  "label": "BVP public cloud comparison",
+  "source": "https://cloudindex.bvp.com/companies",
+  "sourceFetchedAt": "2026-11-11T13:30:03.175Z",
+  "strategy": "Select 50 evenly spaced positions from 64 names sorted alphabetically; homepage provenance is in data/sources/bvp-established.json. IDs are 1000000000 plus the base-36 ticker.",
+  "companies": [
+    {
+      "id": 1000483818,
+      "slug": "bvp-adbe",
+      "name": "Adobe",
+      "website": "https://www.adobe.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000488548,
+      "slug": "bvp-agys",
+      "name": "Agilysys",
+      "website": "http://www.agilysys.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000499875,
+      "slug": "bvp-appf",
+      "name": "AppFolio",
+      "website": "http://www.appfolioinc.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000503231,
+      "slug": "bvp-asan",
+      "name": "Asana",
+      "website": "https://asana.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1001371550,
+      "slug": "bvp-team",
+      "name": "Atlassian",
+      "website": "https://www.atlassian.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000507665,
+      "slug": "bvp-avpt",
+      "name": "AvePoint",
+      "website": "https://www.avepoint.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000000417,
+      "slug": "bvp-bl",
+      "name": "BlackLine",
+      "website": "https://www.blackline.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000549482,
+      "slug": "bvp-brze",
+      "name": "Braze",
+      "website": "https://www.braze.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000587513,
+      "slug": "bvp-clbt",
+      "name": "Cellebrite",
+      "website": "http://www.cellebrite.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000596029,
+      "slug": "bvp-crwd",
+      "name": "Crowdstrike",
+      "website": "https://www.crowdstrike.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000624256,
+      "slug": "bvp-ddog",
+      "name": "Datadog",
+      "website": "https://www.datadoghq.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000638087,
+      "slug": "bvp-docn",
+      "name": "DigitalOcean",
+      "website": "https://www.digitalocean.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000638094,
+      "slug": "bvp-docu",
+      "name": "DocuSign",
+      "website": "http://www.docusign.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000690528,
+      "slug": "bvp-estc",
+      "name": "Elastic",
+      "website": "https://www.elastic.co/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000736918,
+      "slug": "bvp-fsly",
+      "name": "Fastly",
+      "website": "https://www.fastly.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000020104,
+      "slug": "bvp-fig",
+      "name": "Figma",
+      "website": "https://figma.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000735857,
+      "slug": "bvp-frsh",
+      "name": "Freshworks",
+      "website": "https://www.freshworks.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000784847,
+      "slug": "bvp-gtlb",
+      "name": "Gitlab",
+      "website": "https://about.gitlab.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000832456,
+      "slug": "bvp-hubs",
+      "name": "HubSpot",
+      "website": "http://www.hubspot.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000870670,
+      "slug": "bvp-inta",
+      "name": "Intapp",
+      "website": "https://www.intapp.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000974544,
+      "slug": "bvp-kvyo",
+      "name": "Klaviyo",
+      "website": "https://www.klaviyo.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1001056742,
+      "slug": "bvp-mndy",
+      "name": "Monday.com",
+      "website": "https://monday.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000028991,
+      "slug": "bvp-mdb",
+      "name": "MongoDB",
+      "website": "https://www.mongodb.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1001111700,
+      "slug": "bvp-ntsk",
+      "name": "Netskope",
+      "website": "http://www.netskope.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1001111533,
+      "slug": "bvp-ntnx",
+      "name": "Nutanix",
+      "website": "http://www.nutanix.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1001146718,
+      "slug": "bvp-okta",
+      "name": "Okta",
+      "website": "https://www.okta.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000000913,
+      "slug": "bvp-pd",
+      "name": "PagerDuty",
+      "website": "http://www.pagerduty.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1001180220,
+      "slug": "bvp-panw",
+      "name": "Palo Alto Networks",
+      "website": "https://www.paloaltonetworks.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1001180596,
+      "slug": "bvp-payc",
+      "name": "Paycom",
+      "website": "https://www.paycom.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1001183030,
+      "slug": "bvp-pcty",
+      "name": "Paylocity",
+      "website": "https://www.paylocity.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1001251816,
+      "slug": "bvp-qtwo",
+      "name": "Q2",
+      "website": "https://www.q2.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1001241524,
+      "slug": "bvp-qlys",
+      "name": "Qualys",
+      "website": "https://www.qualys.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000035836,
+      "slug": "bvp-rng",
+      "name": "Ringcentral",
+      "website": "https://www.ringcentral.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1001274960,
+      "slug": "bvp-rbrk",
+      "name": "Rubrik",
+      "website": "https://www.rubrik.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000016546,
+      "slug": "bvp-crm",
+      "name": "Salesforce",
+      "website": "https://www.salesforce.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000024221,
+      "slug": "bvp-iot",
+      "name": "Samsara",
+      "website": "https://www.samsara.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000000028,
+      "slug": "bvp-s",
+      "name": "SentinelOne",
+      "website": "http://www.sentinelone.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1001390991,
+      "slug": "bvp-ttan",
+      "name": "ServiceTitan",
+      "website": "https://servicetitan.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1001329289,
+      "slug": "bvp-shop",
+      "name": "Shopify",
+      "website": "https://www.shopify.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1001337072,
+      "slug": "bvp-snow",
+      "name": "Snowflake",
+      "website": "https://www.snowflake.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000016762,
+      "slug": "bvp-cxm",
+      "name": "Sprinklr",
+      "website": "http://www.sprinklr.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1001372007,
+      "slug": "bvp-tenb",
+      "name": "Tenable",
+      "website": "https://www.tenable.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1001385165,
+      "slug": "bvp-tost",
+      "name": "Toast",
+      "website": "https://pos.toasttab.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1001395276,
+      "slug": "bvp-twlo",
+      "name": "Twilio",
+      "website": "https://www.twilio.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1001465015,
+      "slug": "bvp-veev",
+      "name": "Veeva Systems",
+      "website": "https://www.veeva.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000041866,
+      "slug": "bvp-way",
+      "name": "Waystar",
+      "website": "https://www.waystar.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000042153,
+      "slug": "bvp-wix",
+      "name": "Wix",
+      "website": "https://wix.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1001510234,
+      "slug": "bvp-wday",
+      "name": "Workday",
+      "website": "https://www.workday.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1001652158,
+      "slug": "bvp-zeta",
+      "name": "Zeta",
+      "website": "https://www.zetaglobal.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    },
+    {
+      "id": 1000001288,
+      "slug": "bvp-zs",
+      "name": "Zscaler",
+      "website": "https://www.zscaler.com/",
+      "batch": "BVP public cloud comparison",
+      "status": "Active",
+      "oneLiner": "",
+      "logoUrl": null
+    }
+  ]
+}

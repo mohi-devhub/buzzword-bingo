@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "header": [
+      "Records a limited crawl and each reserved or reported request charge.",
+      "Makes credit spend and interrupted attempts auditable without exposing credentials."
+    ],
+    "schemaVersion": 1
+  },
+  "id": "ba964a2f-09fb-432f-868a-37f619fcb06a",
+  "startedAt": "2026-11-11T10:00:12.632Z",
+  "finishedAt": "2026-11-11T10:00:12.641Z",
+  "batch": "Fall 2026",
+  "limit": 10,
+  "refresh": false,
+  "selectedSlugs": [
+    "0security",
+    "acyclic",
+    "adalat-ai",
+    "adsideai",
+    "agent-37",
+    "agent-relay",
+    "ageospatial",
+    "aikido-technologies",
+    "ailit",
+    "alkera-ai"
+  ],
+  "requests": [],
+  "cacheHits": [
+    "0security",
+    "acyclic",
+    "adalat-ai",
+    "adsideai",
+    "agent-37",
+    "agent-relay",
+    "ageospatial",
+    "aikido-technologies",
+    "ailit",
+    "alkera-ai"
+  ],
+  "deferred": []
+}

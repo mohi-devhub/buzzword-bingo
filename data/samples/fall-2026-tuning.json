@@ -1,0 +1,195 @@
+{
+  "_meta": {
+    "header": [
+      "Pins the approved thirty-company Fall 2026 tuning sample.",
+      "Preserves ten existing captures and adds twenty companies across the alphabet."
+    ],
+    "schemaVersion": 1
+  },
+  "batch": "Fall 2026",
+  "sourceFetchedAt": "2026-11-11T09:58:43.773Z",
+  "population": 225,
+  "strategy": "Keep the original ten. From zero-based indices 0,8,16,..., exclude originals; choose twenty evenly spaced candidate indices using round(i*(candidateCount-1)/19).",
+  "companies": [
+    {
+      "id": 35553,
+      "slug": "0security",
+      "position": 1,
+      "cohort": "original"
+    },
+    {
+      "id": 37071,
+      "slug": "acyclic",
+      "position": 2,
+      "cohort": "original"
+    },
+    {
+      "id": 34695,
+      "slug": "adalat-ai",
+      "position": 3,
+      "cohort": "original"
+    },
+    {
+      "id": 37998,
+      "slug": "adsideai",
+      "position": 4,
+      "cohort": "original"
+    },
+    {
+      "id": 34893,
+      "slug": "agent-37",
+      "position": 5,
+      "cohort": "original"
+    },
+    {
+      "id": 35292,
+      "slug": "agent-relay",
+      "position": 6,
+      "cohort": "original"
+    },
+    {
+      "id": 37468,
+      "slug": "ageospatial",
+      "position": 7,
+      "cohort": "original"
+    },
+    {
+      "id": 38754,
+      "slug": "aikido-technologies",
+      "position": 8,
+      "cohort": "original"
+    },
+    {
+      "id": 36246,
+      "slug": "ailit",
+      "position": 9,
+      "cohort": "original"
+    },
+    {
+      "id": 32262,
+      "slug": "alkera-ai",
+      "position": 10,
+      "cohort": "original"
+    },
+    {
+      "id": 34959,
+      "slug": "applied-kinetics",
+      "position": 17,
+      "cohort": "expansion"
+    },
+    {
+      "id": 32550,
+      "slug": "audora",
+      "position": 25,
+      "cohort": "expansion"
+    },
+    {
+      "id": 34696,
+      "slug": "chempilotai",
+      "position": 41,
+      "cohort": "expansion"
+    },
+    {
+      "id": 36084,
+      "slug": "covera",
+      "position": 49,
+      "cohort": "expansion"
+    },
+    {
+      "id": 35850,
+      "slug": "dreamscale-labs",
+      "position": 57,
+      "cohort": "expansion"
+    },
+    {
+      "id": 37435,
+      "slug": "graypass",
+      "position": 73,
+      "cohort": "expansion"
+    },
+    {
+      "id": 31725,
+      "slug": "hickory-and-company",
+      "position": 81,
+      "cohort": "expansion"
+    },
+    {
+      "id": 36514,
+      "slug": "kanopy",
+      "position": 97,
+      "cohort": "expansion"
+    },
+    {
+      "id": 36512,
+      "slug": "lux-foods",
+      "position": 105,
+      "cohort": "expansion"
+    },
+    {
+      "id": 36279,
+      "slug": "native",
+      "position": 113,
+      "cohort": "expansion"
+    },
+    {
+      "id": 35421,
+      "slug": "ordo-labs",
+      "position": 129,
+      "cohort": "expansion"
+    },
+    {
+      "id": 34794,
+      "slug": "petrichor",
+      "position": 137,
+      "cohort": "expansion"
+    },
+    {
+      "id": 36510,
+      "slug": "preload",
+      "position": 145,
+      "cohort": "expansion"
+    },
+    {
+      "id": 35263,
+      "slug": "rivereditor",
+      "position": 161,
+      "cohort": "expansion"
+    },
+    {
+      "id": 34862,
+      "slug": "saccade",
+      "position": 169,
+      "cohort": "expansion"
+    },
+    {
+      "id": 34497,
+      "slug": "summer-engine",
+      "position": 185,
+      "cohort": "expansion"
+    },
+    {
+      "id": 37566,
+      "slug": "the-agentic-data-co",
+      "position": 193,
+      "cohort": "expansion"
+    },
+    {
+      "id": 34861,
+      "slug": "topos",
+      "position": 201,
+      "cohort": "expansion"
+    },
+    {
+      "id": 35784,
+      "slug": "vorelios",
+      "position": 217,
+      "cohort": "expansion"
+    },
+    {
+      "id": 36213,
+      "slug": "yam",
+      "position": 225,
+      "cohort": "expansion"
+    }
+  ]
+}

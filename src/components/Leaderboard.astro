@@ -1,0 +1,224 @@
+---
+// Renders both real cohort score sheets and accessible sorting controls.
+// Keeps most, least, and category views usable without requesting fresh data.
+import { rankCompanies } from "../results.js";
+import {
+  siteData,
+  sitePath,
+  topPhrases,
+  type SiteCohort,
+} from "../site-data.js";
+import Icon from "./Icon.astro";
+interface Props {
+  cohorts: SiteCohort[];
+}
+const { cohorts } = Astro.props;
+const limit = 25;
+const data = await siteData();
+---
+
+<section class="rankings section-space shell" id="leaderboard">
+  <div class="section-heading">
+    <div>
+      <h2>Big words. Small print.</h2>
+      <p>Pick a cohort. Follow the buzzwords.</p>
+    </div>
+    <span class="sample-label">
+      {data.config.provisional
+        ? "Provisional sample rankings"
+        : "Saved homepage rankings"}
+    </span>
+  </div>
+  <div class="cohort-tabs" role="tablist" aria-label="Company cohort">
+    {cohorts.map((cohort, index) => (
+      <button
+        id={`tab-${cohort.kind}`}
+        type="button"
+        role="tab"
+        aria-selected={index === 0 ? "true" : "false"}
+        aria-controls={`panel-${cohort.kind}`}
+        tabindex={index === 0 ? 0 : -1}
+        data-cohort-tab={cohort.kind}
+      >
+        <span class={`series-dot ${cohort.kind}`}></span>
+        {cohort.label}
+        <span class="tab-count">{cohort.summary.selected}</span>
+      </button>
+    ))}
+  </div>
+  {cohorts.map((cohort, index) => {
+    const rows = rankCompanies(cohort.score.companies);
+    return (
+      <div
+        id={`panel-${cohort.kind}`}
+        role="tabpanel"
+        aria-labelledby={`tab-${cohort.kind}`}
+        hidden={index !== 0}
+        class="leaderboard-panel"
+        data-limit={limit}
+      >
+        <div class="ranking-controls">
+          <div class="sort-switch" aria-label="Density order">
+            <button type="button" data-order="most" aria-pressed="true">
+              Most buzzwords
+            </button>
+            <button type="button" data-order="least" aria-pressed="false">
+              Least buzzwords <Icon name="up" size={12} />
+            </button>
+          </div>
+          <label class="category-select">
+            Count by{" "}
+            <select aria-label={`${cohort.shortLabel} category`}>
+              <option value="density">All categories</option>
+              <option value="ai">AI hype</option>
+              <option value="fluff">Corporate fluff</option>
+              <option value="claims">Big claims</option>
+            </select>
+          </label>
+        </div>
+        <div class="table-wrap">
+          <table class="leaderboard-table">
+            <caption class="sr-only">
+              {cohort.label}, saved homepage density ranking
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col" class="rank-col">
+                  Rank
+                </th>
+                <th scope="col">Company</th>
+                <th scope="col" class="density-col" aria-sort="descending">
+                  Density{" "}
+                  <span data-sort-arrow aria-hidden="true">
+                    <Icon name="down" size={12} />
+                  </span>
+                </th>
+                <th scope="col" class="line-col">
+                  Best line
+                </th>
+                <th scope="col" class="phrases-col">
+                  Favourite words
+                </th>
+                <th scope="col">
+                  <span class="sr-only">Open company</span>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {rows.map((company, rowIndex) => {
+                const category = (name: string) => {
+                  const result = company.categoryScores.find(
+                    (entry) => entry.category === name,
+                  );
+                  if (!result)
+                    throw new Error(
+                      `Missing category score for ${company.slug}`,
+                    );
+                  return result.density;
+                };
+                return (
+                  <tr
+                    data-row
+                    data-slug={company.slug}
+                    data-density={company.density}
+                    data-ai={category("AI hype")}
+                    data-fluff={category("Corporate fluff")}
+                    data-claims={category("Big claims")}
+                    hidden={rowIndex >= limit}
+                  >
+                    <td class="rank-col" data-rank>
+                      {String(rowIndex + 1).padStart(2, "0")}
+                    </td>
+                    <td>
+                      <a
+                        class="company-link"
+                        href={sitePath(`c/${company.slug}/`)}
+                      >
+                        <span
+                          class:list={[
+                            "company-avatar",
+                            `avatar-${rowIndex % 5}`,
+                          ]}
+                          aria-hidden="true"
+                        >
+                          {company.name
+                            .replace(/[^a-zA-Z0-9]/g, "")
+                            .slice(0, 2)
+                            .toUpperCase()}
+                        </span>
+                        <span>
+                          <strong>{company.name}</strong>
+                          <small>
+                            {cohort.kind === "startups"
+                              ? `YC ${company.batch}`
+                              : "Public cloud"}
+                            <span class="mobile-progress">
+                              {" "}
+                              · {company.bingo.bestLine.hits}/
+                              {company.bingo.bestLine.total} line
+                            </span>
+                          </small>
+                        </span>
+                      </a>
+                    </td>
+                    <td
+                      class:list={[
+                        "density-col",
+                        { "zero-density": company.density === 0 },
+                      ]}
+                    >
+                      <span class="density-number" data-score>
+                        {company.density.toFixed(2)}
+                      </span>
+                    </td>
+                    <td class="line-col">
+                      <span class="line-score">
+                        {company.bingo.bestLine.hits}
+                        <span>/{company.bingo.bestLine.total}</span>
+                      </span>
+                    </td>
+                    <td class="phrases-col">
+                      <div class="phrase-tags">
+                        {topPhrases(company).length ? (
+                          topPhrases(company).map((phrase) => (
+                            <span>{phrase.phrase}</span>
+                          ))
+                        ) : (
+                          <span class="no-hits">A refreshingly empty card</span>
+                        )}
+                      </div>
+                    </td>
+                    <td class="open-col">
+                      <a
+                        href={sitePath(`c/${company.slug}/`)}
+                        aria-label={`View ${company.name}`}
+                      >
+                        <Icon name="arrow" />
+                      </a>
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+        <div class="ranking-foot">
+          <p data-results aria-live="polite">
+            Showing {Math.min(limit, rows.length)} of {rows.length} scored
+            companies · {cohort.summary.unscored} unscored
+          </p>
+          <a href={sitePath("about/#scoring")}>
+            How the numbers work <Icon name="arrow" size={15} />
+          </a>
+        </div>
+        <p class="least-note" hidden>
+          The “honest ones” is a joke about wording. Zero hits says nothing
+          about product quality.
+        </p>
+      </div>
+    );
+  })}
+</section>
+<script>
+  import "../client/leaderboard.js";
+</script>

@@ -1,0 +1,97 @@
+---
+// Gives visitors a clickable copy of the fixed card for any landing page.
+// Keeps the game entirely in the browser without fetching URLs or spending credits.
+import Base from "../layouts/Base.astro";
+import Icon from "../components/Icon.astro";
+import { siteData } from "../site-data.js";
+const data = await siteData();
+const card = data.startups.score.card;
+---
+
+<Base title="Play your own round — Buzzword Bingo">
+  <section class="shell play-page">
+    <div class="play-intro">
+      <h1>
+        Spot a buzzword.
+        <br />
+        <span>Make your mark.</span>
+      </h1>
+      <p>
+        Keep this card beside any landing page. Click a phrase when you see it.
+        Five in a line? You know what to say.
+      </p>
+      <p class="muted">
+        Your round stays in this browser. No homepage requests. No score for the
+        company.
+      </p>
+    </div>
+    <div class="play-layout">
+      <div class="play-card-frame">
+        <div class="bingo-card startups">
+          <div class="bingo-letters" aria-hidden="true">
+            {["B", "I", "N", "G", "O"].map((letter) => (
+              <span>{letter}</span>
+            ))}
+          </div>
+          <div
+            class="bingo-grid"
+            data-play-card
+            data-version={data.scoringVersion}
+          >
+            {card.map((id, index) => (
+              <button
+                type="button"
+                class:list={[
+                  "bingo-cell",
+                  { hit: id === null, free: id === null },
+                ]}
+                data-cell={index}
+                data-phrase={id || ""}
+                aria-pressed={id === null ? "true" : "false"}
+                disabled={id === null}
+              >
+                <span class="cell-phrase">
+                  {id === null
+                    ? "FREE"
+                    : data.dictionary.find((word) => word.id === id)?.phrase}
+                </span>
+                <span class="cell-count">
+                  {id === null ? "on the house" : "tap to dab"}
+                </span>
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+      <aside class="play-instructions">
+        <h2>House rules.</h2>
+        <ol>
+          <li>Open a company’s homepage in another tab.</li>
+          <li>Spot the phrase or a common variant.</li>
+          <li>Tap its square. FREE is already yours.</li>
+          <li>Complete a row, column, or diagonal.</li>
+        </ol>
+        <div class="game-status" aria-live="polite">
+          <strong data-game-message>Eyes down.</strong>
+          <p>
+            <span data-game-hits>0</span>/{card.filter(Boolean).length} phrases
+            spotted
+          </p>
+          <p>
+            Best line <span data-game-line>1</span>/
+            {data.startups.summary.bingo.bestLine.total}
+          </p>
+        </div>
+        <button type="button" class="button secondary" data-game-reset>
+          <Icon name="refresh" /> Clear the card
+        </button>
+        <p class="muted">
+          A playful spot-check, not the published density score.
+        </p>
+      </aside>
+    </div>
+  </section>
+</Base>
+<script>
+  import "../client/play.js";
+</script>

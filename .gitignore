@@ -1,0 +1,20 @@
+# Keeps local secrets, dependencies, and generated build files out of Git.
+# Makes data and source reviewable without exposing credentials.
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+.astro/
+.DS_Store
+.crawl.lock/
+*.tmp
+coverage/
+public/og/
+public/COMPARISON.md
+public/licenses/
+
+# Keeps full homepage payloads and private history backups off GitHub.
+/.local/
+/data/scrapes/
+/data/cache/

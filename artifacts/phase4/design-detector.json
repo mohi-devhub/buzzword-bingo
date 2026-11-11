@@ -1,0 +1,10 @@
+{
+  "_meta": {
+    "header": [
+      "Records the single mechanical design scan for the Phase 4 refinement.",
+      "Preserves detector evidence without treating a clean scan as visual proof."
+    ],
+    "schemaVersion": 1
+  },
+  "result": []
+}

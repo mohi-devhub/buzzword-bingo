@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "header": [
+      "Records the approved full Fall 2026 batch crawl allowance.",
+      "Caps this run at 195 new requests and cumulative usage at 300 requests and credits."
+    ],
+    "schemaVersion": 1
+  },
+  "maxCompaniesPerRun": 225,
+  "maxNewRequestsPerRun": 195,
+  "authorizedRequests": 300,
+  "authorizedCredits": 300,
+  "monthlyCredits": 1000,
+  "externalMonthlyCredits": 0
+}

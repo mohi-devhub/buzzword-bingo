@@ -1,0 +1,262 @@
+{
+  "_meta": {
+    "header": [
+      "Records a limited crawl and each reserved or reported request charge.",
+      "Makes credit spend and interrupted attempts auditable without exposing credentials."
+    ],
+    "schemaVersion": 1
+  },
+  "id": "5598be7c-8d94-4d2a-bb9d-efc90f275295",
+  "startedAt": "2026-11-11T10:07:50.072Z",
+  "finishedAt": "2026-11-11T10:09:05.803Z",
+  "batch": "Fall 2026",
+  "limit": 30,
+  "refresh": false,
+  "selectedSlugs": [
+    "0security",
+    "acyclic",
+    "adalat-ai",
+    "adsideai",
+    "agent-37",
+    "agent-relay",
+    "ageospatial",
+    "aikido-technologies",
+    "ailit",
+    "alkera-ai",
+    "applied-kinetics",
+    "audora",
+    "chempilotai",
+    "covera",
+    "dreamscale-labs",
+    "graypass",
+    "hickory-and-company",
+    "kanopy",
+    "lux-foods",
+    "native",
+    "ordo-labs",
+    "petrichor",
+    "preload",
+    "rivereditor",
+    "saccade",
+    "summer-engine",
+    "the-agentic-data-co",
+    "topos",
+    "vorelios",
+    "yam"
+  ],
+  "requests": [
+    {
+      "attemptId": "8dc32b31-43ef-4be6-9c95-b9a9494608df",
+      "normalizedUrl": "https://appliedkinetics.ai/",
+      "submittedAt": "2026-11-11T10:07:50.081Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50909
+      }
+    },
+    {
+      "attemptId": "063b0445-d0cb-402f-8abb-b299e8caebf9",
+      "normalizedUrl": "https://audora.art/",
+      "submittedAt": "2026-11-11T10:07:55.784Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50908
+      }
+    },
+    {
+      "attemptId": "6899f060-aed8-4c8b-978e-7912df6c332d",
+      "normalizedUrl": "https://chempilot.ai/",
+      "submittedAt": "2026-11-11T10:07:59.164Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50907
+      }
+    },
+    {
+      "attemptId": "ad559b22-409a-4e67-8083-3926004db216",
+      "normalizedUrl": "https://www.covera-agents.com/?utm_source=ycombinator&utm_medium=company_profile&utm_campaign=yc_f26",
+      "submittedAt": "2026-11-11T10:08:01.435Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50906
+      }
+    },
+    {
+      "attemptId": "1910af70-5058-46f1-8b92-4509ce4234f4",
+      "normalizedUrl": "https://dreamscalelabs.com/",
+      "submittedAt": "2026-11-11T10:08:03.873Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50905
+      }
+    },
+    {
+      "attemptId": "2102308a-6ba6-40ae-b08f-702e291c59d7",
+      "normalizedUrl": "https://graypass.com/",
+      "submittedAt": "2026-11-11T10:08:07.998Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50904
+      }
+    },
+    {
+      "attemptId": "93a87a27-f144-4e34-994e-ff4906a6d7f4",
+      "normalizedUrl": "https://hickory.co/",
+      "submittedAt": "2026-11-11T10:08:10.030Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50903
+      }
+    },
+    {
+      "attemptId": "74c987c8-327c-42f2-a056-e4306b2ba804",
+      "normalizedUrl": "https://www.kanopy-ai.com/",
+      "submittedAt": "2026-11-11T10:08:12.756Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50902
+      }
+    },
+    {
+      "attemptId": "8ee6e529-f600-416e-a285-f987d572e3da",
+      "normalizedUrl": "https://www.luxfoods.xyz/",
+      "submittedAt": "2026-11-11T10:08:16.043Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50901
+      }
+    },
+    {
+      "attemptId": "abeff454-5e19-4019-90d7-4bfec901b6df",
+      "normalizedUrl": "https://native.no/",
+      "submittedAt": "2026-11-11T10:08:22.870Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50900
+      }
+    },
+    {
+      "attemptId": "fe4749f4-9984-4984-9e87-50033e99fd82",
+      "normalizedUrl": "https://ordolabs.ai/",
+      "submittedAt": "2026-11-11T10:08:26.870Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50899
+      }
+    },
+    {
+      "attemptId": "059382b0-070a-463f-a32c-7d84880ce563",
+      "normalizedUrl": "https://petrichorbio.com/",
+      "submittedAt": "2026-11-11T10:08:29.675Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50898
+      }
+    },
+    {
+      "attemptId": "da336189-e5e6-4a47-bd26-844018f95863",
+      "normalizedUrl": "https://preload.ai/",
+      "submittedAt": "2026-11-11T10:08:32.416Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50897
+      }
+    },
+    {
+      "attemptId": "5532557e-1402-4576-8965-ea7d554390ae",
+      "normalizedUrl": "https://meetriver.com/",
+      "submittedAt": "2026-11-11T10:08:38.065Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50896
+      }
+    },
+    {
+      "attemptId": "f77faea5-0bdc-47f4-a1f7-e83a426ce5fd",
+      "normalizedUrl": "https://saccade.health/",
+      "submittedAt": "2026-11-11T10:08:41.351Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50895
+      }
+    },
+    {
+      "attemptId": "badcaff9-240c-4726-91ef-784a3f616dda",
+      "normalizedUrl": "https://www.summerengine.com/",
+      "submittedAt": "2026-11-11T10:08:44.238Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50894
+      }
+    },
+    {
+      "attemptId": "c6a264a0-ff78-4b89-9cfb-17ce59dddccc",
+      "normalizedUrl": "https://theagenticdatacompany.com/",
+      "submittedAt": "2026-11-11T10:08:47.619Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50893
+      }
+    },
+    {
+      "attemptId": "66cc4b65-4a11-4a15-a8be-d4836f25d006",
+      "normalizedUrl": "https://www.toposlab.com/",
+      "submittedAt": "2026-11-11T10:08:50.882Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50892
+      }
+    },
+    {
+      "attemptId": "2b52ef2f-c490-4ce0-9974-404f88c93838",
+      "normalizedUrl": "https://vorelios.com/",
+      "submittedAt": "2026-11-11T10:08:55.748Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50891
+      }
+    },
+    {
+      "attemptId": "f0c554af-d648-48ec-b532-c879b9d3bf73",
+      "normalizedUrl": "https://hiyam.ai/",
+      "submittedAt": "2026-11-11T10:08:58.387Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50890
+      }
+    }
+  ],
+  "cacheHits": [
+    "0security",
+    "acyclic",
+    "adalat-ai",
+    "adsideai",
+    "agent-37",
+    "agent-relay",
+    "ageospatial",
+    "aikido-technologies",
+    "ailit",
+    "alkera-ai"
+  ],
+  "deferred": []
+}

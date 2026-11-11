@@ -1,0 +1,3 @@
+<!-- Draws the product's bingo-ball favicon as simple vector geometry.
+Gives browser tabs a local brand mark without third-party requests. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><circle cx="32" cy="32" r="32" fill="#ed583d"/><circle cx="32" cy="32" r="23" fill="#f8f5ec"/><path d="M23 16h12c8 0 11 4 11 9 0 4-2 6-5 7 4 1 6 4 6 8 0 6-4 10-12 10H23V16zm8 7v7h3c3 0 4-1 4-4 0-2-1-3-4-3h-3zm0 13v7h4c3 0 4-1 4-4 0-2-1-3-4-3h-4z" fill="#20201d"/></svg>

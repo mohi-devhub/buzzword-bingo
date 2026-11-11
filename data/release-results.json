@@ -1,0 +1,1353 @@
+{
+  "_meta": {
+    "header": [
+      "Records the full-batch Phase 4 evidence used for launch drafts.",
+      "Ties reported figures and credits to exact score files and the completed crawl."
+    ],
+    "schemaVersion": 1
+  },
+  "week": "2026-W46",
+  "scoringVersion": "v1-ac78c5b97c1f",
+  "sources": [
+    {
+      "path": "data/scores/2026-W46.json",
+      "sha256": "8ddcd275fc42021e3e6f08d7848b511e7e5eca33283a5d2e182dd4515629121d"
+    },
+    {
+      "path": "data/scores/2026-W46/bvp-established.json",
+      "sha256": "a078505544d10bd4948543ae5e3095a8afbc98004ef51dc31106f5bf7d2f2b0e"
+    }
+  ],
+  "fullRunId": "4995a479-8053-4474-9556-8aab5384ef2c",
+  "newRequests": 195,
+  "cacheHits": 30,
+  "newCredits": 195,
+  "creditBasis": "provider-reported",
+  "cumulativeCredits": 275,
+  "approvedCap": 300,
+  "headlineHolds": true,
+  "cohorts": [
+    {
+      "label": "Fall 2026",
+      "selected": 225,
+      "scored": 215,
+      "unscored": 10,
+      "medianDensity": 0.08561643835616438,
+      "zeroHits": 99,
+      "zeroHitPercent": 46.04651162790697,
+      "phrases": [
+        {
+          "id": "ai-agent",
+          "phrase": "AI agent",
+          "weight": 1,
+          "dictionaryIndex": 6,
+          "hits": 79,
+          "companiesHit": 43
+        },
+        {
+          "id": "end-to-end",
+          "phrase": "end-to-end",
+          "weight": 1,
+          "dictionaryIndex": 24,
+          "hits": 36,
+          "companiesHit": 24
+        },
+        {
+          "id": "ai-native",
+          "phrase": "AI-native",
+          "weight": 3,
+          "dictionaryIndex": 1,
+          "hits": 21,
+          "companiesHit": 8
+        },
+        {
+          "id": "leverage",
+          "phrase": "leverage",
+          "weight": 1,
+          "dictionaryIndex": 18,
+          "hits": 21,
+          "companiesHit": 3
+        },
+        {
+          "id": "agentic",
+          "phrase": "agentic",
+          "weight": 1,
+          "dictionaryIndex": 2,
+          "hits": 18,
+          "companiesHit": 14
+        },
+        {
+          "id": "unlock",
+          "phrase": "unlock",
+          "weight": 1,
+          "dictionaryIndex": 17,
+          "hits": 17,
+          "companiesHit": 11
+        },
+        {
+          "id": "copilot",
+          "phrase": "copilot",
+          "weight": 1,
+          "dictionaryIndex": 3,
+          "hits": 15,
+          "companiesHit": 6
+        },
+        {
+          "id": "ai-assistant",
+          "phrase": "AI assistant",
+          "weight": 2,
+          "dictionaryIndex": 12,
+          "hits": 11,
+          "companiesHit": 7
+        },
+        {
+          "id": "10x",
+          "phrase": "10x",
+          "weight": 3,
+          "dictionaryIndex": 35,
+          "hits": 10,
+          "companiesHit": 9
+        },
+        {
+          "id": "the-future-of",
+          "phrase": "the future of",
+          "weight": 3,
+          "dictionaryIndex": 37,
+          "hits": 8,
+          "companiesHit": 8
+        },
+        {
+          "id": "streamline",
+          "phrase": "streamline",
+          "weight": 1,
+          "dictionaryIndex": 22,
+          "hits": 7,
+          "companiesHit": 5
+        },
+        {
+          "id": "scalable",
+          "phrase": "scalable",
+          "weight": 1,
+          "dictionaryIndex": 26,
+          "hits": 6,
+          "companiesHit": 6
+        },
+        {
+          "id": "ai-powered",
+          "phrase": "AI-powered",
+          "weight": 2,
+          "dictionaryIndex": 0,
+          "hits": 5,
+          "companiesHit": 4
+        },
+        {
+          "id": "exponential",
+          "phrase": "exponential",
+          "weight": 2,
+          "dictionaryIndex": 45,
+          "hits": 5,
+          "companiesHit": 4
+        },
+        {
+          "id": "seamless",
+          "phrase": "seamless",
+          "weight": 1,
+          "dictionaryIndex": 15,
+          "hits": 4,
+          "companiesHit": 4
+        },
+        {
+          "id": "next-generation",
+          "phrase": "next-generation",
+          "weight": 2,
+          "dictionaryIndex": 28,
+          "hits": 4,
+          "companiesHit": 4
+        },
+        {
+          "id": "disrupt",
+          "phrase": "disrupt",
+          "weight": 2,
+          "dictionaryIndex": 47,
+          "hits": 4,
+          "companiesHit": 4
+        },
+        {
+          "id": "superintelligence",
+          "phrase": "superintelligence",
+          "weight": 3,
+          "dictionaryIndex": 13,
+          "hits": 4,
+          "companiesHit": 3
+        },
+        {
+          "id": "unmatched",
+          "phrase": "unmatched",
+          "weight": 2,
+          "dictionaryIndex": 48,
+          "hits": 4,
+          "companiesHit": 3
+        },
+        {
+          "id": "empower",
+          "phrase": "empower",
+          "weight": 1,
+          "dictionaryIndex": 19,
+          "hits": 4,
+          "companiesHit": 2
+        },
+        {
+          "id": "robust",
+          "phrase": "robust",
+          "weight": 1,
+          "dictionaryIndex": 16,
+          "hits": 3,
+          "companiesHit": 3
+        },
+        {
+          "id": "revolutionize",
+          "phrase": "revolutionize",
+          "weight": 3,
+          "dictionaryIndex": 36,
+          "hits": 3,
+          "companiesHit": 2
+        },
+        {
+          "id": "ai-driven",
+          "phrase": "AI-driven",
+          "weight": 2,
+          "dictionaryIndex": 5,
+          "hits": 2,
+          "companiesHit": 2
+        },
+        {
+          "id": "multi-agent",
+          "phrase": "multi-agent",
+          "weight": 1,
+          "dictionaryIndex": 8,
+          "hits": 2,
+          "companiesHit": 2
+        },
+        {
+          "id": "agentic-workflow",
+          "phrase": "agentic workflow",
+          "weight": 3,
+          "dictionaryIndex": 10,
+          "hits": 2,
+          "companiesHit": 2
+        },
+        {
+          "id": "game-changing",
+          "phrase": "game-changing",
+          "weight": 3,
+          "dictionaryIndex": 21,
+          "hits": 2,
+          "companiesHit": 2
+        },
+        {
+          "id": "all-in-one",
+          "phrase": "all-in-one",
+          "weight": 1,
+          "dictionaryIndex": 25,
+          "hits": 2,
+          "companiesHit": 2
+        },
+        {
+          "id": "limitless",
+          "phrase": "limitless",
+          "weight": 2,
+          "dictionaryIndex": 44,
+          "hits": 2,
+          "companiesHit": 2
+        },
+        {
+          "id": "autonomous-agent",
+          "phrase": "autonomous agent",
+          "weight": 3,
+          "dictionaryIndex": 7,
+          "hits": 2,
+          "companiesHit": 1
+        },
+        {
+          "id": "supercharge",
+          "phrase": "supercharge",
+          "weight": 2,
+          "dictionaryIndex": 20,
+          "hits": 1,
+          "companiesHit": 1
+        },
+        {
+          "id": "cutting-edge",
+          "phrase": "cutting-edge",
+          "weight": 2,
+          "dictionaryIndex": 27,
+          "hits": 1,
+          "companiesHit": 1
+        },
+        {
+          "id": "best-in-class",
+          "phrase": "best-in-class",
+          "weight": 3,
+          "dictionaryIndex": 29,
+          "hits": 1,
+          "companiesHit": 1
+        },
+        {
+          "id": "holistic",
+          "phrase": "holistic",
+          "weight": 1,
+          "dictionaryIndex": 31,
+          "hits": 1,
+          "companiesHit": 1
+        },
+        {
+          "id": "ecosystem",
+          "phrase": "ecosystem",
+          "weight": 1,
+          "dictionaryIndex": 32,
+          "hits": 1,
+          "companiesHit": 1
+        },
+        {
+          "id": "mission-critical",
+          "phrase": "mission-critical",
+          "weight": 2,
+          "dictionaryIndex": 33,
+          "hits": 1,
+          "companiesHit": 1
+        },
+        {
+          "id": "first-ever",
+          "phrase": "first-ever",
+          "weight": 3,
+          "dictionaryIndex": 38,
+          "hits": 1,
+          "companiesHit": 1
+        },
+        {
+          "id": "world-class",
+          "phrase": "world-class",
+          "weight": 3,
+          "dictionaryIndex": 39,
+          "hits": 1,
+          "companiesHit": 1
+        },
+        {
+          "id": "unprecedented",
+          "phrase": "unprecedented",
+          "weight": 3,
+          "dictionaryIndex": 42,
+          "hits": 1,
+          "companiesHit": 1
+        },
+        {
+          "id": "transformative",
+          "phrase": "transformative",
+          "weight": 2,
+          "dictionaryIndex": 43,
+          "hits": 1,
+          "companiesHit": 1
+        },
+        {
+          "id": "ai-first",
+          "phrase": "AI-first",
+          "weight": 3,
+          "dictionaryIndex": 4,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "generative-ai",
+          "phrase": "generative AI",
+          "weight": 2,
+          "dictionaryIndex": 9,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "intelligent-automation",
+          "phrase": "intelligent automation",
+          "weight": 2,
+          "dictionaryIndex": 11,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "human-level",
+          "phrase": "human-level",
+          "weight": 3,
+          "dictionaryIndex": 14,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "frictionless",
+          "phrase": "frictionless",
+          "weight": 2,
+          "dictionaryIndex": 23,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "synergy",
+          "phrase": "synergy",
+          "weight": 2,
+          "dictionaryIndex": 30,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "turnkey",
+          "phrase": "turnkey",
+          "weight": 1,
+          "dictionaryIndex": 34,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "industry-leading",
+          "phrase": "industry-leading",
+          "weight": 3,
+          "dictionaryIndex": 40,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "groundbreaking",
+          "phrase": "groundbreaking",
+          "weight": 3,
+          "dictionaryIndex": 41,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "paradigm-shift",
+          "phrase": "paradigm shift",
+          "weight": 3,
+          "dictionaryIndex": 46,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "unparalleled",
+          "phrase": "unparalleled",
+          "weight": 3,
+          "dictionaryIndex": 49,
+          "hits": 0,
+          "companiesHit": 0
+        }
+      ],
+      "bingo": {
+        "cells": [
+          {
+            "index": 0,
+            "phraseId": "ai-powered",
+            "hit": true,
+            "companiesHit": 4
+          },
+          {
+            "index": 1,
+            "phraseId": "seamless",
+            "hit": true,
+            "companiesHit": 4
+          },
+          {
+            "index": 2,
+            "phraseId": "10x",
+            "hit": true,
+            "companiesHit": 9
+          },
+          {
+            "index": 3,
+            "phraseId": "best-in-class",
+            "hit": true,
+            "companiesHit": 1
+          },
+          {
+            "index": 4,
+            "phraseId": "unlock",
+            "hit": true,
+            "companiesHit": 11
+          },
+          {
+            "index": 5,
+            "phraseId": "paradigm-shift",
+            "hit": false,
+            "companiesHit": 0
+          },
+          {
+            "index": 6,
+            "phraseId": "unprecedented",
+            "hit": true,
+            "companiesHit": 1
+          },
+          {
+            "index": 7,
+            "phraseId": "world-class",
+            "hit": true,
+            "companiesHit": 1
+          },
+          {
+            "index": 8,
+            "phraseId": "empower",
+            "hit": true,
+            "companiesHit": 2
+          },
+          {
+            "index": 9,
+            "phraseId": "next-generation",
+            "hit": true,
+            "companiesHit": 4
+          },
+          {
+            "index": 10,
+            "phraseId": "the-future-of",
+            "hit": true,
+            "companiesHit": 8
+          },
+          {
+            "index": 11,
+            "phraseId": "leverage",
+            "hit": true,
+            "companiesHit": 3
+          },
+          {
+            "index": 12,
+            "phraseId": null,
+            "hit": true,
+            "companiesHit": null
+          },
+          {
+            "index": 13,
+            "phraseId": "supercharge",
+            "hit": true,
+            "companiesHit": 1
+          },
+          {
+            "index": 14,
+            "phraseId": "ai-native",
+            "hit": true,
+            "companiesHit": 8
+          },
+          {
+            "index": 15,
+            "phraseId": "game-changing",
+            "hit": true,
+            "companiesHit": 2
+          },
+          {
+            "index": 16,
+            "phraseId": "superintelligence",
+            "hit": true,
+            "companiesHit": 3
+          },
+          {
+            "index": 17,
+            "phraseId": "revolutionize",
+            "hit": true,
+            "companiesHit": 2
+          },
+          {
+            "index": 18,
+            "phraseId": "unparalleled",
+            "hit": false,
+            "companiesHit": 0
+          },
+          {
+            "index": 19,
+            "phraseId": "industry-leading",
+            "hit": false,
+            "companiesHit": 0
+          },
+          {
+            "index": 20,
+            "phraseId": "frictionless",
+            "hit": false,
+            "companiesHit": 0
+          },
+          {
+            "index": 21,
+            "phraseId": "first-ever",
+            "hit": true,
+            "companiesHit": 1
+          },
+          {
+            "index": 22,
+            "phraseId": "cutting-edge",
+            "hit": true,
+            "companiesHit": 1
+          },
+          {
+            "index": 23,
+            "phraseId": "all-in-one",
+            "hit": true,
+            "companiesHit": 2
+          },
+          {
+            "index": 24,
+            "phraseId": "ai-driven",
+            "hit": true,
+            "companiesHit": 2
+          }
+        ],
+        "completedLines": [
+          "row-1",
+          "row-3",
+          "column-2",
+          "column-3"
+        ],
+        "hasBingo": true,
+        "lineProgress": [
+          {
+            "lineId": "row-1",
+            "hits": 5,
+            "total": 5
+          },
+          {
+            "lineId": "row-2",
+            "hits": 4,
+            "total": 5
+          },
+          {
+            "lineId": "row-3",
+            "hits": 5,
+            "total": 5
+          },
+          {
+            "lineId": "row-4",
+            "hits": 3,
+            "total": 5
+          },
+          {
+            "lineId": "row-5",
+            "hits": 4,
+            "total": 5
+          },
+          {
+            "lineId": "column-1",
+            "hits": 3,
+            "total": 5
+          },
+          {
+            "lineId": "column-2",
+            "hits": 5,
+            "total": 5
+          },
+          {
+            "lineId": "column-3",
+            "hits": 5,
+            "total": 5
+          },
+          {
+            "lineId": "column-4",
+            "hits": 4,
+            "total": 5
+          },
+          {
+            "lineId": "column-5",
+            "hits": 4,
+            "total": 5
+          },
+          {
+            "lineId": "diagonal-main",
+            "hits": 4,
+            "total": 5
+          },
+          {
+            "lineId": "diagonal-anti",
+            "hits": 4,
+            "total": 5
+          }
+        ],
+        "bestLine": {
+          "hits": 5,
+          "total": 5,
+          "lineIds": [
+            "row-1",
+            "row-3",
+            "column-2",
+            "column-3"
+          ]
+        },
+        "scoredCompanies": 215
+      },
+      "agentic": {
+        "id": "agentic",
+        "phrase": "agentic",
+        "weight": 1,
+        "dictionaryIndex": 2,
+        "hits": 18,
+        "companiesHit": 14,
+        "sharePercent": 6.511627906976744
+      }
+    },
+    {
+      "label": "BVP public cloud comparison",
+      "selected": 50,
+      "scored": 49,
+      "unscored": 1,
+      "medianDensity": 1.5645371577574967,
+      "zeroHits": 0,
+      "zeroHitPercent": 0,
+      "phrases": [
+        {
+          "id": "agentic",
+          "phrase": "agentic",
+          "weight": 1,
+          "dictionaryIndex": 2,
+          "hits": 124,
+          "companiesHit": 28
+        },
+        {
+          "id": "ai-agent",
+          "phrase": "AI agent",
+          "weight": 1,
+          "dictionaryIndex": 6,
+          "hits": 99,
+          "companiesHit": 28
+        },
+        {
+          "id": "ai-powered",
+          "phrase": "AI-powered",
+          "weight": 2,
+          "dictionaryIndex": 0,
+          "hits": 62,
+          "companiesHit": 22
+        },
+        {
+          "id": "next-generation",
+          "phrase": "next-generation",
+          "weight": 2,
+          "dictionaryIndex": 28,
+          "hits": 38,
+          "companiesHit": 5
+        },
+        {
+          "id": "seamless",
+          "phrase": "seamless",
+          "weight": 1,
+          "dictionaryIndex": 15,
+          "hits": 35,
+          "companiesHit": 17
+        },
+        {
+          "id": "streamline",
+          "phrase": "streamline",
+          "weight": 1,
+          "dictionaryIndex": 22,
+          "hits": 32,
+          "companiesHit": 17
+        },
+        {
+          "id": "empower",
+          "phrase": "empower",
+          "weight": 1,
+          "dictionaryIndex": 19,
+          "hits": 31,
+          "companiesHit": 17
+        },
+        {
+          "id": "end-to-end",
+          "phrase": "end-to-end",
+          "weight": 1,
+          "dictionaryIndex": 24,
+          "hits": 30,
+          "companiesHit": 12
+        },
+        {
+          "id": "ai-native",
+          "phrase": "AI-native",
+          "weight": 3,
+          "dictionaryIndex": 1,
+          "hits": 30,
+          "companiesHit": 10
+        },
+        {
+          "id": "ecosystem",
+          "phrase": "ecosystem",
+          "weight": 1,
+          "dictionaryIndex": 32,
+          "hits": 28,
+          "companiesHit": 15
+        },
+        {
+          "id": "unlock",
+          "phrase": "unlock",
+          "weight": 1,
+          "dictionaryIndex": 17,
+          "hits": 21,
+          "companiesHit": 16
+        },
+        {
+          "id": "scalable",
+          "phrase": "scalable",
+          "weight": 1,
+          "dictionaryIndex": 26,
+          "hits": 17,
+          "companiesHit": 12
+        },
+        {
+          "id": "ai-driven",
+          "phrase": "AI-driven",
+          "weight": 2,
+          "dictionaryIndex": 5,
+          "hits": 16,
+          "companiesHit": 8
+        },
+        {
+          "id": "ai-assistant",
+          "phrase": "AI assistant",
+          "weight": 2,
+          "dictionaryIndex": 12,
+          "hits": 14,
+          "companiesHit": 5
+        },
+        {
+          "id": "all-in-one",
+          "phrase": "all-in-one",
+          "weight": 1,
+          "dictionaryIndex": 25,
+          "hits": 13,
+          "companiesHit": 10
+        },
+        {
+          "id": "leverage",
+          "phrase": "leverage",
+          "weight": 1,
+          "dictionaryIndex": 18,
+          "hits": 11,
+          "companiesHit": 8
+        },
+        {
+          "id": "agentic-workflow",
+          "phrase": "agentic workflow",
+          "weight": 3,
+          "dictionaryIndex": 10,
+          "hits": 11,
+          "companiesHit": 7
+        },
+        {
+          "id": "the-future-of",
+          "phrase": "the future of",
+          "weight": 3,
+          "dictionaryIndex": 37,
+          "hits": 10,
+          "companiesHit": 9
+        },
+        {
+          "id": "industry-leading",
+          "phrase": "industry-leading",
+          "weight": 3,
+          "dictionaryIndex": 40,
+          "hits": 9,
+          "companiesHit": 8
+        },
+        {
+          "id": "best-in-class",
+          "phrase": "best-in-class",
+          "weight": 3,
+          "dictionaryIndex": 29,
+          "hits": 9,
+          "companiesHit": 5
+        },
+        {
+          "id": "robust",
+          "phrase": "robust",
+          "weight": 1,
+          "dictionaryIndex": 16,
+          "hits": 8,
+          "companiesHit": 4
+        },
+        {
+          "id": "disrupt",
+          "phrase": "disrupt",
+          "weight": 2,
+          "dictionaryIndex": 47,
+          "hits": 7,
+          "companiesHit": 6
+        },
+        {
+          "id": "mission-critical",
+          "phrase": "mission-critical",
+          "weight": 2,
+          "dictionaryIndex": 33,
+          "hits": 7,
+          "companiesHit": 5
+        },
+        {
+          "id": "copilot",
+          "phrase": "copilot",
+          "weight": 1,
+          "dictionaryIndex": 3,
+          "hits": 7,
+          "companiesHit": 4
+        },
+        {
+          "id": "world-class",
+          "phrase": "world-class",
+          "weight": 3,
+          "dictionaryIndex": 39,
+          "hits": 6,
+          "companiesHit": 3
+        },
+        {
+          "id": "generative-ai",
+          "phrase": "generative AI",
+          "weight": 2,
+          "dictionaryIndex": 9,
+          "hits": 5,
+          "companiesHit": 5
+        },
+        {
+          "id": "unmatched",
+          "phrase": "unmatched",
+          "weight": 2,
+          "dictionaryIndex": 48,
+          "hits": 4,
+          "companiesHit": 4
+        },
+        {
+          "id": "intelligent-automation",
+          "phrase": "intelligent automation",
+          "weight": 2,
+          "dictionaryIndex": 11,
+          "hits": 4,
+          "companiesHit": 3
+        },
+        {
+          "id": "supercharge",
+          "phrase": "supercharge",
+          "weight": 2,
+          "dictionaryIndex": 20,
+          "hits": 4,
+          "companiesHit": 3
+        },
+        {
+          "id": "frictionless",
+          "phrase": "frictionless",
+          "weight": 2,
+          "dictionaryIndex": 23,
+          "hits": 4,
+          "companiesHit": 3
+        },
+        {
+          "id": "game-changing",
+          "phrase": "game-changing",
+          "weight": 3,
+          "dictionaryIndex": 21,
+          "hits": 3,
+          "companiesHit": 3
+        },
+        {
+          "id": "limitless",
+          "phrase": "limitless",
+          "weight": 2,
+          "dictionaryIndex": 44,
+          "hits": 3,
+          "companiesHit": 2
+        },
+        {
+          "id": "superintelligence",
+          "phrase": "superintelligence",
+          "weight": 3,
+          "dictionaryIndex": 13,
+          "hits": 3,
+          "companiesHit": 1
+        },
+        {
+          "id": "revolutionize",
+          "phrase": "revolutionize",
+          "weight": 3,
+          "dictionaryIndex": 36,
+          "hits": 2,
+          "companiesHit": 2
+        },
+        {
+          "id": "unprecedented",
+          "phrase": "unprecedented",
+          "weight": 3,
+          "dictionaryIndex": 42,
+          "hits": 2,
+          "companiesHit": 2
+        },
+        {
+          "id": "ai-first",
+          "phrase": "AI-first",
+          "weight": 3,
+          "dictionaryIndex": 4,
+          "hits": 2,
+          "companiesHit": 1
+        },
+        {
+          "id": "cutting-edge",
+          "phrase": "cutting-edge",
+          "weight": 2,
+          "dictionaryIndex": 27,
+          "hits": 2,
+          "companiesHit": 1
+        },
+        {
+          "id": "10x",
+          "phrase": "10x",
+          "weight": 3,
+          "dictionaryIndex": 35,
+          "hits": 2,
+          "companiesHit": 1
+        },
+        {
+          "id": "multi-agent",
+          "phrase": "multi-agent",
+          "weight": 1,
+          "dictionaryIndex": 8,
+          "hits": 1,
+          "companiesHit": 1
+        },
+        {
+          "id": "first-ever",
+          "phrase": "first-ever",
+          "weight": 3,
+          "dictionaryIndex": 38,
+          "hits": 1,
+          "companiesHit": 1
+        },
+        {
+          "id": "unparalleled",
+          "phrase": "unparalleled",
+          "weight": 3,
+          "dictionaryIndex": 49,
+          "hits": 1,
+          "companiesHit": 1
+        },
+        {
+          "id": "autonomous-agent",
+          "phrase": "autonomous agent",
+          "weight": 3,
+          "dictionaryIndex": 7,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "human-level",
+          "phrase": "human-level",
+          "weight": 3,
+          "dictionaryIndex": 14,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "synergy",
+          "phrase": "synergy",
+          "weight": 2,
+          "dictionaryIndex": 30,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "holistic",
+          "phrase": "holistic",
+          "weight": 1,
+          "dictionaryIndex": 31,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "turnkey",
+          "phrase": "turnkey",
+          "weight": 1,
+          "dictionaryIndex": 34,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "groundbreaking",
+          "phrase": "groundbreaking",
+          "weight": 3,
+          "dictionaryIndex": 41,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "transformative",
+          "phrase": "transformative",
+          "weight": 2,
+          "dictionaryIndex": 43,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "exponential",
+          "phrase": "exponential",
+          "weight": 2,
+          "dictionaryIndex": 45,
+          "hits": 0,
+          "companiesHit": 0
+        },
+        {
+          "id": "paradigm-shift",
+          "phrase": "paradigm shift",
+          "weight": 3,
+          "dictionaryIndex": 46,
+          "hits": 0,
+          "companiesHit": 0
+        }
+      ],
+      "bingo": {
+        "cells": [
+          {
+            "index": 0,
+            "phraseId": "ai-powered",
+            "hit": true,
+            "companiesHit": 22
+          },
+          {
+            "index": 1,
+            "phraseId": "seamless",
+            "hit": true,
+            "companiesHit": 17
+          },
+          {
+            "index": 2,
+            "phraseId": "10x",
+            "hit": true,
+            "companiesHit": 1
+          },
+          {
+            "index": 3,
+            "phraseId": "best-in-class",
+            "hit": true,
+            "companiesHit": 5
+          },
+          {
+            "index": 4,
+            "phraseId": "unlock",
+            "hit": true,
+            "companiesHit": 16
+          },
+          {
+            "index": 5,
+            "phraseId": "paradigm-shift",
+            "hit": false,
+            "companiesHit": 0
+          },
+          {
+            "index": 6,
+            "phraseId": "unprecedented",
+            "hit": true,
+            "companiesHit": 2
+          },
+          {
+            "index": 7,
+            "phraseId": "world-class",
+            "hit": true,
+            "companiesHit": 3
+          },
+          {
+            "index": 8,
+            "phraseId": "empower",
+            "hit": true,
+            "companiesHit": 17
+          },
+          {
+            "index": 9,
+            "phraseId": "next-generation",
+            "hit": true,
+            "companiesHit": 5
+          },
+          {
+            "index": 10,
+            "phraseId": "the-future-of",
+            "hit": true,
+            "companiesHit": 9
+          },
+          {
+            "index": 11,
+            "phraseId": "leverage",
+            "hit": true,
+            "companiesHit": 8
+          },
+          {
+            "index": 12,
+            "phraseId": null,
+            "hit": true,
+            "companiesHit": null
+          },
+          {
+            "index": 13,
+            "phraseId": "supercharge",
+            "hit": true,
+            "companiesHit": 3
+          },
+          {
+            "index": 14,
+            "phraseId": "ai-native",
+            "hit": true,
+            "companiesHit": 10
+          },
+          {
+            "index": 15,
+            "phraseId": "game-changing",
+            "hit": true,
+            "companiesHit": 3
+          },
+          {
+            "index": 16,
+            "phraseId": "superintelligence",
+            "hit": true,
+            "companiesHit": 1
+          },
+          {
+            "index": 17,
+            "phraseId": "revolutionize",
+            "hit": true,
+            "companiesHit": 2
+          },
+          {
+            "index": 18,
+            "phraseId": "unparalleled",
+            "hit": true,
+            "companiesHit": 1
+          },
+          {
+            "index": 19,
+            "phraseId": "industry-leading",
+            "hit": true,
+            "companiesHit": 8
+          },
+          {
+            "index": 20,
+            "phraseId": "frictionless",
+            "hit": true,
+            "companiesHit": 3
+          },
+          {
+            "index": 21,
+            "phraseId": "first-ever",
+            "hit": true,
+            "companiesHit": 1
+          },
+          {
+            "index": 22,
+            "phraseId": "cutting-edge",
+            "hit": true,
+            "companiesHit": 1
+          },
+          {
+            "index": 23,
+            "phraseId": "all-in-one",
+            "hit": true,
+            "companiesHit": 10
+          },
+          {
+            "index": 24,
+            "phraseId": "ai-driven",
+            "hit": true,
+            "companiesHit": 8
+          }
+        ],
+        "completedLines": [
+          "row-1",
+          "row-3",
+          "row-4",
+          "row-5",
+          "column-2",
+          "column-3",
+          "column-4",
+          "column-5",
+          "diagonal-main",
+          "diagonal-anti"
+        ],
+        "hasBingo": true,
+        "lineProgress": [
+          {
+            "lineId": "row-1",
+            "hits": 5,
+            "total": 5
+          },
+          {
+            "lineId": "row-2",
+            "hits": 4,
+            "total": 5
+          },
+          {
+            "lineId": "row-3",
+            "hits": 5,
+            "total": 5
+          },
+          {
+            "lineId": "row-4",
+            "hits": 5,
+            "total": 5
+          },
+          {
+            "lineId": "row-5",
+            "hits": 5,
+            "total": 5
+          },
+          {
+            "lineId": "column-1",
+            "hits": 4,
+            "total": 5
+          },
+          {
+            "lineId": "column-2",
+            "hits": 5,
+            "total": 5
+          },
+          {
+            "lineId": "column-3",
+            "hits": 5,
+            "total": 5
+          },
+          {
+            "lineId": "column-4",
+            "hits": 5,
+            "total": 5
+          },
+          {
+            "lineId": "column-5",
+            "hits": 5,
+            "total": 5
+          },
+          {
+            "lineId": "diagonal-main",
+            "hits": 5,
+            "total": 5
+          },
+          {
+            "lineId": "diagonal-anti",
+            "hits": 5,
+            "total": 5
+          }
+        ],
+        "bestLine": {
+          "hits": 5,
+          "total": 5,
+          "lineIds": [
+            "row-1",
+            "row-3",
+            "row-4",
+            "row-5",
+            "column-2",
+            "column-3",
+            "column-4",
+            "column-5",
+            "diagonal-main",
+            "diagonal-anti"
+          ]
+        },
+        "scoredCompanies": 49
+      },
+      "agentic": {
+        "id": "agentic",
+        "phrase": "agentic",
+        "weight": 1,
+        "dictionaryIndex": 2,
+        "hits": 124,
+        "companiesHit": 28,
+        "sharePercent": 57.142857142857146
+      }
+    }
+  ],
+  "publicUrl": "https://mohi-devhub.github.io/buzzword-bingo/",
+  "deployed": false
+}

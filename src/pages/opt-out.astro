@@ -1,0 +1,67 @@
+---
+// Gives companies the owner's configured GitHub issue-template removal link.
+// Clearly labels the pending public repository while preserving a usable local template.
+import Base from "../layouts/Base.astro";
+import Icon from "../components/Icon.astro";
+import { siteData, sitePath } from "../site-data.js";
+const { config } = await siteData();
+---
+
+<Base title="Opt out a company — Buzzword Bingo">
+  <article class="shell opt-out-page">
+    <div class="opt-out-card">
+      <h1>
+        No hard
+        <br />
+        <span>feelings.</span>
+      </h1>
+      <p>
+        This is satire, made with love. If your company would rather sit this
+        round out, we’ll respect that.
+      </p>
+      <h2>What to include</h2>
+      <p>
+        Your company name and public homepage URL are enough. Please do not
+        include personal details or private documents.
+      </p>
+      <h2>What happens next</h2>
+      <p>
+        Within a week of receiving the request, we remove the company from
+        public pages, scores, and generated share cards. An exclusion prevents
+        later crawls and rebuilds from restoring it.
+      </p>
+      <p class="muted">
+        Existing Git clones and externally cached previews can retain earlier
+        copies.
+      </p>
+      {!config.optOutRepositoryReady && (
+        <div class="preview-notice">
+          <strong>
+            Local preview: the public repository is not created yet.
+          </strong>
+          <p>
+            The owner will create it before Phase 4 deployment. The configured
+            issue link will accept requests once the repository exists. For now,
+            you can also{" "}
+            <a href={sitePath("opt-out-request.md")} download>
+              download the request template
+            </a>
+            .
+          </p>
+        </div>
+      )}
+      <a
+        class="button primary"
+        href={config.OPT_OUT_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Open a company opt-out issue
+        <Icon name="arrow" />
+      </a>
+      <a class="inline-link" href={sitePath("about/#fairness")}>
+        Read the fairness policy
+      </a>
+    </div>
+  </article>
+</Base>

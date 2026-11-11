@@ -1,0 +1,2227 @@
+{
+  "_meta": {
+    "header": [
+      "Records a limited crawl and each reserved or reported request charge.",
+      "Makes credit spend and interrupted attempts auditable without exposing credentials."
+    ],
+    "schemaVersion": 1
+  },
+  "id": "4995a479-8053-4474-9556-8aab5384ef2c",
+  "startedAt": "2026-11-11T17:11:35.464Z",
+  "finishedAt": "2026-11-11T17:21:32.799Z",
+  "batch": "Fall 2026",
+  "limit": 225,
+  "refresh": false,
+  "selectedSlugs": [
+    "0security",
+    "acyclic",
+    "adalat-ai",
+    "adsideai",
+    "agent-37",
+    "agent-relay",
+    "ageospatial",
+    "aikido-technologies",
+    "ailit",
+    "alkera-ai",
+    "altair-health",
+    "ample-computer",
+    "antimattr",
+    "antropi-robotics",
+    "anyalpha",
+    "anywhere",
+    "applied-kinetics",
+    "archangel-health",
+    "archgen-labs",
+    "armorer-labs",
+    "asakana",
+    "ascenix",
+    "asim-group",
+    "aucert",
+    "audora",
+    "aviern",
+    "axiomat",
+    "axonnic",
+    "bayworks",
+    "biodelivera",
+    "blinka",
+    "boat",
+    "boxesdev",
+    "byteask",
+    "caladh",
+    "canos",
+    "capveon",
+    "caveman",
+    "cesara",
+    "championeffect-inc",
+    "chempilotai",
+    "claimkit",
+    "clean",
+    "collar",
+    "composal",
+    "confetti",
+    "constor",
+    "conus",
+    "covera",
+    "cyclon",
+    "databuddy",
+    "decent-com",
+    "deepmark",
+    "definite",
+    "degla-inc",
+    "deploy",
+    "dreamscale-labs",
+    "dydema",
+    "elimentary",
+    "elithia",
+    "epsilab-com",
+    "ernd",
+    "evardi",
+    "everyapp",
+    "evident-machines",
+    "faraday",
+    "fire-wallet",
+    "fleety",
+    "frontrunner",
+    "godhands",
+    "gradon",
+    "graphide",
+    "graypass",
+    "grep-ai",
+    "habu",
+    "halmos-labs",
+    "helios-intelligence",
+    "hemlock",
+    "herdr",
+    "hesper-ai",
+    "hickory-and-company",
+    "hillstar",
+    "hopper",
+    "horizontal",
+    "hue",
+    "hundred",
+    "hyperbench",
+    "ignition-benefits",
+    "inflection-space-systems",
+    "infraoptimal",
+    "invertix",
+    "isoquant",
+    "jinko",
+    "kailash-labs",
+    "kairos-health",
+    "kairox-systems",
+    "kanopy",
+    "keres",
+    "kiwi",
+    "lantern-ai",
+    "lark-2",
+    "letter-dev",
+    "limnion",
+    "liquid-energy",
+    "lux-foods",
+    "lyon",
+    "maritime",
+    "melty-gg",
+    "metalcraft",
+    "micora",
+    "mirrors",
+    "munito-ai",
+    "native",
+    "neomatter",
+    "nitroduck",
+    "nodus-compute",
+    "nxtcure-labs",
+    "oasive",
+    "obia",
+    "obsessiondb",
+    "odin-robotics",
+    "open-actuation",
+    "opencrawl",
+    "openhack",
+    "openlake-technologies",
+    "openscaffold",
+    "opera",
+    "orca-aerospace",
+    "ordo-labs",
+    "organizely",
+    "orgo",
+    "oro-ai",
+    "papaya",
+    "particularity",
+    "perceptual-labs",
+    "peritai",
+    "petrichor",
+    "phone-harness",
+    "plek-ai",
+    "ploid",
+    "plover-labs",
+    "polemos-industries",
+    "pomerado",
+    "praxis",
+    "preload",
+    "primordiant",
+    "proto",
+    "quippy",
+    "quivly-ai",
+    "ratlog",
+    "ravenphone",
+    "reason-machines",
+    "reconero",
+    "redoubt-insurance",
+    "reific",
+    "resin-technologies",
+    "rezora-io",
+    "rhem-labs",
+    "rightnow",
+    "risklytics",
+    "rivereditor",
+    "rodeo-robotics",
+    "roma",
+    "routant",
+    "routerplus",
+    "runtimesi",
+    "ryhla",
+    "rystic",
+    "saccade",
+    "se3-labs",
+    "sentient-os",
+    "shepherd-robotics",
+    "shire-intelligence",
+    "silica",
+    "simantic",
+    "simulithic",
+    "sinter-systems",
+    "sintropix",
+    "sona8",
+    "spacesheep",
+    "spine",
+    "stacktrace",
+    "stasis",
+    "streamline-systems",
+    "summer-engine",
+    "super-powers-mobility-spm",
+    "superserve",
+    "sutrix",
+    "synara",
+    "taanai",
+    "talos-us",
+    "telamont",
+    "the-agentic-data-co",
+    "the-company-company",
+    "the-subvocal-company",
+    "theo",
+    "theseus-robotics",
+    "tilion",
+    "tilo",
+    "tire-swing",
+    "topos",
+    "trepo",
+    "truemile",
+    "trylatent",
+    "twentyfour26",
+    "useforward",
+    "useterse",
+    "uxduck",
+    "veeza-ai",
+    "veltha",
+    "verdun",
+    "verno",
+    "versine",
+    "vexo",
+    "viraj-aero",
+    "volaren",
+    "vorelios",
+    "vorflux",
+    "vouchwealth",
+    "voyager",
+    "vyra",
+    "wingman-law",
+    "wondersearch",
+    "workers-io",
+    "yam"
+  ],
+  "requests": [
+    {
+      "attemptId": "078eb960-2fb9-46e1-84d3-e7dd8ba147b8",
+      "normalizedUrl": "https://www.altair-health.com/",
+      "submittedAt": "2026-11-11T17:11:35.480Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50839
+      }
+    },
+    {
+      "attemptId": "e87a75d5-8db5-43eb-9266-4d29f2e22775",
+      "normalizedUrl": "https://ample.computer/",
+      "submittedAt": "2026-11-11T17:11:39.489Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50838
+      }
+    },
+    {
+      "attemptId": "bcf3f135-5945-4e5b-a572-3aadae9f4f26",
+      "normalizedUrl": "https://www.antimattr.one/project-mnemosyne?utm_source=bookface&utm_medium=social&utm_campaign=bookface_antimattr_profile",
+      "submittedAt": "2026-11-11T17:11:42.436Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50837
+      }
+    },
+    {
+      "attemptId": "cee9e11b-9012-4d67-a219-f159898b1196",
+      "normalizedUrl": "https://www.antropi.world/",
+      "submittedAt": "2026-11-11T17:11:44.763Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50836
+      }
+    },
+    {
+      "attemptId": "e07b43c1-0944-4da3-a22e-818e1debed87",
+      "normalizedUrl": "https://anyalpha.ai/",
+      "submittedAt": "2026-11-11T17:11:47.449Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50835
+      }
+    },
+    {
+      "attemptId": "995f88b1-5cfc-47b8-bc8d-057932e74c94",
+      "normalizedUrl": "http://anywhere.fenn.chat/",
+      "submittedAt": "2026-11-11T17:11:52.687Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50834
+      }
+    },
+    {
+      "attemptId": "ad351a3c-b1b1-4e38-be42-b04eee431aaa",
+      "normalizedUrl": "https://www.archangelhealth.ai/",
+      "submittedAt": "2026-11-11T17:11:57.767Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50833
+      }
+    },
+    {
+      "attemptId": "aa804e3e-ba50-48bb-89cf-44f7dbb2457a",
+      "normalizedUrl": "https://www.archgen.tech/",
+      "submittedAt": "2026-11-11T17:12:00.391Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50832
+      }
+    },
+    {
+      "attemptId": "fcd3fb0d-2906-48c1-a41e-1aa23e8ada68",
+      "normalizedUrl": "https://armorerlabs.com/",
+      "submittedAt": "2026-11-11T17:12:04.011Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50831
+      }
+    },
+    {
+      "attemptId": "a4909c29-327a-4c4e-83dd-084ae30f45a5",
+      "normalizedUrl": "https://www.asakana.co/",
+      "submittedAt": "2026-11-11T17:12:08.580Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50830
+      }
+    },
+    {
+      "attemptId": "bbce796b-4f33-48e7-acc0-d46ca0db9386",
+      "normalizedUrl": "https://www.ascenix.co/",
+      "submittedAt": "2026-11-11T17:12:11.569Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50829
+      }
+    },
+    {
+      "attemptId": "dd316db3-0729-4f54-b7d4-2080bbcf6be7",
+      "normalizedUrl": "https://www.asim-group.com/",
+      "submittedAt": "2026-11-11T17:12:14.509Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50828
+      }
+    },
+    {
+      "attemptId": "ce3aa052-bbb2-4ed7-b1e5-2ef8d7c16728",
+      "normalizedUrl": "https://www.aucert.ai/",
+      "submittedAt": "2026-11-11T17:12:18.188Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50827
+      }
+    },
+    {
+      "attemptId": "fefea897-bcf6-474a-859e-f882e4e22e4e",
+      "normalizedUrl": "https://aviern.com/",
+      "submittedAt": "2026-11-11T17:12:20.871Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50826
+      }
+    },
+    {
+      "attemptId": "12936ddf-68a3-442d-a4d4-e6755c173155",
+      "normalizedUrl": "https://www.axiomat.com/",
+      "submittedAt": "2026-11-11T17:12:23.849Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50825
+      }
+    },
+    {
+      "attemptId": "7fb242c7-be83-4f98-99ba-c427d887e2ec",
+      "normalizedUrl": "https://www.axonnic.com/",
+      "submittedAt": "2026-11-11T17:12:26.755Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50824
+      }
+    },
+    {
+      "attemptId": "79b54d4b-ccc1-4492-9b91-7ddd4eb05c46",
+      "normalizedUrl": "https://bayworks.app/",
+      "submittedAt": "2026-11-11T17:12:29.590Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50823
+      }
+    },
+    {
+      "attemptId": "46493507-77e8-4e35-8d62-85dfe42c80ba",
+      "normalizedUrl": "https://biodelivera.com/",
+      "submittedAt": "2026-11-11T17:12:32.585Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50822
+      }
+    },
+    {
+      "attemptId": "1ff07c55-af6f-4fca-99fa-343d1dac931e",
+      "normalizedUrl": "https://blinka.co/",
+      "submittedAt": "2026-11-11T17:12:34.796Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50821
+      }
+    },
+    {
+      "attemptId": "8c7d2f6c-874a-43d8-b6fd-331706b0117c",
+      "normalizedUrl": "https://boat.dev/",
+      "submittedAt": "2026-11-11T17:12:37.193Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50820
+      }
+    },
+    {
+      "attemptId": "9a525251-de60-4b27-aec1-eae63c78e01f",
+      "normalizedUrl": "https://boxes.dev/",
+      "submittedAt": "2026-11-11T17:12:39.450Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50819
+      }
+    },
+    {
+      "attemptId": "6f67ab2b-59bd-48ad-9867-9e01ef8116d2",
+      "normalizedUrl": "https://byteask.ai/",
+      "submittedAt": "2026-11-11T17:12:41.770Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50818
+      }
+    },
+    {
+      "attemptId": "264786b8-cbfa-4680-a1a3-c5f08179c8f2",
+      "normalizedUrl": "https://caladh.com/",
+      "submittedAt": "2026-11-11T17:12:44.858Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50817
+      }
+    },
+    {
+      "attemptId": "754e00ef-5f4f-4ccd-bfac-c522f8214e9e",
+      "normalizedUrl": "https://www.canos.ai/",
+      "submittedAt": "2026-11-11T17:12:49.003Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50816
+      }
+    },
+    {
+      "attemptId": "77181997-0c64-4936-8405-13003291b0f7",
+      "normalizedUrl": "https://capveon.ai/",
+      "submittedAt": "2026-11-11T17:12:51.536Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50815
+      }
+    },
+    {
+      "attemptId": "6961b29f-506b-4e23-811c-bd3b33c0609d",
+      "normalizedUrl": "https://caveman.so/",
+      "submittedAt": "2026-11-11T17:12:54.137Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50814
+      }
+    },
+    {
+      "attemptId": "e1072e9d-acb8-4914-adf2-3c7d8af81197",
+      "normalizedUrl": "https://cesara.com/",
+      "submittedAt": "2026-11-11T17:12:57.500Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50813
+      }
+    },
+    {
+      "attemptId": "c6eb25db-e6d5-4c70-adf2-8509432aaf55",
+      "normalizedUrl": "https://championeffect.com/",
+      "submittedAt": "2026-11-11T17:13:00.455Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50812
+      }
+    },
+    {
+      "attemptId": "361b3164-3f30-48e2-ba48-0f1e83c193c1",
+      "normalizedUrl": "https://claimkit.co/",
+      "submittedAt": "2026-11-11T17:13:02.959Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50811
+      }
+    },
+    {
+      "attemptId": "0eaebe23-4ae5-4a4e-9528-b83cf7627209",
+      "normalizedUrl": "http://www.tryclean.ai/",
+      "submittedAt": "2026-11-11T17:13:05.682Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50810
+      }
+    },
+    {
+      "attemptId": "2deb08a8-be8a-4e66-977d-92a4c2acbd19",
+      "normalizedUrl": "https://usecollarai.com/",
+      "submittedAt": "2026-11-11T17:13:08.663Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50809
+      }
+    },
+    {
+      "attemptId": "b0f349d3-e746-4d40-b6cd-665d650aca75",
+      "normalizedUrl": "https://composal.com/",
+      "submittedAt": "2026-11-11T17:13:12.594Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50808
+      }
+    },
+    {
+      "attemptId": "da3f5450-6108-44c3-a444-0a18e44dba2c",
+      "normalizedUrl": "https://confetti.build/",
+      "submittedAt": "2026-11-11T17:13:15.833Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50807
+      }
+    },
+    {
+      "attemptId": "85fa13ef-01fa-4a0c-b283-f2c7fc48ceef",
+      "normalizedUrl": "https://constor.ai/",
+      "submittedAt": "2026-11-11T17:13:20.899Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50806
+      }
+    },
+    {
+      "attemptId": "f5627303-864a-4f42-8672-1dc3d32fca68",
+      "normalizedUrl": "https://www.conus-med.com/",
+      "submittedAt": "2026-11-11T17:13:24.055Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50805
+      }
+    },
+    {
+      "attemptId": "1923f501-fa66-421f-a791-8fd48074406f",
+      "normalizedUrl": "https://cyclon.ai/",
+      "submittedAt": "2026-11-11T17:13:28.946Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50804
+      }
+    },
+    {
+      "attemptId": "6bc4f452-bb43-43d1-bbe7-041ec9e2b6de",
+      "normalizedUrl": "https://www.databuddy.cc/",
+      "submittedAt": "2026-11-11T17:13:37.141Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50803
+      }
+    },
+    {
+      "attemptId": "1e3d76ae-533d-410a-bfc5-974f4c2e98be",
+      "normalizedUrl": "https://decent.com/",
+      "submittedAt": "2026-11-11T17:13:39.947Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50802
+      }
+    },
+    {
+      "attemptId": "8d21e655-7b1f-40fd-a0f0-3e9c96ce8d57",
+      "normalizedUrl": "https://www.deepmark.me/",
+      "submittedAt": "2026-11-11T17:13:42.522Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50801
+      }
+    },
+    {
+      "attemptId": "4088e532-26bb-4ec6-b435-7f69663a6157",
+      "normalizedUrl": "https://www.usedefinite.com/",
+      "submittedAt": "2026-11-11T17:13:45.478Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50800
+      }
+    },
+    {
+      "attemptId": "5b61ba0f-775d-4e9b-9480-7104c1c8086f",
+      "normalizedUrl": "https://degla.ai/",
+      "submittedAt": "2026-11-11T17:13:47.620Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50799
+      }
+    },
+    {
+      "attemptId": "9a867896-aa01-4d6b-ab46-95fff3065d9c",
+      "normalizedUrl": "https://deployrobotics.co/",
+      "submittedAt": "2026-11-11T17:13:56.413Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50798
+      }
+    },
+    {
+      "attemptId": "ceec89a0-a150-42c9-81fa-ae8b01434b63",
+      "normalizedUrl": "https://dydema.com/",
+      "submittedAt": "2026-11-11T17:13:58.578Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50797
+      }
+    },
+    {
+      "attemptId": "98ea7dc2-0132-4624-bb6b-f4d1d1a898d3",
+      "normalizedUrl": "https://www.elimentary.com/",
+      "submittedAt": "2026-11-11T17:14:02.364Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50796
+      }
+    },
+    {
+      "attemptId": "84cd7ef7-ecc8-42bb-b572-05a1093a6101",
+      "normalizedUrl": "https://elithia.com/",
+      "submittedAt": "2026-11-11T17:14:05.401Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50795
+      }
+    },
+    {
+      "attemptId": "1bfc75fa-ba7f-4bac-aa09-80a43d02ca3b",
+      "normalizedUrl": "https://www.epsilab.com/",
+      "submittedAt": "2026-11-11T17:14:07.548Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50794
+      }
+    },
+    {
+      "attemptId": "d16a83e6-b26b-4027-91a3-b66d3d92db00",
+      "normalizedUrl": "https://ernd.ai/",
+      "submittedAt": "2026-11-11T17:14:10.689Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50793
+      }
+    },
+    {
+      "attemptId": "67881c9e-8e0f-4f9b-91df-d7e33a835ee3",
+      "normalizedUrl": "https://evardi.ai/",
+      "submittedAt": "2026-11-11T17:14:12.921Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50792
+      }
+    },
+    {
+      "attemptId": "0dd6e619-e47d-436e-87e6-9f87db13c58d",
+      "normalizedUrl": "https://everyapp.com/",
+      "submittedAt": "2026-11-11T17:14:17.821Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50791
+      }
+    },
+    {
+      "attemptId": "a282c4aa-951f-483e-b4ca-e70fd9129b20",
+      "normalizedUrl": "https://evidentmachines.com/",
+      "submittedAt": "2026-11-11T17:14:22.624Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50790
+      }
+    },
+    {
+      "attemptId": "0076d539-da1a-4f1d-a7ff-8af0138cf749",
+      "normalizedUrl": "https://faradaycompute.com/",
+      "submittedAt": "2026-11-11T17:14:25.016Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50789
+      }
+    },
+    {
+      "attemptId": "b1b4e4bf-2b8a-47cf-b9ee-1ce21eb5c480",
+      "normalizedUrl": "https://fire.co/",
+      "submittedAt": "2026-11-11T17:14:27.292Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50788
+      }
+    },
+    {
+      "attemptId": "628d0cf6-3993-40a9-a3c6-13cb717ebf23",
+      "normalizedUrl": "https://usefleety.com/",
+      "submittedAt": "2026-11-11T17:14:29.958Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50787
+      }
+    },
+    {
+      "attemptId": "91543795-5659-4db3-ba71-78db8b2167f3",
+      "normalizedUrl": "https://usefr.com/",
+      "submittedAt": "2026-11-11T17:14:35.377Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50786
+      }
+    },
+    {
+      "attemptId": "66657b1a-9741-41dc-8788-817c174d897e",
+      "normalizedUrl": "https://godhands.ai/",
+      "submittedAt": "2026-11-11T17:14:37.869Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50785
+      }
+    },
+    {
+      "attemptId": "9f52adae-0fa3-46be-b2c8-0dc062e14fa8",
+      "normalizedUrl": "https://heygradon.com/",
+      "submittedAt": "2026-11-11T17:14:40.505Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50784
+      }
+    },
+    {
+      "attemptId": "c4f1e0ce-eff6-47b8-bfe4-e2cdf82284ad",
+      "normalizedUrl": "https://graphide.com/",
+      "submittedAt": "2026-11-11T17:14:42.845Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50783
+      }
+    },
+    {
+      "attemptId": "8ec0c1f2-9e33-477f-ba36-2cfd6cec54d3",
+      "normalizedUrl": "https://grep.ai/",
+      "submittedAt": "2026-11-11T17:14:45.748Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50782
+      }
+    },
+    {
+      "attemptId": "d651aa59-3ab8-4e3e-a228-0820f9298e76",
+      "normalizedUrl": "https://buildhabu.com/",
+      "submittedAt": "2026-11-11T17:14:48.052Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50781
+      }
+    },
+    {
+      "attemptId": "306b6ad6-3bd2-4264-af44-9f0f07616ef7",
+      "normalizedUrl": "https://halmoslabs.com/",
+      "submittedAt": "2026-11-11T17:14:50.650Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50780
+      }
+    },
+    {
+      "attemptId": "4ad89e88-9850-4bd5-bca9-3177585b9427",
+      "normalizedUrl": "https://www.heliosinc.ai/",
+      "submittedAt": "2026-11-11T17:14:53.172Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50779
+      }
+    },
+    {
+      "attemptId": "7b8e61c3-cb22-4ca2-a44a-1259accb3916",
+      "normalizedUrl": "https://hemlock.inc/",
+      "submittedAt": "2026-11-11T17:14:55.206Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50778
+      }
+    },
+    {
+      "attemptId": "48f3a5c1-c572-499d-9dff-67aef8d224d9",
+      "normalizedUrl": "https://herdr.dev/",
+      "submittedAt": "2026-11-11T17:14:57.778Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50777
+      }
+    },
+    {
+      "attemptId": "0e713714-2e3a-47d9-a9cf-1925150cb36c",
+      "normalizedUrl": "https://gethesperai.com/",
+      "submittedAt": "2026-11-11T17:14:59.907Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50776
+      }
+    },
+    {
+      "attemptId": "0fb9cba1-bb29-40d3-8909-ff292b2a806b",
+      "normalizedUrl": "https://hillstar.ai/",
+      "submittedAt": "2026-11-11T17:15:01.927Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50775
+      }
+    },
+    {
+      "attemptId": "4a67dcde-b690-469b-87d3-c81090356970",
+      "normalizedUrl": "https://withhopper.com/code",
+      "submittedAt": "2026-11-11T17:15:04.177Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50774
+      }
+    },
+    {
+      "attemptId": "1764c576-c901-4592-ab07-8062276fc0e4",
+      "normalizedUrl": "https://horizontal-tech.com/",
+      "submittedAt": "2026-11-11T17:15:06.265Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50773
+      }
+    },
+    {
+      "attemptId": "9ab44adc-da9f-48c5-8a07-e1904a015261",
+      "normalizedUrl": "https://hue.run/",
+      "submittedAt": "2026-11-11T17:15:08.447Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50772
+      }
+    },
+    {
+      "attemptId": "2ec13852-5b64-4ce4-bdc3-f9fc74b7ae7e",
+      "normalizedUrl": "http://hundred.systems/",
+      "submittedAt": "2026-11-11T17:15:10.694Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50771
+      }
+    },
+    {
+      "attemptId": "a1f76834-0701-44b0-94d1-813c8322d766",
+      "normalizedUrl": "https://hyperbench.ai/",
+      "submittedAt": "2026-11-11T17:15:12.721Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50770
+      }
+    },
+    {
+      "attemptId": "63ca6875-6029-4a82-b6e4-68d9c47a80f4",
+      "normalizedUrl": "https://www.ignitionbenefits.com/",
+      "submittedAt": "2026-11-11T17:15:15.133Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50769
+      }
+    },
+    {
+      "attemptId": "e31f56e3-726c-4cd3-bbe9-dfda12bdead3",
+      "normalizedUrl": "https://inflection-space.com/",
+      "submittedAt": "2026-11-11T17:15:18.907Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50768
+      }
+    },
+    {
+      "attemptId": "899ef47a-623e-4d18-9c26-63f5c90540be",
+      "normalizedUrl": "https://infraoptimal.com/",
+      "submittedAt": "2026-11-11T17:15:20.971Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50767
+      }
+    },
+    {
+      "attemptId": "27dbad01-cd3b-401c-9697-60c7a0dc3f1c",
+      "normalizedUrl": "https://www.invertix.ai/",
+      "submittedAt": "2026-11-11T17:15:24.234Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50766
+      }
+    },
+    {
+      "attemptId": "6fecddcf-4b54-4a68-990b-a88e7ffd2118",
+      "normalizedUrl": "https://isoquant.ai/",
+      "submittedAt": "2026-11-11T17:15:26.710Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50765
+      }
+    },
+    {
+      "attemptId": "c41f698e-e368-42c3-bd43-08d69de9a2f2",
+      "normalizedUrl": "https://gojinko.com/",
+      "submittedAt": "2026-11-11T17:15:29.118Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50764
+      }
+    },
+    {
+      "attemptId": "c09bccd1-3709-4a65-b909-28c21f8602fc",
+      "normalizedUrl": "https://www.kailashlabs.com/",
+      "submittedAt": "2026-11-11T17:15:31.900Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50763
+      }
+    },
+    {
+      "attemptId": "e60e5522-3aee-4ce8-8d32-c219b2095b52",
+      "normalizedUrl": "https://kairoshealthai.com/",
+      "submittedAt": "2026-11-11T17:15:34.757Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50762
+      }
+    },
+    {
+      "attemptId": "2f0e7eb5-e64a-487f-a548-a5c1b6eb07fb",
+      "normalizedUrl": "http://www.kairoxsys.com/",
+      "submittedAt": "2026-11-11T17:15:37.344Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50761
+      }
+    },
+    {
+      "attemptId": "212b3ca3-b491-4138-b8a0-3cd83d653971",
+      "normalizedUrl": "https://www.keresaero.com/",
+      "submittedAt": "2026-11-11T17:15:39.979Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50760
+      }
+    },
+    {
+      "attemptId": "3ab8be0e-3f69-4cb2-93a5-bd90900ec2e7",
+      "normalizedUrl": "https://withkiwi.ai/",
+      "submittedAt": "2026-11-11T17:15:42.742Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50759
+      }
+    },
+    {
+      "attemptId": "e0c22224-9f94-4753-899f-1b5faf189dab",
+      "normalizedUrl": "https://lantern.md/",
+      "submittedAt": "2026-11-11T17:15:46.929Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50758
+      }
+    },
+    {
+      "attemptId": "c728e611-5543-4e79-85e3-ee753b6cc662",
+      "normalizedUrl": "https://larkagents.com/",
+      "submittedAt": "2026-11-11T17:15:49.283Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50757
+      }
+    },
+    {
+      "attemptId": "cbbe834e-2e2a-4d92-b4c1-b8789b7046c8",
+      "normalizedUrl": "https://letter.dev/",
+      "submittedAt": "2026-11-11T17:15:52.291Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50756
+      }
+    },
+    {
+      "attemptId": "376c7dc6-38ef-4502-a763-d1d641f16296",
+      "normalizedUrl": "https://limnion.ai/",
+      "submittedAt": "2026-11-11T17:15:54.557Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50755
+      }
+    },
+    {
+      "attemptId": "176ffbf7-1e07-49fa-9520-de6e7ac63e54",
+      "normalizedUrl": "https://www.liquidenergy.world/",
+      "submittedAt": "2026-11-11T17:15:56.550Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50754
+      }
+    },
+    {
+      "attemptId": "571feaf4-3747-411b-ab03-b82f5ab05e47",
+      "normalizedUrl": "https://lyon.so/",
+      "submittedAt": "2026-11-11T17:15:58.873Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50753
+      }
+    },
+    {
+      "attemptId": "916f03c4-884b-4472-badc-0b9c0da23d4d",
+      "normalizedUrl": "https://maritime.sh/",
+      "submittedAt": "2026-11-11T17:16:01.237Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50752
+      }
+    },
+    {
+      "attemptId": "03819c37-7375-4184-b0f0-e6fbb22f15c1",
+      "normalizedUrl": "https://www.melty.gg/",
+      "submittedAt": "2026-11-11T17:16:04.082Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50751
+      }
+    },
+    {
+      "attemptId": "348fda56-75a4-4cfa-84cb-675b51371e1d",
+      "normalizedUrl": "https://metalcraft.ai/",
+      "submittedAt": "2026-11-11T17:16:09.562Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50750
+      }
+    },
+    {
+      "attemptId": "ef64bdb0-5151-4b04-9447-f4c166806df0",
+      "normalizedUrl": "https://micora.com/",
+      "submittedAt": "2026-11-11T17:16:12.916Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50749
+      }
+    },
+    {
+      "attemptId": "e698648d-f4b9-4f2e-97fb-58e94d05fea8",
+      "normalizedUrl": "https://www.mirrors.dev/",
+      "submittedAt": "2026-11-11T17:16:15.250Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50748
+      }
+    },
+    {
+      "attemptId": "0f8b2982-6853-4a32-bc79-da0b0147e30c",
+      "normalizedUrl": "https://munito.ai/",
+      "submittedAt": "2026-11-11T17:16:17.491Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50747
+      }
+    },
+    {
+      "attemptId": "9b6158bf-45c6-486a-badf-be748977a8e9",
+      "normalizedUrl": "https://neomatter.com/",
+      "submittedAt": "2026-11-11T17:16:20.673Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50746
+      }
+    },
+    {
+      "attemptId": "13976af6-d7da-4fc6-b52d-b61f49127efd",
+      "normalizedUrl": "https://nitroduck.tech/",
+      "submittedAt": "2026-11-11T17:16:22.740Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50745
+      }
+    },
+    {
+      "attemptId": "816a1f26-449d-4b23-8803-36ed75c4383f",
+      "normalizedUrl": "https://www.nodus-compute.ai/",
+      "submittedAt": "2026-11-11T17:16:25.149Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50744
+      }
+    },
+    {
+      "attemptId": "7c02017f-a4ce-4b63-9b84-19e4b254fb62",
+      "normalizedUrl": "https://nxtcure.com/",
+      "submittedAt": "2026-11-11T17:16:27.716Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50743
+      }
+    },
+    {
+      "attemptId": "29975aec-edb7-42e3-8e53-e45d6735e566",
+      "normalizedUrl": "https://www.oasive.ai/",
+      "submittedAt": "2026-11-11T17:16:29.856Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50742
+      }
+    },
+    {
+      "attemptId": "6b5e815c-d403-433e-8dab-32064393b3e3",
+      "normalizedUrl": "https://obia.io/",
+      "submittedAt": "2026-11-11T17:16:31.992Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50741
+      }
+    },
+    {
+      "attemptId": "11aabfe5-cfa0-44e2-ac24-57580d6fdf3d",
+      "normalizedUrl": "https://obsessiondb.com/",
+      "submittedAt": "2026-11-11T17:16:36.527Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50740
+      }
+    },
+    {
+      "attemptId": "db7686e5-b73e-4f26-b6dd-3a902494cb00",
+      "normalizedUrl": "https://odin-robotics.com/",
+      "submittedAt": "2026-11-11T17:16:39.635Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50739
+      }
+    },
+    {
+      "attemptId": "819bd7ce-2a91-4ada-8ac2-7e20feb5a918",
+      "normalizedUrl": "https://openactuation.com/",
+      "submittedAt": "2026-11-11T17:16:41.470Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50738
+      }
+    },
+    {
+      "attemptId": "05ad144a-308f-4376-8967-2d7a2ec1c9ae",
+      "normalizedUrl": "https://getopencrawl.com/",
+      "submittedAt": "2026-11-11T17:16:43.794Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50737
+      }
+    },
+    {
+      "attemptId": "cdd86a8d-21ed-4234-8ca3-b63b4e42c97a",
+      "normalizedUrl": "https://openhack.com/",
+      "submittedAt": "2026-11-11T17:16:45.879Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50736
+      }
+    },
+    {
+      "attemptId": "53e78b9a-bb1b-4be5-9306-d21a8ee40c57",
+      "normalizedUrl": "https://openlakehq.com/",
+      "submittedAt": "2026-11-11T17:16:52.039Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50735
+      }
+    },
+    {
+      "attemptId": "a99b033d-c8df-47d6-b888-79806a73bba9",
+      "normalizedUrl": "https://openscaffold.ai/",
+      "submittedAt": "2026-11-11T17:16:54.209Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50734
+      }
+    },
+    {
+      "attemptId": "c2480c71-69b3-42a5-a62f-80a9f74e5c8b",
+      "normalizedUrl": "https://operatechnologies.com/",
+      "submittedAt": "2026-11-11T17:16:57.959Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50733
+      }
+    },
+    {
+      "attemptId": "fe26df43-27ef-43e0-a3e6-17ed20d076c7",
+      "normalizedUrl": "https://orcaaerospace.com/",
+      "submittedAt": "2026-11-11T17:17:00.255Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50732
+      }
+    },
+    {
+      "attemptId": "e10fbb36-9db3-47b8-957d-97aa8ae54390",
+      "normalizedUrl": "https://organizely.io/",
+      "submittedAt": "2026-11-11T17:17:02.435Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50731
+      }
+    },
+    {
+      "attemptId": "26acc372-5fca-4dcb-85e6-f5bd360af47a",
+      "normalizedUrl": "https://www.orgo.ai/",
+      "submittedAt": "2026-11-11T17:17:05.934Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50730
+      }
+    },
+    {
+      "attemptId": "5f6ef0dd-646d-4786-8f50-258bd1408152",
+      "normalizedUrl": "https://www.oroagents.com/",
+      "submittedAt": "2026-11-11T17:17:08.283Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50729
+      }
+    },
+    {
+      "attemptId": "7ac81853-f530-4690-8210-5c2109789b18",
+      "normalizedUrl": "https://papaya.fyi/",
+      "submittedAt": "2026-11-11T17:17:10.551Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50728
+      }
+    },
+    {
+      "attemptId": "60ad28cb-3ca9-4b01-a374-ba022c7c1747",
+      "normalizedUrl": "https://particularity.io/",
+      "submittedAt": "2026-11-11T17:17:12.921Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50727
+      }
+    },
+    {
+      "attemptId": "71fb7f6a-e0e4-4fbf-a9de-2e22fa45e006",
+      "normalizedUrl": "https://www.perceptuallabs.com/",
+      "submittedAt": "2026-11-11T17:17:14.980Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50726
+      }
+    },
+    {
+      "attemptId": "17345b8f-5c7f-4e9e-91e0-8cafb5b376aa",
+      "normalizedUrl": "https://www.perit.ai/",
+      "submittedAt": "2026-11-11T17:17:17.320Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50725
+      }
+    },
+    {
+      "attemptId": "026d1f16-2774-453d-94a5-66809e8a7210",
+      "normalizedUrl": "https://phone-harness.com/",
+      "submittedAt": "2026-11-11T17:17:22.136Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50724
+      }
+    },
+    {
+      "attemptId": "a40aabac-c06d-4917-9432-7920b9880092",
+      "normalizedUrl": "https://www.plek.ai/",
+      "submittedAt": "2026-11-11T17:17:24.235Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50723
+      }
+    },
+    {
+      "attemptId": "f816a8e5-7c2e-4b1e-b3b4-4ac1b4daffa2",
+      "normalizedUrl": "https://ploid.com/",
+      "submittedAt": "2026-11-11T17:17:27.655Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50722
+      }
+    },
+    {
+      "attemptId": "94b7a375-b5ba-47ae-820c-bb4f0c35fce9",
+      "normalizedUrl": "https://ploverlabs.ai/",
+      "submittedAt": "2026-11-11T17:17:30.978Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50721
+      }
+    },
+    {
+      "attemptId": "cbe633a1-f782-49b9-9d6f-66e79301ab7a",
+      "normalizedUrl": "https://polemosindustries.com/",
+      "submittedAt": "2026-11-11T17:17:33.266Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50720
+      }
+    },
+    {
+      "attemptId": "ee28fa0e-08e5-435e-9f73-858f6b56cac1",
+      "normalizedUrl": "https://www.pomerado.ai/",
+      "submittedAt": "2026-11-11T17:17:35.285Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50719
+      }
+    },
+    {
+      "attemptId": "0e5b1fe4-a04b-41ff-857a-1b9a9c4dc973",
+      "normalizedUrl": "https://runpraxis.ai/",
+      "submittedAt": "2026-11-11T17:17:38.113Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50718
+      }
+    },
+    {
+      "attemptId": "fc28fabc-35bf-45dd-8be4-2178267cb1f9",
+      "normalizedUrl": "https://primordiant.com/",
+      "submittedAt": "2026-11-11T17:17:40.250Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50717
+      }
+    },
+    {
+      "attemptId": "0d2d2cf1-e51d-4d99-a661-87b908fe648b",
+      "normalizedUrl": "https://www.prototypes.fun/",
+      "submittedAt": "2026-11-11T17:17:42.718Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50716
+      }
+    },
+    {
+      "attemptId": "922be90e-5a70-4726-9d99-94d82ada370e",
+      "normalizedUrl": "https://quippyapp.com/",
+      "submittedAt": "2026-11-11T17:17:45.061Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50715
+      }
+    },
+    {
+      "attemptId": "3ab4f217-ddf8-489c-9ab9-ec3a68ef1198",
+      "normalizedUrl": "https://www.quivly.ai/",
+      "submittedAt": "2026-11-11T17:17:47.333Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50714
+      }
+    },
+    {
+      "attemptId": "5a822f74-0f51-446c-a5b8-81b1eb6ba494",
+      "normalizedUrl": "https://www.ratlog.space/",
+      "submittedAt": "2026-11-11T17:17:49.836Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50713
+      }
+    },
+    {
+      "attemptId": "ef6b2454-4d75-44f3-b15b-db10194fa732",
+      "normalizedUrl": "https://ravenphone.com/",
+      "submittedAt": "2026-11-11T17:17:52.505Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50712
+      }
+    },
+    {
+      "attemptId": "691ccb8f-78e2-45a0-a063-500be2fb3fc7",
+      "normalizedUrl": "https://reasonmachines.com/",
+      "submittedAt": "2026-11-11T17:17:55.223Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50711
+      }
+    },
+    {
+      "attemptId": "476362f9-ade6-4df1-b466-6f0901c21d65",
+      "normalizedUrl": "https://reconero.com/",
+      "submittedAt": "2026-11-11T17:17:57.651Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50710
+      }
+    },
+    {
+      "attemptId": "246f868f-3ff6-41be-ad38-3299209ba8a6",
+      "normalizedUrl": "https://www.redoubt.insure/",
+      "submittedAt": "2026-11-11T17:18:00.009Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50709
+      }
+    },
+    {
+      "attemptId": "2b4f9218-93a4-4853-93a5-b937ee560c0f",
+      "normalizedUrl": "https://www.reific.co/",
+      "submittedAt": "2026-11-11T17:18:02.201Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50708
+      }
+    },
+    {
+      "attemptId": "65468212-f312-4278-96e7-e780e03050f7",
+      "normalizedUrl": "https://resineda.com/",
+      "submittedAt": "2026-11-11T17:18:04.925Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50707
+      }
+    },
+    {
+      "attemptId": "b287d1c2-0269-4b67-b694-28bc3a752788",
+      "normalizedUrl": "https://rezora.io/",
+      "submittedAt": "2026-11-11T17:18:07.962Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50706
+      }
+    },
+    {
+      "attemptId": "d0947b5b-9da4-445b-80f0-b9f5bad7fea3",
+      "normalizedUrl": "https://rhem.ai/",
+      "submittedAt": "2026-11-11T17:18:10.552Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50705
+      }
+    },
+    {
+      "attemptId": "c7c0a867-1035-4295-9d23-ee8b9ca2dfb4",
+      "normalizedUrl": "https://runinfra.ai/",
+      "submittedAt": "2026-11-11T17:18:20.538Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50704
+      }
+    },
+    {
+      "attemptId": "efdc0073-8532-4eed-9fa2-0495beb40649",
+      "normalizedUrl": "https://www.risklytics.ai/",
+      "submittedAt": "2026-11-11T17:18:23.326Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50703
+      }
+    },
+    {
+      "attemptId": "a665e73e-7e8a-4a3d-ba40-5bf9ab0a3460",
+      "normalizedUrl": "https://www.rodeorobotics.com/",
+      "submittedAt": "2026-11-11T17:18:25.711Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50702
+      }
+    },
+    {
+      "attemptId": "03fcaf80-1269-474e-afa4-5c5296126f7d",
+      "normalizedUrl": "https://roma.app/",
+      "submittedAt": "2026-11-11T17:18:27.754Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50701
+      }
+    },
+    {
+      "attemptId": "e016b65b-395e-4e2a-9b72-d45813391676",
+      "normalizedUrl": "https://routant.ai/",
+      "submittedAt": "2026-11-11T17:18:30.152Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50700
+      }
+    },
+    {
+      "attemptId": "e4dd7d52-616c-41dc-9077-c5defa56e133",
+      "normalizedUrl": "https://routerplus.com/",
+      "submittedAt": "2026-11-11T17:18:33.459Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50699
+      }
+    },
+    {
+      "attemptId": "355b71bb-8e65-4980-bfa3-bf22839b25fa",
+      "normalizedUrl": "https://runtime.si/",
+      "submittedAt": "2026-11-11T17:18:35.586Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50698
+      }
+    },
+    {
+      "attemptId": "d47384a5-e825-4c31-9519-7a64bbd18dd0",
+      "normalizedUrl": "https://ryhla.ai/",
+      "submittedAt": "2026-11-11T17:18:37.518Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50697
+      }
+    },
+    {
+      "attemptId": "05b9766b-5017-4a19-a801-7cd4dd397e1f",
+      "normalizedUrl": "https://rystic.ai/",
+      "submittedAt": "2026-11-11T17:18:39.945Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50696
+      }
+    },
+    {
+      "attemptId": "fba582a4-fe6a-4d29-8e3c-8bea242d976b",
+      "normalizedUrl": "https://se3labs.ai/",
+      "submittedAt": "2026-11-11T17:18:42.343Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50695
+      }
+    },
+    {
+      "attemptId": "a594c07b-3495-45fd-8a62-662c5e734b35",
+      "normalizedUrl": "https://sentient-os.ai/",
+      "submittedAt": "2026-11-11T17:18:44.356Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50694
+      }
+    },
+    {
+      "attemptId": "40dd91aa-2297-461b-884a-32964e7e74f1",
+      "normalizedUrl": "https://shepherdrobotics.ai/",
+      "submittedAt": "2026-11-11T17:18:47.940Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50693
+      }
+    },
+    {
+      "attemptId": "3d1a5ebc-1a87-44bd-897d-c8c15b907a81",
+      "normalizedUrl": "https://shireintelligence.com/",
+      "submittedAt": "2026-11-11T17:18:50.227Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50692
+      }
+    },
+    {
+      "attemptId": "f8238d50-42a4-403b-bc1f-5df9fcad07cd",
+      "normalizedUrl": "https://silicamachines.com/",
+      "submittedAt": "2026-11-11T17:18:52.316Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50691
+      }
+    },
+    {
+      "attemptId": "2ab3c972-7b67-47ff-bfd0-4411215b6947",
+      "normalizedUrl": "https://simantic.com/",
+      "submittedAt": "2026-11-11T17:18:54.705Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50690
+      }
+    },
+    {
+      "attemptId": "a363def3-fb63-4b6a-9534-addbd0719b6b",
+      "normalizedUrl": "https://simulithic.com/",
+      "submittedAt": "2026-11-11T17:18:56.821Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50689
+      }
+    },
+    {
+      "attemptId": "89a99a9f-98a6-4b29-bfe9-aeafce163352",
+      "normalizedUrl": "https://sinter.systems/",
+      "submittedAt": "2026-11-11T17:18:59.778Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50688
+      }
+    },
+    {
+      "attemptId": "23c2783b-571c-43c2-a187-8a7b1ae9cb56",
+      "normalizedUrl": "https://sintropix.com/",
+      "submittedAt": "2026-11-11T17:19:04.815Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50687
+      }
+    },
+    {
+      "attemptId": "683c97d0-6fa5-4856-b460-65c03cd37cb4",
+      "normalizedUrl": "https://sona8.com/",
+      "submittedAt": "2026-11-11T17:19:07.136Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50686
+      }
+    },
+    {
+      "attemptId": "ce16f872-28fa-460d-9252-1c35e74e90b3",
+      "normalizedUrl": "https://spacesheep.dev/",
+      "submittedAt": "2026-11-11T17:19:09.924Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50685
+      }
+    },
+    {
+      "attemptId": "79b0586d-c2fe-4d6e-9a17-54e186a08375",
+      "normalizedUrl": "https://www.joinspine.ai/",
+      "submittedAt": "2026-11-11T17:19:14.175Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50684
+      }
+    },
+    {
+      "attemptId": "b2f2ec45-5a97-4879-b079-fd93b1a94cfc",
+      "normalizedUrl": "https://stacktrace.ai/",
+      "submittedAt": "2026-11-11T17:19:21.290Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50683
+      }
+    },
+    {
+      "attemptId": "3a06f1a3-1746-4cbb-8620-38d4313cde47",
+      "normalizedUrl": "https://www.get-stasis.com/",
+      "submittedAt": "2026-11-11T17:19:23.685Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50682
+      }
+    },
+    {
+      "attemptId": "0343bbeb-38c9-4d36-b52a-b32e243488d9",
+      "normalizedUrl": "https://streamlinesystems.ltd/",
+      "submittedAt": "2026-11-11T17:19:26.602Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50681
+      }
+    },
+    {
+      "attemptId": "2fa6ba67-091f-46ae-be15-8656d61d7104",
+      "normalizedUrl": "https://www.spm.us/",
+      "submittedAt": "2026-11-11T17:19:53.050Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50680
+      }
+    },
+    {
+      "attemptId": "7fbf36a0-fbf2-4498-9163-a8c5557078ce",
+      "normalizedUrl": "https://superserve.ai/",
+      "submittedAt": "2026-11-11T17:19:55.425Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50679
+      }
+    },
+    {
+      "attemptId": "156e9a01-3e1c-4baf-8f59-3abe991a00fd",
+      "normalizedUrl": "https://www.sutrix.ai/",
+      "submittedAt": "2026-11-11T17:19:57.981Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50678
+      }
+    },
+    {
+      "attemptId": "2886be3a-06d7-4cf7-897f-de56d55c76d5",
+      "normalizedUrl": "https://synaraops.com/",
+      "submittedAt": "2026-11-11T17:20:00.295Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50677
+      }
+    },
+    {
+      "attemptId": "f9d35a31-9e58-4c81-9866-f275040cb834",
+      "normalizedUrl": "https://taan.ai/",
+      "submittedAt": "2026-11-11T17:20:02.809Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50676
+      }
+    },
+    {
+      "attemptId": "b49474f9-b8fb-4413-854d-7bf910939b1c",
+      "normalizedUrl": "https://www.talos-us.com/",
+      "submittedAt": "2026-11-11T17:20:05.303Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50675
+      }
+    },
+    {
+      "attemptId": "2fd80b26-139b-48a2-aec9-8307d9419dc4",
+      "normalizedUrl": "https://telamont.com/",
+      "submittedAt": "2026-11-11T17:20:07.432Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50674
+      }
+    },
+    {
+      "attemptId": "75e0490e-353e-4d07-8c9a-c2b4a0ffe4fc",
+      "normalizedUrl": "https://www.thecompany.company/",
+      "submittedAt": "2026-11-11T17:20:10.176Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50673
+      }
+    },
+    {
+      "attemptId": "a08bf817-8ada-4728-8819-68d256f16304",
+      "normalizedUrl": "https://subvocal.company/",
+      "submittedAt": "2026-11-11T17:20:13.897Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50672
+      }
+    },
+    {
+      "attemptId": "c68a178f-4d81-41be-88d3-b7da224b5a15",
+      "normalizedUrl": "https://theo.site/",
+      "submittedAt": "2026-11-11T17:20:16.159Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50671
+      }
+    },
+    {
+      "attemptId": "eb149065-3e78-4626-bfd9-9ae3ba31af82",
+      "normalizedUrl": "https://theseus.bot/",
+      "submittedAt": "2026-11-11T17:20:18.686Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50670
+      }
+    },
+    {
+      "attemptId": "fa5a2a37-794c-4c90-831c-332a9fcbcebd",
+      "normalizedUrl": "https://tilion.com/",
+      "submittedAt": "2026-11-11T17:20:20.835Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50669
+      }
+    },
+    {
+      "attemptId": "f96c3f75-13c6-4dbf-96fe-f088e3be78f5",
+      "normalizedUrl": "https://tilo.so/",
+      "submittedAt": "2026-11-11T17:20:22.731Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50668
+      }
+    },
+    {
+      "attemptId": "69054baa-675b-456e-9de1-0286f40e1270",
+      "normalizedUrl": "https://gettireswing.com/",
+      "submittedAt": "2026-11-11T17:20:25.187Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50667
+      }
+    },
+    {
+      "attemptId": "c5abfb22-a6d2-4172-ae1f-51e267c756a4",
+      "normalizedUrl": "https://hellotrepo.com/",
+      "submittedAt": "2026-11-11T17:20:28.776Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50666
+      }
+    },
+    {
+      "attemptId": "24a70767-aceb-4aaf-a34d-898fdde40380",
+      "normalizedUrl": "https://truemile.ai/",
+      "submittedAt": "2026-11-11T17:20:31.254Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50665
+      }
+    },
+    {
+      "attemptId": "5642c07a-6232-4216-94cc-8bb6946c874f",
+      "normalizedUrl": "http://runlatent.ai/",
+      "submittedAt": "2026-11-11T17:20:34.857Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50664
+      }
+    },
+    {
+      "attemptId": "7b3c1863-c2ac-4300-827b-387891b2d366",
+      "normalizedUrl": "https://twentyfour26.com/",
+      "submittedAt": "2026-11-11T17:20:37.406Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50663
+      }
+    },
+    {
+      "attemptId": "ff3d085f-cd32-45e2-90a4-8a4f93122cc8",
+      "normalizedUrl": "https://www.useforward.co/",
+      "submittedAt": "2026-11-11T17:20:41.370Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50662
+      }
+    },
+    {
+      "attemptId": "f820e877-37fa-4897-a5bb-3d9ea3317067",
+      "normalizedUrl": "https://www.useterse.ai/",
+      "submittedAt": "2026-11-11T17:20:43.832Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50661
+      }
+    },
+    {
+      "attemptId": "e3eb61f1-1ff0-462c-918f-7a8149607518",
+      "normalizedUrl": "https://uxduck.com/",
+      "submittedAt": "2026-11-11T17:20:46.724Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50660
+      }
+    },
+    {
+      "attemptId": "da6a9221-9d84-47e3-9ff0-5cd68762df02",
+      "normalizedUrl": "https://veeza.ai/",
+      "submittedAt": "2026-11-11T17:20:50.925Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50659
+      }
+    },
+    {
+      "attemptId": "a6a4b3f9-2b84-43e4-bb2f-6ea04d66344a",
+      "normalizedUrl": "https://veltha.ai/",
+      "submittedAt": "2026-11-11T17:20:53.523Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50658
+      }
+    },
+    {
+      "attemptId": "ac48dc88-c032-4f23-baa4-1ccde26a90a6",
+      "normalizedUrl": "https://verdun.ai/",
+      "submittedAt": "2026-11-11T17:20:56.219Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50657
+      }
+    },
+    {
+      "attemptId": "8b24a99e-c696-4524-9b3d-bca43b5403c7",
+      "normalizedUrl": "https://verno-ai.com/",
+      "submittedAt": "2026-11-11T17:20:58.743Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50656
+      }
+    },
+    {
+      "attemptId": "4c3117da-389d-4a84-8b11-36c4451805a5",
+      "normalizedUrl": "https://versine.com/",
+      "submittedAt": "2026-11-11T17:21:03.185Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50655
+      }
+    },
+    {
+      "attemptId": "a8643ee3-1e6a-4f63-8751-eb2ecb4a9526",
+      "normalizedUrl": "https://www.vexoai.com/",
+      "submittedAt": "2026-11-11T17:21:05.637Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50654
+      }
+    },
+    {
+      "attemptId": "7aa31fd7-c609-43e2-9a4a-c2aa301e64a0",
+      "normalizedUrl": "https://www.viraj-aero.com/",
+      "submittedAt": "2026-11-11T17:21:07.811Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50653
+      }
+    },
+    {
+      "attemptId": "e28d20af-b40e-48b0-81b0-cb0240d069ac",
+      "normalizedUrl": "https://www.volaren.ai/",
+      "submittedAt": "2026-11-11T17:21:10.040Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50652
+      }
+    },
+    {
+      "attemptId": "d771464b-9a24-42dc-9394-d8068f7ba8fe",
+      "normalizedUrl": "https://vorflux.ai/",
+      "submittedAt": "2026-11-11T17:21:12.394Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50651
+      }
+    },
+    {
+      "attemptId": "269f02b1-3542-4a62-a19b-8b30e8eb489d",
+      "normalizedUrl": "https://vouchwealth.com/",
+      "submittedAt": "2026-11-11T17:21:14.738Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50650
+      }
+    },
+    {
+      "attemptId": "1e2d5a0d-f31f-46a1-bfbd-fa0fabfab752",
+      "normalizedUrl": "https://voyager.so/",
+      "submittedAt": "2026-11-11T17:21:17.413Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50649
+      }
+    },
+    {
+      "attemptId": "a6e58dea-927a-40b7-9669-7fcfdc142a52",
+      "normalizedUrl": "https://usevyra.com/",
+      "submittedAt": "2026-11-11T17:21:21.806Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50648
+      }
+    },
+    {
+      "attemptId": "ce4754b0-bc28-42d1-ba39-a21a9d561b27",
+      "normalizedUrl": "https://www.wingmanlaw.com/",
+      "submittedAt": "2026-11-11T17:21:24.061Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50647
+      }
+    },
+    {
+      "attemptId": "f5b690fd-1f8f-4a6b-bf62-150ea9837934",
+      "normalizedUrl": "https://wondersearch.com/",
+      "submittedAt": "2026-11-11T17:21:26.086Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50646
+      }
+    },
+    {
+      "attemptId": "b8e2a8f8-81e9-4033-b4da-de0ca5aef2d8",
+      "normalizedUrl": "https://workers.io/",
+      "submittedAt": "2026-11-11T17:21:30.430Z",
+      "credits": {
+        "source": "reported",
+        "consumed": 1,
+        "remaining": 50645
+      }
+    }
+  ],
+  "cacheHits": [
+    "0security",
+    "acyclic",
+    "adalat-ai",
+    "adsideai",
+    "agent-37",
+    "agent-relay",
+    "ageospatial",
+    "aikido-technologies",
+    "ailit",
+    "alkera-ai",
+    "applied-kinetics",
+    "audora",
+    "chempilotai",
+    "covera",
+    "dreamscale-labs",
+    "graypass",
+    "hickory-and-company",
+    "kanopy",
+    "lux-foods",
+    "native",
+    "ordo-labs",
+    "petrichor",
+    "preload",
+    "rivereditor",
+    "saccade",
+    "summer-engine",
+    "the-agentic-data-co",
+    "topos",
+    "vorelios",
+    "yam"
+  ],
+  "deferred": []
+}

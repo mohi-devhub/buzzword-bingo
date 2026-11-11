@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "header": ["Checks the collection scripts with strict TypeScript settings.", "Catches unsafe external-data handling before any paid request."],
+    "schemaVersion": 1
+  },
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "types": ["node"]
+  },
+  "include": ["scripts/**/*.ts", "src/**/*.ts", "tests/**/*.ts"]
+}

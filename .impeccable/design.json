@@ -1,0 +1,215 @@
+{
+  "_meta": {
+    "header": [
+      "Records component previews and extensions to DESIGN.md tokens.",
+      "Keeps the design panel grounded in the implemented score-sheet interface."
+    ]
+  },
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-11T15:35:00.671614+00:00",
+  "title": "Design System: Buzzword Bingo",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Cream Paper"
+      },
+      "sheet": {
+        "role": "neutral",
+        "displayName": "Fresh Sheet"
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Printing Ink"
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Pencil Gray"
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Paper Rule"
+      },
+      "coral": {
+        "role": "primary",
+        "displayName": "Bingo Coral"
+      },
+      "coral-light": {
+        "role": "primary",
+        "displayName": "Coral Wash"
+      },
+      "blue": {
+        "role": "secondary",
+        "displayName": "Scoreboard Cobalt"
+      },
+      "blue-light": {
+        "role": "secondary",
+        "displayName": "Cobalt Wash"
+      },
+      "green": {
+        "role": "tertiary",
+        "displayName": "Quiet Green"
+      },
+      "green-light": {
+        "role": "tertiary",
+        "displayName": "Green Wash"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Condensed display",
+        "purpose": "Headlines and page titles."
+      },
+      "headline": {
+        "displayName": "Section headline",
+        "purpose": "Major section titles."
+      },
+      "title": {
+        "displayName": "Compact title",
+        "purpose": "Supporting titles."
+      },
+      "body": {
+        "displayName": "Reading text",
+        "purpose": "Prose and explanations."
+      },
+      "label": {
+        "displayName": "Control label",
+        "purpose": "Navigation and compact controls."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "state-transition",
+        "value": "150ms ease-out",
+        "purpose": "Button fill, text color, and transform changes; link text color."
+      },
+      {
+        "name": "play-cell-hover",
+        "value": "translateY(-2px)",
+        "purpose": "Playable bingo cells only."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-shell",
+        "value": "1500px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1100px"
+      },
+      {
+        "name": "stacked",
+        "value": "800px"
+      },
+      {
+        "name": "mobile",
+        "value": "540px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Compact action with a visible keyboard focus state.",
+      "html": "<button class=\"ds-button ds-primary\">Play your own round <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-button{display:inline-flex;gap:14px;align-items:center;justify-content:center;min-height:45px;padding:11px 20px;border-radius:8px;font-family:var(--body);font-size:12px;font-weight:700;text-decoration:none;border:1px solid transparent;cursor:pointer;transition:background-color 150ms ease-out,color 150ms ease-out,transform 150ms ease-out}.ds-primary{background:var(--ink);color:var(--sheet)}.ds-primary:hover{background:var(--blue)}.ds-button:focus-visible{outline:3px solid var(--blue);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Compact action with a visible keyboard focus state.",
+      "html": "<button class=\"ds-button ds-secondary\">Play your own round <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-button{display:inline-flex;gap:14px;align-items:center;justify-content:center;min-height:45px;padding:11px 20px;border-radius:8px;font-family:var(--body);font-size:12px;font-weight:700;text-decoration:none;border:1px solid transparent;cursor:pointer;transition:background-color 150ms ease-out,color 150ms ease-out,transform 150ms ease-out}.ds-secondary{background:transparent;color:var(--ink);border-color:var(--ink)}.ds-secondary:hover{background:var(--sheet)}.ds-button:focus-visible{outline:3px solid var(--blue);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}"
+    },
+    {
+      "name": "Light button",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "Compact action with a visible keyboard focus state.",
+      "html": "<button class=\"ds-button ds-light\">Play your own round <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-button{display:inline-flex;gap:14px;align-items:center;justify-content:center;min-height:45px;padding:11px 20px;border-radius:8px;font-family:var(--body);font-size:12px;font-weight:700;text-decoration:none;border:1px solid transparent;cursor:pointer;transition:background-color 150ms ease-out,color 150ms ease-out,transform 150ms ease-out}.ds-light{background:var(--sheet);color:var(--ink)}.ds-light:hover{background:var(--coral-light)}.ds-button:focus-visible{outline:3px solid var(--blue);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}"
+    },
+    {
+      "name": "Category field",
+      "kind": "input",
+      "description": "Labeled native category select for a score sheet.",
+      "html": "<label class=\"ds-category\">Count by <select aria-label=\"Category\"><option>All categories</option><option>AI hype</option><option>Corporate fluff</option></select></label>",
+      "css": ".ds-category{display:flex;align-items:center;gap:9px;color:var(--muted);font:11px var(--body)}.ds-category select{background:transparent;border:1px solid var(--line);padding:8px 26px 8px 10px;border-radius:6px;color:var(--ink);font:11px var(--body);cursor:pointer}.ds-category select:focus-visible{outline:3px solid var(--blue);outline-offset:5px}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "description": "Compact text navigation from the masthead.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"#leaderboard\">The rankings</a><a href=\"#play\">Play bingo</a><a href=\"#about\">The fine print</a></nav>",
+      "css": ".ds-nav{display:flex;gap:30px;font:600 12px var(--body);color:var(--ink)}.ds-nav a{text-decoration:none;transition:color 150ms ease-out}.ds-nav a:hover{color:var(--blue)}.ds-nav a:focus-visible{outline:3px solid var(--blue);outline-offset:5px}@media(max-width:540px){.ds-nav{gap:13px;font-size:10px}.ds-nav a:first-child{display:none}}@media(prefers-reduced-motion:reduce){.ds-nav a{transition:none}}"
+    },
+    {
+      "name": "Phrase tag",
+      "kind": "chip",
+      "refersTo": "phrase-tag",
+      "description": "Quiet phrase annotation; static rather than an action.",
+      "html": "<div class=\"ds-tags\"><span>Agentic</span><span class=\"ds-no-hits\">A refreshingly empty card</span></div>",
+      "css": ".ds-tags{display:flex;gap:5px;flex-wrap:wrap;font-family:var(--body);color:var(--ink)}.ds-tags>span{border:1px solid var(--line);border-radius:4px;padding:3px 6px;font-size:9px;white-space:nowrap}.ds-tags>.ds-no-hits{color:var(--green);background:var(--green-light);border-color:transparent}"
+    },
+    {
+      "name": "Comparison sheet",
+      "kind": "card",
+      "refersTo": "comparison-card",
+      "description": "Adjacent cohort identities stay comparable within a single ruled sheet.",
+      "html": "<section class=\"ds-sheet\"><div class=\"ds-sheet-title\">THE COMPARISON</div><div class=\"ds-cohorts\"><div class=\"ds-startups\">Startups<p>Median density</p></div><div class=\"ds-incumbents\">Public cloud<p>Median density</p></div></div></section>",
+      "css": ".ds-sheet{background:var(--sheet);color:var(--ink);border:1px solid var(--ink);border-radius:var(--radius);overflow:hidden;font-family:var(--body)}.ds-sheet-title{padding:13px 24px;border-bottom:1px solid var(--ink);font-size:10px;letter-spacing:.09em;font-weight:700}.ds-cohorts{display:grid;grid-template-columns:1fr 1fr}.ds-startups,.ds-incumbents{padding:23px 30px 24px;font-size:14px;font-weight:700}.ds-startups{background:var(--coral-light)}.ds-incumbents{background:var(--blue-light);border-left:1px solid var(--ink)}.ds-cohorts p{font-size:11px;font-weight:400;color:var(--muted)}@media(max-width:540px){.ds-sheet-title{padding:11px 13px}.ds-startups,.ds-incumbents{padding:16px 14px 17px;font-size:12px}}"
+    },
+    {
+      "name": "Cohort tabs",
+      "kind": "nav",
+      "description": "Selected tab joins the fresh-sheet surface; color reinforces the written cohort.",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\" aria-label=\"Company cohort\"><button role=\"tab\" aria-selected=\"true\"><span class=\"ds-dot ds-startup-dot\"></span>Startups</button><button role=\"tab\" aria-selected=\"false\"><span class=\"ds-dot ds-cloud-dot\"></span>Public cloud</button></div>",
+      "css": ".ds-tabs{display:flex;border-bottom:1px solid var(--ink);gap:8px;color:var(--ink)}.ds-tabs button{border:1px solid transparent;border-bottom:0;background:transparent;padding:17px 22px;display:flex;align-items:center;gap:10px;font:600 12px var(--body);border-radius:10px 10px 0 0;position:relative;bottom:-1px;cursor:pointer}.ds-tabs button[aria-selected=\"true\"]{background:var(--sheet);border-color:var(--ink)}.ds-tabs button:focus-visible{outline:3px solid var(--blue);outline-offset:5px}.ds-dot{width:9px;height:9px;border-radius:50%;flex:none}.ds-startup-dot{background:var(--coral)}.ds-cloud-dot{background:var(--blue)}@media(max-width:540px){.ds-tabs{gap:0}.ds-tabs button{padding:13px 9px;font-size:10px;gap:6px;flex:1;justify-content:center}}"
+    },
+    {
+      "name": "Bingo card row",
+      "kind": "custom",
+      "refersTo": "bingo-card",
+      "description": "One row samples the fixed five-column card, with a text status and SVG hit mark.",
+      "html": "<div class=\"ds-bingo\"><div class=\"ds-letters\"><span>B</span><span>I</span><span>N</span><span>G</span><span>O</span></div><div class=\"ds-grid\"><div class=\"ds-cell ds-hit\"><span class=\"ds-check\"><svg width=\"11\" height=\"11\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m5 12 4 4L19 6\"/></svg></span><span class=\"ds-phrase\">Agentic</span><span class=\"ds-count\">spotted</span></div><div class=\"ds-cell\"><span class=\"ds-phrase\">AI-powered</span><span class=\"ds-count\">not spotted</span></div><div class=\"ds-cell\"><span class=\"ds-phrase\">Seamless</span><span class=\"ds-count\">not spotted</span></div><div class=\"ds-cell\"><span class=\"ds-phrase\">Next-gen</span><span class=\"ds-count\">not spotted</span></div><div class=\"ds-cell\"><span class=\"ds-phrase\">Scale</span><span class=\"ds-count\">not spotted</span></div></div></div>",
+      "css": ".ds-bingo{padding:12px;background:var(--coral);border-radius:var(--radius);color:var(--ink)}.ds-letters{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));text-align:center;font:700 43px/1.1 var(--display);margin-bottom:10px}.ds-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:5px}.ds-cell{position:relative;min-height:91px;background:#fff9f0;border-radius:5px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:13px 5px 9px;gap:7px;min-width:0;line-height:1.15;font-family:var(--body)}.ds-cell.ds-hit{background:#ffd8b9}.ds-phrase{font-size:12px;font-weight:600;overflow-wrap:anywhere;max-width:100%}.ds-count{font-size:8px;line-height:1.3;color:var(--muted)}.ds-hit .ds-count{color:#63513e}.ds-check{position:absolute;right:6px;top:4px;line-height:1}@media(max-width:540px){.ds-bingo{padding:8px;border-radius:12px}.ds-letters{font-size:34px;margin-bottom:7px}.ds-grid{gap:4px}.ds-cell{min-height:76px;border-radius:4px;padding:13px 3px 7px;gap:6px}.ds-phrase{font-size:10px}.ds-count{font-size:9px}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Bingo Hall Score Sheet",
+    "overview": "Cream paper, numbered balls, confident condensed lettering, and ruled score sheets make the data feel like a friendly public game. Humor stays kind; clear counts and readable evidence carry the interface.",
+    "keyCharacteristics": [
+      "Warm paper with coral and cobalt cohort identities.",
+      "Bold display lettering beside compact, practical reading text.",
+      "Flat bordered surfaces, real bingo grids, and explicit control states."
+    ],
+    "rules": [
+      {
+        "name": "The Cohort Identity Rule",
+        "body": "Coral identifies startups and cobalt identifies incumbents wherever cohort identity is shown. Pair color with a name, count, or marker.",
+        "section": "colors"
+      },
+      {
+        "name": "The Printed Surface Rule",
+        "body": "Use borders and tonal separation for hierarchy; preserve the flat score-sheet material.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** preserve coral/cobalt cohort mapping and pair color with readable labels.",
+      "**Do** use real bingo grids, numbered balls, and ruled sheets as the visual vocabulary.",
+      "**Do** keep controls keyboard-visible and provide text alongside score and hit states.",
+      "**Do** wrap long company names and keep mobile comparisons readable."
+    ],
+    "donts": [
+      "**Don't** add ambient shadows to flat paper surfaces.",
+      "**Don't** replace bundled display lettering or SVG control icons with system faces or text glyphs.",
+      "**Don't** let visual humor obscure counts, units, evidence, or the kind satire note."
+    ]
+  }
+}
