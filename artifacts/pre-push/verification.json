@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "header": [
+      "Records the pre-push publication boundary and clean-checkout verification.",
+      "Proves the public snapshot builds without full captures or credentials."
+    ],
+    "schemaVersion": 1
+  },
+  "privateCompanyCapturesPreserved": 275,
+  "privateCanonicalCapturesPreserved": 275,
+  "privateStore": ".local/",
+  "privateStoreIgnored": true,
+  "publicHistorySanitized": true,
+  "wholePageMatchesPublished": false,
+  "maximumDisplayedExcerptsPerCompany": 2,
+  "maximumWordsPerExcerpt": 12,
+  "scoresAndSourceHashesUnchanged": 275,
+  "cleanCheckout": {
+    "sourceCommit": "20ab904",
+    "cloneTransport": "git clone --no-local",
+    "dependencies": "Reused installed dependencies from the pinned lockfile; only node_modules was linked.",
+    "localCaptureStorePresent": false,
+    "envFilePresent": false,
+    "publicPrivacyCheck": "passed",
+    "typeAndAstroCheck": "passed",
+    "testsPassed": 41,
+    "staticBuild": "passed",
+    "companyPages": 275,
+    "staticVerification": "passed",
+    "rescoreWithoutCaptures": "refused before replacing public scores",
+    "journalCacheHits": 225,
+    "newRequests": 0
+  },
+  "automationEnabled": false,
+  "scheduledCrawlWorkflowPresent": false,
+  "workflowLint": "actionlint passed",
+  "creditsUsedForThisRevision": 0,
+  "cumulativeCredits": 275,
+  "remainingApprovedCredits": 25,
+  "estimatedCombinedMonthlyRefreshCredits": 275,
+  "pushed": false,
+  "deployed": false
+}
